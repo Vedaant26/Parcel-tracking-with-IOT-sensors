@@ -1,0 +1,113 @@
+#include <Wire.h>
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h>
+#include "addons/TokenHelper.h"
+#include "addons/RTDBHelper.h"
+#include <MFRC522v2.h>
+#include <MFRC522DriverSPI.h>
+#include <MFRC522DriverPinSimple.h>
+#include <MFRC522Debug.h>
+
+// RFID setup
+MFRC522DriverPinSimple ss_pin(5); // Configurable pin.
+MFRC522DriverSPI driver{ss_pin}; // Create SPI driver.
+MFRC522 mfrc522{driver};         // Create MFRC522 instance.
+
+// Firebase setup
+#define WIFI_SSID "Ocean134"
+#define WIFI_PASSWORD "ocean123"
+#define API_KEY "API Key"
+#define DATABASE_URL "https://deliverybox12-7ce37-default-rtdb.asia-southeast1.firebasedatabase.app"
+FirebaseData fbdo;
+FirebaseAuth auth;
+FirebaseConfig config;
+
+// RFID Structure and Database
+struct RFIDData {
+  String uid;
+  String customerName;
+  String pincode;
+};
+
+RFIDData rfidDatabase[] = {
+  {"D3:13:C7:D9", "Ram kumar", "110092"},
+  {"23:07:8A:DA", "Shyam kumar", "110095"},
+  {"94:A5:89:3F", "Mohan Singh", "110001"},
+  {"54:BC:1C:2F", "Manice", "110003"}
+};
+const int databaseSize = sizeof(rfidDatabase) / sizeof(RFIDData);
+
+// Globals
+unsigned long sendDataPrevMillis = 0;
+bool signupOK = false;
+float h, t;
+int sensorValue;
+bool cardScanned = false; // RFID flag
+
+void setup() {
+  Serial.begin(115200);
+
+  // WiFi connection
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Connecting to Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(300);
+  }
+  Serial.println("\nConnected with IP: " + WiFi.localIP().toString());
+
+  // Firebase configuration
+  config.api_key = API_KEY;
+  config.database_url = DATABASE_URL;
+  config.token_status_callback = tokenStatusCallback;
+  if (Firebase.signUp(&config, &auth, "", "")) {
+    signupOK = true;
+  } else {
+    Serial.println("Firebase SignUp Error: " + String(config.signer.signupError.message.c_str()));
+  }
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true);
+
+
+  // Initialize RFID
+  mfrc522.PCD_Init();
+  MFRC522Debug::PCD_DumpVersionToSerial(mfrc522, Serial);
+  Serial.println(F("Ready to scan RFID cards..."));
+}
+
+void loop() {
+ 
+
+  // RFID Data Reading
+  if (!mfrc522.PICC_IsNewCardPresent()) {
+    cardScanned = false;
+  } else if (mfrc522.PICC_ReadCardSerial() && !cardScanned) {
+    cardScanned = true;
+    String uidString = "";
+    for (byte i = 0; i < mfrc522.uid.size; i++) {
+      if (mfrc522.uid.uidByte[i] < 0x10) uidString += "0";
+      uidString += String(mfrc522.uid.uidByte[i], HEX);
+      if (i != mfrc522.uid.size - 1) uidString += ":";
+    }
+    uidString.toUpperCase();
+
+    bool found = false;
+    for (int i = 0; i < databaseSize; i++) {
+      if (rfidDatabase[i].uid == uidString) {
+        Serial.println("Card UID: " + uidString);
+        Serial.println("Customer Name: " + rfidDatabase[i].customerName);
+        Serial.println("Pincode: " + rfidDatabase[i].pincode);
+        Firebase.RTDB.setString(&fbdo, "RFID/last_UID", uidString);
+        Firebase.RTDB.setString(&fbdo, "RFID/CustomerName", rfidDatabase[i].customerName);
+        Firebase.RTDB.setString(&fbdo, "RFID/Pincode", rfidDatabase[i].pincode);
+        found = true;
+        break;
+      }
+    }
+    if (!found) {
+      Serial.println("Card UID: " + uidString + "\nNo data found for this UID.");
+    }
+    mfrc522.PICC_HaltA();
+  }
+  delay(2000);
+}

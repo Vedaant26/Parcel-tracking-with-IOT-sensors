@@ -1,0 +1,151 @@
+#include "DHT.h"
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+#include <Wire.h>
+#include <WiFi.h>
+#include <Firebase_ESP_Client.h>
+#include "addons/TokenHelper.h"
+#include "addons/RTDBHelper.h"
+
+#define RXD2 16
+#define TXD2 17
+
+#define GPS_BAUD 9600
+
+// Create an instance of the HardwareSerial class for Serial 2
+HardwareSerial gpsSerial(2);
+
+// -------------------- DHT Sensor Setup --------------------
+#define DHTPIN 4         // Pin for DHT11 data
+#define DHTTYPE DHT11    // DHT11 sensor type
+DHT dht(DHTPIN, DHTTYPE);
+
+// -------------------- MPU6050 Setup -----------------------
+Adafruit_MPU6050 mpu;
+// -------------------- Firebase Configuration --------------
+#define WIFI_SSID "Ocean134" // Your WiFi SSID
+#define WIFI_PASSWORD "ocean123" // Your WiFi Password
+#define API_KEY "API KEY" // Firebase API Key
+#define DATABASE_URL "https://deliverybox12-7ce37-default-rtdb.asia-southeast1.firebasedatabase.app" // Firebase DB URL
+
+FirebaseData fbdo; // Firebase data object
+FirebaseAuth auth; // Firebase authentication
+FirebaseConfig config; // Firebase configuration
+
+// -------------------- Global Variables --------------------
+unsigned long sendDataPrevMillis = 0; // Time tracking for Firebase updates
+bool signupOK = false; // Firebase sign-up status
+int airQualityValue; // Air quality sensor reading
+float humidity, temperature; // DHT11 readings
+sensors_event_t accel, gyro, temp; // MPU6050 readings
+
+// -------------------- Setup Function ----------------------
+void setup() {
+  Serial.begin(115200); // Start serial communication
+
+  // Start Serial 2 with the defined RX and TX pins and a baud rate of 9600
+  gpsSerial.begin(GPS_BAUD, SERIAL_8N1, RXD2, TXD2);
+
+  // Initialize DHT sensor
+  dht.begin();
+  Serial.println("DHT11 Sensor Initialized!");
+
+  // Initialize MPU6050
+  if (!mpu.begin()) {
+    Serial.println("MPU6050 not found! Check connections.");
+    while (1);
+  }
+  Serial.println("MPU6050 Initialized!");
+
+  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+  mpu.setFilterBandwidth(MPU6050_BAND_5_HZ);
+
+  // Connect to WiFi
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  Serial.print("Connecting to Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.print(".");
+    delay(300);
+  }
+  Serial.println("\nConnected to Wi-Fi!");
+  Serial.println("IP Address: " + WiFi.localIP().toString());
+
+  // Firebase Setup
+  config.api_key = API_KEY;
+  config.database_url = DATABASE_URL;
+  config.token_status_callback = tokenStatusCallback; // For token status updates
+  if (Firebase.signUp(&config, &auth, "", "")) {
+    Serial.println("Firebase Sign-Up Successful!");
+    signupOK = true;
+  } else {
+    Serial.println("Firebase Sign-Up Failed: " + String(config.signer.signupError.message.c_str()));
+  }
+  Firebase.begin(&config, &auth);
+  Firebase.reconnectWiFi(true); // Auto-reconnect WiFi
+}
+
+// -------------------- Loop Function -----------------------
+void loop() {
+
+
+  // --------- Read MPU6050 Sensor --------------------------
+  mpu.getEvent(&accel, &gyro, &temp);
+  Serial.println("MPU6050 Readings:");
+  Serial.print("Acceleration X: "); Serial.print(accel.acceleration.x);
+  Serial.print(" | Y: "); Serial.print(accel.acceleration.y);
+  Serial.print(" | Z: "); Serial.println(accel.acceleration.z);
+
+    // --------- Read Air Quality Sensor (Analog Pin 15) -------
+  airQualityValue = analogRead(19);
+  Serial.println("Air Quality: " + String(airQualityValue) + " PPM");
+
+  // --------- Read DHT11 Sensor for Temperature & Humidity -
+  humidity = dht.readHumidity();
+  temperature = dht.readTemperature();
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+  Serial.print("Temperature: " + String(temperature) + "C, ");
+  Serial.println("Humidity: " + String(humidity) + "%");
+
+   while (gpsSerial.available() > 0){
+    // get the byte data from the GPS
+    char gpsData = gpsSerial.read();
+    Serial.print(gpsData);
+  }
+  delay(1000);
+  Serial.println("-------------------------------");
+
+  delay(2000);
+
+  // --------- Update Firebase Every 15 Seconds -------------
+  if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)) {
+    sendDataPrevMillis = millis();
+
+    // Send Air Quality Data
+    if (Firebase.RTDB.setInt(&fbdo, "sensor/smoke", airQualityValue)) {
+      Serial.println("Air Quality data sent to Firebase.");
+    } else {
+      Serial.println("Failed to send Air Quality data: " + fbdo.errorReason());
+    }
+
+    // Send DHT11 Data
+    if (Firebase.RTDB.setFloat(&fbdo, "sensor/temperature", temperature)) {
+      Serial.println("Temperature data sent to Firebase.");
+    }
+    if (Firebase.RTDB.setFloat(&fbdo, "sensor/humidity", humidity)) {
+      Serial.println("Humidity data sent to Firebase.");
+    }
+
+    // Send MPU6050 Accelerometer Data
+    if (Firebase.RTDB.setFloat(&fbdo, "sensor/acceleration_x", accel.acceleration.x) &&
+        Firebase.RTDB.setFloat(&fbdo, "sensor/acceleration_y", accel.acceleration.y) &&
+        Firebase.RTDB.setFloat(&fbdo, "sensor/acceleration_z", accel.acceleration.z)) {
+      Serial.println("Accelerometer data sent to Firebase.");
+    }
+
+
+  delay(2000); // Wait for 2 seconds before next reading
+}
+}

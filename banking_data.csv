@@ -1,0 +1,1001 @@
+Account_ID,Customer_Name,Age,Gender,Marital_Status,Account_Type,Balance,Interest_Rate,Account_Term,Opening_Date,Closing_Date,Transaction_Status,Transaction_Amount,Transaction_Type,Frequency,Region,Occupation,Dependents,Customer_Satisfaction_Rating
+A0001,Customer_1,58,Female,Divorced,Savings,615483,4.415398281827494,5,2015-10-10,2023-07-13,Success,81392,Withdrawal,Monthly,East,Self-Employed,5,5
+A0002,Customer_2,25,Male,Single,Current,106939,4.440613884960765,18,2012-07-23,2024-08-05,Failed,81263,Transfer,Yearly,North,Employed,4,2
+A0003,Customer_3,19,Female,Divorced,Current,353909,6.437969640317718,4,2018-05-29,2024-12-15,Success,13374,Deposit,Quarterly,South,Self-Employed,1,2
+A0004,Customer_4,65,Female,Married,Savings,317423,4.2034394013126315,5,2008-01-21,2024-01-01,Success,44614,Deposit,Quarterly,North,Retired,5,1
+A0005,Customer_5,35,Female,Divorced,Current,339273,2.316680232495549,16,2002-06-17,2026-08-25,Failed,85417,Deposit,Yearly,North,Retired,4,1
+A0006,Customer_6,33,Female,Divorced,Current,144079,5.27486784436695,8,2019-04-26,2028-08-18,Failed,88675,Deposit,Yearly,South,Student,4,3
+A0007,Customer_7,32,Female,Single,Current,166154,2.06180106492967,11,2006-04-30,2025-09-29,Success,3504,Transfer,Yearly,South,Student,3,2
+A0008,Customer_8,26,Female,Married,Fixed Deposit,768926,6.3416613592926,18,2019-06-01,2024-02-10,Success,59616,Deposit,Monthly,East,Unemployed,0,1
+A0009,Customer_9,65,Female,Divorced,Fixed Deposit,995777,4.624089560193148,12,2000-09-12,2021-08-12,Failed,67892,Deposit,Monthly,North,Self-Employed,0,4
+A0010,Customer_10,24,Female,Divorced,Fixed Deposit,459089,5.718119061613418,15,2005-04-11,2021-09-17,Success,43117,Withdrawal,Quarterly,South,Student,2,1
+A0011,Customer_11,61,Female,Married,Current,831307,5.618867716379919,7,2009-09-06,2025-03-08,Success,77145,Withdrawal,Yearly,North,Retired,2,1
+A0012,Customer_12,65,Female,Divorced,Fixed Deposit,671318,3.119924596618695,1,2015-10-01,2024-11-15,Success,25328,Withdrawal,Quarterly,East,Self-Employed,0,4
+A0013,Customer_13,52,Female,Married,Savings,511866,6.778807150939269,13,2013-03-27,2026-01-28,Failed,14256,Transfer,Yearly,South,Unemployed,1,4
+A0014,Customer_14,23,Male,Married,Current,681714,6.365717818524712,12,2008-11-03,2026-06-15,Failed,13559,Transfer,Quarterly,South,Employed,4,4
+A0015,Customer_15,55,Male,Single,Current,333695,4.595498395081727,5,2014-01-08,2026-08-16,Success,1710,Deposit,Quarterly,North,Unemployed,5,5
+A0016,Customer_16,45,Male,Divorced,Current,183664,5.441208217314637,9,2007-02-19,2026-11-28,Failed,78110,Transfer,Yearly,South,Unemployed,5,4
+A0017,Customer_17,20,Female,Married,Current,742535,5.091195080252071,2,2015-12-18,2030-04-21,Failed,93593,Deposit,Quarterly,East,Retired,0,2
+A0018,Customer_18,19,Male,Married,Current,590275,4.164239535544562,16,2008-08-01,2022-05-18,Success,8953,Deposit,Monthly,East,Retired,3,5
+A0019,Customer_19,23,Male,Married,Savings,728250,5.633259842119253,15,2009-02-08,2026-04-10,Failed,77810,Withdrawal,Monthly,West,Retired,4,1
+A0020,Customer_20,31,Male,Single,Fixed Deposit,933813,4.409648386603202,18,2008-07-22,2028-12-17,Success,25477,Deposit,Monthly,South,Employed,5,3
+A0021,Customer_21,32,Male,Divorced,Savings,974964,5.3185532195976215,10,2009-10-05,2026-12-19,Success,75232,Withdrawal,Monthly,North,Employed,0,4
+A0022,Customer_22,50,Female,Single,Fixed Deposit,644520,5.20702226403641,18,2012-03-23,2028-08-10,Success,16612,Deposit,Yearly,East,Employed,2,4
+A0023,Customer_23,56,Female,Single,Fixed Deposit,826220,2.7432722612855214,16,2004-09-26,2030-04-04,Success,83640,Withdrawal,Monthly,East,Unemployed,5,3
+A0024,Customer_24,19,Female,Married,Savings,375158,6.132189100919076,7,2014-11-10,2026-12-23,Failed,66802,Deposit,Yearly,West,Student,5,2
+A0025,Customer_25,53,Male,Married,Fixed Deposit,235081,6.460309408150301,19,2003-11-21,2024-04-12,Failed,33691,Withdrawal,Yearly,West,Student,2,3
+A0026,Customer_26,30,Male,Married,Fixed Deposit,698860,5.0645700564446345,6,2010-08-26,2026-01-26,Success,46681,Deposit,Monthly,West,Student,3,5
+A0027,Customer_27,63,Female,Married,Savings,618558,2.058224336929571,18,2003-02-13,2027-12-19,Success,55282,Transfer,Yearly,West,Student,3,3
+A0028,Customer_28,59,Male,Single,Fixed Deposit,855017,6.671857102100826,12,2004-03-21,2025-02-16,Success,63197,Deposit,Quarterly,South,Unemployed,0,5
+A0029,Customer_29,62,Female,Married,Current,184869,4.527837859423666,11,2012-06-16,2029-12-21,Failed,95077,Withdrawal,Yearly,East,Student,1,1
+A0030,Customer_30,52,Male,Divorced,Fixed Deposit,397764,4.346444683219163,15,2008-08-16,2028-07-20,Failed,81476,Withdrawal,Yearly,South,Self-Employed,5,4
+A0031,Customer_31,44,Female,Single,Savings,322727,4.479174653791473,9,2018-11-30,2028-10-10,Failed,58377,Transfer,Yearly,South,Self-Employed,2,4
+A0032,Customer_32,32,Male,Married,Current,770649,2.827019366430686,20,2020-09-25,2030-01-26,Success,24469,Deposit,Yearly,East,Retired,5,5
+A0033,Customer_33,46,Male,Divorced,Current,722942,5.757150005238055,18,2008-01-30,2030-11-27,Failed,31970,Deposit,Quarterly,West,Retired,5,2
+A0034,Customer_34,55,Female,Married,Fixed Deposit,309823,3.603169077668034,6,2018-11-02,2021-09-26,Success,18145,Deposit,Quarterly,North,Employed,5,2
+A0035,Customer_35,35,Male,Divorced,Savings,134534,3.6544742126071843,3,2009-05-10,2023-02-11,Success,5876,Withdrawal,Monthly,East,Self-Employed,0,2
+A0036,Customer_36,69,Male,Married,Current,187340,3.390785651294541,17,2003-06-17,2030-11-30,Success,8028,Deposit,Quarterly,South,Employed,3,5
+A0037,Customer_37,18,Female,Married,Fixed Deposit,765234,4.534646660935376,5,2006-06-21,2026-02-19,Success,16835,Transfer,Yearly,South,Retired,0,2
+A0038,Customer_38,66,Male,Single,Current,2885,4.752477848653395,15,2019-07-29,2021-12-24,Success,40950,Transfer,Quarterly,West,Retired,1,2
+A0039,Customer_39,69,Female,Married,Savings,995876,3.893187962594516,10,2015-01-11,2021-11-25,Failed,76714,Deposit,Yearly,West,Unemployed,4,2
+A0040,Customer_40,28,Male,Divorced,Fixed Deposit,737109,6.085516528598964,9,2002-10-25,2025-05-20,Failed,57227,Deposit,Monthly,West,Student,2,1
+A0041,Customer_41,62,Male,Divorced,Current,995782,2.3941529787739584,18,2003-01-05,2023-01-03,Failed,67356,Deposit,Monthly,West,Student,2,1
+A0042,Customer_42,45,Female,Single,Savings,601660,4.220944382297295,12,2000-04-05,2024-03-27,Failed,85520,Transfer,Monthly,East,Unemployed,4,4
+A0043,Customer_43,39,Female,Married,Current,411623,4.865174652937747,15,2001-08-10,2021-11-12,Success,98977,Deposit,Monthly,East,Student,4,3
+A0044,Customer_44,35,Female,Single,Fixed Deposit,893083,2.440099308512703,1,2014-07-17,2022-03-24,Failed,46990,Withdrawal,Yearly,North,Self-Employed,4,5
+A0045,Customer_45,27,Female,Married,Savings,809274,4.492280730868433,17,2000-05-08,2022-11-06,Failed,40888,Transfer,Monthly,West,Retired,1,1
+A0046,Customer_46,31,Female,Single,Fixed Deposit,596048,3.580307637106882,13,2003-03-25,2024-02-05,Success,76602,Transfer,Quarterly,West,Retired,5,2
+A0047,Customer_47,66,Male,Married,Current,34955,6.903353694728514,6,2016-03-06,2022-04-04,Failed,71028,Withdrawal,Monthly,South,Unemployed,0,2
+A0048,Customer_48,39,Male,Married,Current,191926,5.726194823286422,1,2019-11-06,2028-10-26,Failed,19187,Withdrawal,Yearly,East,Employed,2,3
+A0049,Customer_49,24,Female,Single,Savings,632650,2.088845644244675,20,2010-12-01,2022-08-30,Failed,19421,Withdrawal,Monthly,East,Self-Employed,4,2
+A0050,Customer_50,23,Female,Single,Current,334674,4.017198294860815,12,2014-10-03,2026-07-26,Success,61641,Withdrawal,Quarterly,North,Unemployed,3,3
+A0051,Customer_51,42,Male,Single,Fixed Deposit,966778,2.1791596620206164,20,2009-10-17,2022-09-09,Failed,40558,Transfer,Monthly,West,Student,1,3
+A0052,Customer_52,24,Male,Single,Current,849095,4.745493948465947,8,2003-01-17,2030-10-24,Success,79179,Withdrawal,Quarterly,South,Unemployed,3,4
+A0053,Customer_53,40,Female,Married,Fixed Deposit,642079,6.129543792117221,11,2001-11-24,2023-04-17,Failed,45044,Withdrawal,Monthly,North,Employed,2,5
+A0054,Customer_54,40,Female,Married,Current,232625,5.95891642586154,3,2003-01-29,2026-11-03,Failed,38250,Withdrawal,Yearly,East,Retired,5,5
+A0055,Customer_55,56,Male,Divorced,Fixed Deposit,671718,6.815856241400024,18,2014-05-28,2028-01-14,Failed,48443,Transfer,Monthly,West,Retired,5,5
+A0056,Customer_56,34,Male,Married,Fixed Deposit,594022,5.187690612099988,13,2018-01-28,2021-04-03,Failed,1159,Withdrawal,Monthly,East,Retired,1,5
+A0057,Customer_57,69,Male,Single,Fixed Deposit,110167,6.450554494125312,7,2009-04-29,2024-04-15,Success,67953,Withdrawal,Yearly,East,Retired,2,3
+A0058,Customer_58,20,Male,Single,Current,983188,4.811662860469939,17,2019-04-17,2025-09-03,Success,76965,Deposit,Monthly,West,Retired,4,2
+A0059,Customer_59,64,Female,Married,Fixed Deposit,521287,5.272979917804687,16,2010-03-24,2028-08-27,Success,86303,Withdrawal,Monthly,North,Student,5,3
+A0060,Customer_60,47,Male,Divorced,Savings,148475,4.281039616106269,18,2020-01-16,2027-01-27,Success,89006,Transfer,Yearly,North,Unemployed,0,4
+A0061,Customer_61,52,Male,Divorced,Current,348255,3.7042710022383356,5,2017-09-10,2022-06-25,Failed,19053,Withdrawal,Quarterly,South,Unemployed,4,3
+A0062,Customer_62,25,Male,Married,Fixed Deposit,782549,6.126554953093648,20,2015-08-06,2026-04-26,Failed,7612,Withdrawal,Yearly,East,Student,3,2
+A0063,Customer_63,42,Female,Single,Fixed Deposit,82586,6.082943432886828,10,2013-07-22,2024-11-21,Failed,31214,Transfer,Yearly,West,Unemployed,1,5
+A0064,Customer_64,23,Male,Single,Fixed Deposit,250556,6.221587198021262,11,2020-11-12,2025-09-17,Failed,66567,Deposit,Quarterly,South,Self-Employed,5,1
+A0065,Customer_65,53,Female,Married,Fixed Deposit,364656,3.659863127773659,14,2009-07-19,2025-12-24,Success,73428,Withdrawal,Quarterly,East,Self-Employed,2,4
+A0066,Customer_66,36,Female,Divorced,Savings,336039,5.837081999322696,11,2013-12-23,2029-04-10,Success,7257,Withdrawal,Monthly,South,Employed,2,1
+A0067,Customer_67,58,Female,Married,Savings,177042,4.999755757791313,4,2004-01-12,2028-03-25,Failed,55420,Deposit,Yearly,North,Self-Employed,0,2
+A0068,Customer_68,57,Female,Married,Savings,668090,5.583290340645879,4,2010-03-11,2021-03-29,Failed,45164,Deposit,Yearly,South,Student,3,2
+A0069,Customer_69,41,Female,Married,Fixed Deposit,929325,3.81647273584878,17,2011-06-05,2024-04-09,Success,25712,Withdrawal,Quarterly,East,Retired,1,1
+A0070,Customer_70,54,Female,Married,Fixed Deposit,94035,4.262662280873334,3,2009-07-06,2023-02-14,Failed,26363,Transfer,Yearly,East,Unemployed,0,2
+A0071,Customer_71,30,Male,Single,Current,862574,2.48718511161655,2,2012-05-19,2021-09-15,Failed,84058,Withdrawal,Monthly,South,Retired,3,1
+A0072,Customer_72,63,Male,Single,Savings,744404,5.294551269030091,5,2018-05-24,2021-04-01,Failed,26479,Transfer,Quarterly,East,Retired,5,2
+A0073,Customer_73,22,Male,Married,Fixed Deposit,703571,2.010984738966715,6,2010-02-03,2030-10-11,Success,9065,Deposit,Yearly,North,Unemployed,1,2
+A0074,Customer_74,20,Male,Divorced,Fixed Deposit,671147,3.775694892923678,2,2008-08-17,2029-12-29,Success,44867,Deposit,Quarterly,North,Employed,2,4
+A0075,Customer_75,60,Female,Married,Savings,765711,5.168305902348223,7,2007-12-20,2023-08-10,Failed,24919,Transfer,Quarterly,East,Unemployed,2,3
+A0076,Customer_76,32,Male,Single,Fixed Deposit,930723,5.999563578217609,4,2005-01-23,2030-05-13,Success,87637,Deposit,Monthly,North,Unemployed,3,1
+A0077,Customer_77,67,Male,Single,Fixed Deposit,353058,4.738452908470671,16,2004-03-02,2026-10-30,Success,62454,Transfer,Yearly,East,Self-Employed,4,5
+A0078,Customer_78,36,Male,Divorced,Fixed Deposit,469325,3.8694518023020046,7,2009-07-11,2028-03-25,Failed,91166,Withdrawal,Monthly,South,Employed,5,4
+A0079,Customer_79,23,Male,Married,Fixed Deposit,12949,2.531611146248061,4,2013-07-23,2024-10-07,Failed,90780,Transfer,Quarterly,West,Unemployed,2,4
+A0080,Customer_80,32,Male,Single,Current,279095,6.484385593390292,2,2000-03-01,2025-08-14,Failed,61363,Deposit,Monthly,East,Unemployed,0,3
+A0081,Customer_81,24,Male,Single,Current,220869,4.462110710905835,19,2012-12-17,2027-06-29,Success,78712,Withdrawal,Yearly,South,Student,1,2
+A0082,Customer_82,42,Male,Married,Current,262662,6.109193299593631,13,2011-03-04,2024-11-05,Failed,90856,Withdrawal,Quarterly,North,Student,1,5
+A0083,Customer_83,35,Female,Married,Savings,727847,5.712554451881315,16,2018-12-29,2028-05-09,Success,43503,Transfer,Monthly,West,Self-Employed,0,4
+A0084,Customer_84,47,Female,Divorced,Savings,72087,4.046053786090072,17,2016-05-23,2028-03-31,Failed,75913,Transfer,Quarterly,East,Self-Employed,5,4
+A0085,Customer_85,58,Female,Divorced,Savings,368506,3.2714465562571498,20,2005-04-23,2029-10-28,Failed,74299,Transfer,Monthly,South,Unemployed,2,2
+A0086,Customer_86,41,Female,Divorced,Current,270125,2.9796073357590807,19,2015-12-21,2024-08-29,Failed,44095,Withdrawal,Yearly,South,Unemployed,1,4
+A0087,Customer_87,28,Male,Married,Savings,826250,2.603729036830971,9,2011-04-03,2026-06-15,Failed,80853,Transfer,Yearly,North,Retired,0,5
+A0088,Customer_88,41,Male,Married,Fixed Deposit,114282,6.260971858832854,2,2006-01-14,2027-08-28,Failed,39373,Withdrawal,Yearly,East,Employed,4,3
+A0089,Customer_89,40,Female,Divorced,Fixed Deposit,756408,3.07794752184473,12,2009-03-19,2028-06-20,Success,54979,Transfer,Monthly,North,Self-Employed,2,5
+A0090,Customer_90,31,Female,Single,Fixed Deposit,2343,6.122770718538031,8,2020-10-12,2028-10-25,Success,43172,Deposit,Yearly,West,Unemployed,5,4
+A0091,Customer_91,60,Female,Single,Fixed Deposit,51486,2.9528938202853467,20,2012-04-01,2026-12-12,Failed,21370,Deposit,Yearly,West,Self-Employed,5,1
+A0092,Customer_92,35,Male,Married,Fixed Deposit,405684,3.689667742988681,3,2012-12-04,2030-06-11,Success,13842,Transfer,Yearly,East,Employed,4,3
+A0093,Customer_93,62,Male,Single,Fixed Deposit,460507,5.785746709051368,1,2008-03-25,2027-02-25,Failed,59646,Withdrawal,Quarterly,East,Self-Employed,3,5
+A0094,Customer_94,61,Female,Married,Fixed Deposit,769170,2.232501809545849,7,2000-10-01,2025-12-29,Failed,5630,Deposit,Yearly,South,Retired,4,3
+A0095,Customer_95,59,Male,Divorced,Savings,441038,5.166202337945485,16,2000-11-06,2026-02-19,Failed,65102,Transfer,Quarterly,South,Retired,3,3
+A0096,Customer_96,22,Female,Married,Current,175418,5.3607088621262875,3,2012-09-28,2024-05-30,Failed,28857,Withdrawal,Yearly,North,Self-Employed,5,2
+A0097,Customer_97,56,Male,Married,Current,928519,2.616095951651974,15,2010-11-02,2027-05-13,Success,584,Deposit,Yearly,West,Employed,4,3
+A0098,Customer_98,58,Male,Married,Current,435130,6.458771774564109,2,2015-10-23,2022-06-25,Success,83824,Transfer,Yearly,West,Retired,2,3
+A0099,Customer_99,28,Male,Single,Current,518033,4.286939384730782,12,2008-04-07,2029-11-08,Success,29332,Withdrawal,Yearly,North,Employed,4,4
+A0100,Customer_100,52,Female,Married,Fixed Deposit,925603,4.9465808330547185,18,2002-07-16,2024-06-09,Failed,90961,Transfer,Monthly,East,Retired,3,5
+A0101,Customer_101,64,Male,Single,Fixed Deposit,398108,4.520987880775183,14,2013-01-05,2022-12-05,Success,30282,Withdrawal,Quarterly,West,Retired,3,4
+A0102,Customer_102,33,Male,Divorced,Fixed Deposit,369292,6.819273780987733,12,2010-10-19,2029-11-07,Success,61249,Deposit,Monthly,North,Self-Employed,4,1
+A0103,Customer_103,28,Male,Divorced,Fixed Deposit,573547,2.0216881383346146,2,2015-06-27,2023-12-01,Failed,81878,Transfer,Quarterly,North,Employed,0,3
+A0104,Customer_104,47,Male,Single,Savings,394580,5.681069651565387,20,2001-10-17,2023-07-18,Success,28036,Withdrawal,Quarterly,West,Student,2,5
+A0105,Customer_105,42,Female,Married,Current,107355,4.7661316445212165,9,2003-03-09,2026-06-07,Failed,31428,Withdrawal,Monthly,South,Employed,2,3
+A0106,Customer_106,35,Female,Divorced,Savings,870067,4.164051899269824,17,2016-05-17,2025-03-04,Failed,63112,Transfer,Yearly,East,Unemployed,2,1
+A0107,Customer_107,58,Female,Married,Current,503780,4.925603556742219,2,2016-05-26,2024-03-26,Success,96383,Transfer,Yearly,West,Self-Employed,2,3
+A0108,Customer_108,62,Male,Single,Savings,828043,6.621854368907694,3,2011-10-22,2029-08-19,Success,43552,Deposit,Quarterly,South,Unemployed,3,4
+A0109,Customer_109,53,Female,Married,Current,907022,5.905407485409167,10,2019-04-10,2030-06-26,Success,97103,Withdrawal,Monthly,North,Retired,1,1
+A0110,Customer_110,32,Female,Divorced,Current,607135,6.550907432183714,3,2016-10-31,2021-07-13,Success,49371,Withdrawal,Quarterly,East,Student,3,5
+A0111,Customer_111,61,Female,Married,Savings,683591,5.459088563120156,7,2017-06-20,2022-08-31,Success,27011,Withdrawal,Monthly,North,Student,5,2
+A0112,Customer_112,38,Female,Divorced,Savings,796075,2.868251350912997,17,2006-04-08,2024-12-17,Failed,52569,Transfer,Yearly,North,Retired,3,1
+A0113,Customer_113,67,Female,Married,Fixed Deposit,721539,6.076220770492471,4,2010-06-05,2024-03-10,Failed,24249,Transfer,Yearly,West,Self-Employed,1,2
+A0114,Customer_114,67,Female,Divorced,Savings,237540,2.517769805617838,4,2011-08-05,2026-02-11,Failed,981,Deposit,Quarterly,East,Student,4,4
+A0115,Customer_115,21,Male,Divorced,Current,171557,5.287609055658654,8,2001-10-02,2022-11-13,Failed,47655,Transfer,Quarterly,South,Unemployed,5,1
+A0116,Customer_116,32,Male,Divorced,Current,474209,5.030803869765098,18,2011-09-27,2027-12-09,Success,1396,Withdrawal,Monthly,West,Employed,1,1
+A0117,Customer_117,70,Female,Single,Current,78289,3.60921880990677,13,2019-12-17,2022-10-21,Failed,9764,Withdrawal,Quarterly,North,Employed,5,5
+A0118,Customer_118,20,Female,Single,Current,839016,6.406952835048088,7,2013-09-06,2028-12-25,Success,47008,Transfer,Monthly,North,Student,3,3
+A0119,Customer_119,69,Female,Single,Savings,887846,4.093323729168652,7,2001-12-25,2027-01-02,Failed,4034,Deposit,Quarterly,East,Student,2,2
+A0120,Customer_120,38,Male,Married,Fixed Deposit,36035,5.044968467798466,17,2005-07-01,2024-03-14,Failed,72804,Transfer,Monthly,North,Student,3,3
+A0121,Customer_121,43,Male,Married,Current,310234,5.4625776768615335,8,2010-08-06,2023-01-17,Success,15198,Deposit,Quarterly,North,Unemployed,0,3
+A0122,Customer_122,35,Male,Married,Current,22053,3.241193945467318,19,2014-02-22,2022-12-20,Success,18764,Transfer,Monthly,West,Employed,5,4
+A0123,Customer_123,22,Male,Divorced,Current,335198,3.989349982276318,6,2016-08-19,2030-05-31,Failed,38186,Transfer,Monthly,North,Self-Employed,4,4
+A0124,Customer_124,31,Female,Married,Savings,274812,3.714294030163126,18,2014-11-20,2028-12-10,Failed,57825,Transfer,Monthly,West,Unemployed,0,5
+A0125,Customer_125,54,Male,Single,Current,998890,3.4708677102940415,18,2014-12-31,2028-10-08,Success,25580,Transfer,Yearly,East,Employed,5,1
+A0126,Customer_126,63,Male,Single,Fixed Deposit,110812,6.023984154066884,14,2001-10-01,2028-06-22,Failed,82850,Deposit,Quarterly,East,Unemployed,3,5
+A0127,Customer_127,38,Female,Divorced,Fixed Deposit,78804,2.690900028226728,4,2015-05-05,2029-11-29,Failed,76867,Deposit,Yearly,East,Employed,4,2
+A0128,Customer_128,31,Female,Divorced,Current,359411,5.012622248381908,19,2014-03-19,2022-09-21,Success,47274,Withdrawal,Monthly,East,Self-Employed,2,4
+A0129,Customer_129,59,Female,Married,Current,179368,6.432184277043747,12,2012-02-04,2022-10-23,Success,5854,Deposit,Yearly,West,Employed,0,5
+A0130,Customer_130,49,Male,Divorced,Savings,932063,4.561473112512869,15,2017-11-25,2023-09-02,Success,3990,Withdrawal,Quarterly,North,Unemployed,1,2
+A0131,Customer_131,43,Female,Single,Current,394696,6.215372156407472,14,2012-12-31,2022-04-24,Success,26199,Transfer,Monthly,East,Self-Employed,5,2
+A0132,Customer_132,59,Female,Single,Savings,169720,4.739029856797588,4,2007-01-03,2021-06-18,Success,26029,Transfer,Quarterly,West,Retired,4,2
+A0133,Customer_133,47,Male,Single,Fixed Deposit,768541,3.569553975458233,6,2013-10-01,2024-07-20,Failed,37337,Withdrawal,Monthly,North,Unemployed,2,1
+A0134,Customer_134,27,Female,Single,Savings,79645,5.684093241971436,6,2001-03-08,2027-06-12,Success,22925,Deposit,Monthly,West,Unemployed,2,2
+A0135,Customer_135,34,Female,Divorced,Savings,574619,4.767907814405236,18,2020-04-07,2022-06-03,Failed,28797,Withdrawal,Quarterly,East,Student,2,3
+A0136,Customer_136,26,Female,Married,Current,988584,3.086712785098295,13,2007-09-15,2025-12-11,Success,34440,Deposit,Yearly,West,Retired,2,5
+A0137,Customer_137,33,Female,Married,Fixed Deposit,942751,3.0485634812775095,17,2011-12-31,2023-12-03,Success,94319,Withdrawal,Yearly,West,Employed,3,5
+A0138,Customer_138,65,Female,Divorced,Savings,98627,5.571922678149472,11,2017-06-17,2025-02-23,Failed,22943,Transfer,Monthly,North,Unemployed,5,2
+A0139,Customer_139,53,Male,Married,Fixed Deposit,355366,5.4330564865951825,6,2000-03-29,2023-01-26,Failed,44640,Transfer,Monthly,East,Employed,3,5
+A0140,Customer_140,52,Male,Single,Savings,623886,6.605958822085475,18,2010-07-07,2023-04-21,Failed,72780,Deposit,Monthly,North,Student,0,5
+A0141,Customer_141,34,Female,Divorced,Fixed Deposit,644453,2.6633586429557017,20,2010-03-08,2027-04-23,Success,32339,Deposit,Monthly,North,Employed,1,5
+A0142,Customer_142,65,Female,Divorced,Savings,937615,5.551982218402862,15,2011-07-01,2028-12-06,Success,23501,Deposit,Quarterly,South,Retired,4,1
+A0143,Customer_143,55,Female,Single,Fixed Deposit,507186,6.875897465583922,12,2020-04-27,2021-05-23,Failed,25788,Deposit,Monthly,North,Unemployed,4,5
+A0144,Customer_144,45,Female,Married,Savings,739726,2.8890634962876676,11,2010-07-10,2028-06-19,Success,2917,Transfer,Quarterly,North,Self-Employed,1,3
+A0145,Customer_145,55,Female,Divorced,Fixed Deposit,33498,4.712457392152844,18,2012-11-14,2024-07-22,Success,23178,Transfer,Yearly,South,Retired,4,5
+A0146,Customer_146,43,Male,Married,Savings,453275,5.1843871743374095,11,2016-06-16,2024-11-09,Success,34413,Deposit,Quarterly,North,Employed,2,2
+A0147,Customer_147,41,Female,Single,Current,989222,5.551763635702627,12,2007-06-08,2022-08-29,Failed,13363,Deposit,Monthly,East,Employed,4,5
+A0148,Customer_148,32,Male,Married,Fixed Deposit,686386,5.803875124165334,14,2009-06-10,2025-03-08,Failed,2851,Withdrawal,Yearly,West,Self-Employed,3,2
+A0149,Customer_149,26,Female,Divorced,Current,174012,4.811401057257127,14,2007-12-01,2026-01-11,Failed,88895,Transfer,Yearly,South,Self-Employed,3,3
+A0150,Customer_150,50,Female,Divorced,Current,637818,4.914031355479292,11,2017-11-26,2027-01-21,Success,18088,Deposit,Monthly,South,Retired,0,2
+A0151,Customer_151,49,Female,Married,Savings,933973,6.713368254421548,20,2006-08-10,2022-10-28,Success,49766,Deposit,Yearly,North,Student,2,1
+A0152,Customer_152,23,Male,Divorced,Current,456292,5.5506181574418365,8,2006-06-27,2026-12-26,Success,85935,Withdrawal,Monthly,South,Self-Employed,4,2
+A0153,Customer_153,66,Female,Married,Fixed Deposit,165735,5.371217427695868,19,2003-10-04,2024-05-20,Success,14644,Withdrawal,Yearly,East,Self-Employed,5,5
+A0154,Customer_154,21,Male,Divorced,Savings,57157,6.4693300068896,18,2000-10-16,2022-05-13,Failed,44452,Withdrawal,Monthly,North,Unemployed,3,2
+A0155,Customer_155,25,Female,Divorced,Savings,107176,4.669514018518029,7,2015-08-03,2021-04-13,Failed,27656,Deposit,Quarterly,North,Student,1,2
+A0156,Customer_156,27,Female,Divorced,Fixed Deposit,348177,6.387386174771975,13,2020-09-12,2025-07-16,Failed,40086,Transfer,Quarterly,East,Self-Employed,3,5
+A0157,Customer_157,58,Male,Married,Fixed Deposit,216535,4.111931845855146,18,2013-05-27,2026-08-08,Failed,59895,Withdrawal,Monthly,North,Student,4,5
+A0158,Customer_158,28,Male,Divorced,Current,200212,2.063852575523033,9,2016-10-22,2029-08-14,Success,31576,Transfer,Monthly,North,Self-Employed,1,4
+A0159,Customer_159,68,Female,Divorced,Current,430161,2.5323523292419363,12,2006-10-26,2022-08-19,Failed,48549,Withdrawal,Monthly,North,Student,3,2
+A0160,Customer_160,61,Female,Married,Savings,732063,3.9043515676754232,15,2016-04-21,2026-02-20,Success,48904,Transfer,Yearly,East,Unemployed,4,3
+A0161,Customer_161,45,Female,Married,Fixed Deposit,582028,2.265324997538856,15,2017-08-09,2024-08-04,Success,86726,Deposit,Monthly,North,Self-Employed,0,1
+A0162,Customer_162,56,Male,Single,Fixed Deposit,758111,2.2830238714777833,13,2012-08-22,2022-10-02,Failed,22560,Transfer,Monthly,East,Self-Employed,0,4
+A0163,Customer_163,22,Male,Married,Savings,971534,3.334891347221472,1,2005-11-03,2021-01-18,Success,69165,Deposit,Monthly,East,Employed,3,3
+A0164,Customer_164,42,Female,Married,Current,766433,5.927660962974109,2,2001-05-18,2029-04-13,Failed,81784,Transfer,Monthly,West,Retired,1,4
+A0165,Customer_165,42,Male,Divorced,Fixed Deposit,567362,6.917661968120021,10,2014-02-11,2027-02-16,Success,56948,Transfer,Quarterly,East,Self-Employed,1,5
+A0166,Customer_166,56,Female,Single,Current,279150,5.4169516433239355,20,2010-08-12,2026-09-10,Failed,93284,Transfer,Monthly,South,Employed,0,4
+A0167,Customer_167,47,Female,Married,Current,693687,2.73214195070348,1,2012-12-19,2024-09-18,Success,8669,Withdrawal,Yearly,South,Student,4,4
+A0168,Customer_168,51,Female,Divorced,Savings,296198,2.310164119697915,17,2003-10-17,2028-04-05,Success,15631,Deposit,Yearly,West,Employed,2,4
+A0169,Customer_169,34,Male,Married,Fixed Deposit,312847,5.9217870047368315,5,2012-11-05,2028-11-29,Failed,19031,Transfer,Monthly,North,Student,1,3
+A0170,Customer_170,53,Male,Divorced,Savings,250087,3.0200045166013365,10,2001-02-26,2024-04-25,Failed,17243,Withdrawal,Monthly,South,Retired,1,2
+A0171,Customer_171,18,Male,Divorced,Savings,101575,4.705860437166184,1,2014-09-20,2026-04-26,Success,24956,Deposit,Monthly,East,Retired,5,3
+A0172,Customer_172,61,Male,Divorced,Current,53046,3.7934121867279043,10,2006-07-18,2024-04-02,Failed,25224,Transfer,Yearly,South,Self-Employed,3,1
+A0173,Customer_173,64,Female,Single,Fixed Deposit,412987,4.262972522619366,8,2018-02-21,2029-06-17,Success,69903,Transfer,Yearly,West,Self-Employed,4,1
+A0174,Customer_174,25,Male,Divorced,Savings,600544,5.080544168801433,7,2016-07-15,2027-06-08,Failed,49670,Deposit,Quarterly,West,Employed,3,3
+A0175,Customer_175,61,Female,Married,Fixed Deposit,577363,5.377630067597794,11,2014-01-01,2028-06-24,Failed,91110,Transfer,Yearly,North,Student,2,5
+A0176,Customer_176,52,Male,Married,Savings,881651,4.809424916835184,1,2000-08-11,2022-08-26,Success,49154,Withdrawal,Monthly,South,Unemployed,1,3
+A0177,Customer_177,66,Male,Divorced,Fixed Deposit,515796,3.121536930740354,9,2006-06-07,2029-12-20,Success,41774,Withdrawal,Monthly,West,Retired,3,2
+A0178,Customer_178,35,Male,Divorced,Savings,162050,5.235597221600657,18,2010-11-15,2027-05-05,Failed,78684,Transfer,Monthly,West,Student,4,5
+A0179,Customer_179,67,Female,Divorced,Current,58152,3.9444333105383613,17,2001-11-06,2029-03-04,Success,56400,Transfer,Quarterly,East,Retired,2,5
+A0180,Customer_180,59,Male,Single,Current,379356,4.554611518394469,18,2002-11-04,2025-12-16,Failed,83480,Transfer,Yearly,East,Self-Employed,2,1
+A0181,Customer_181,39,Male,Divorced,Savings,5000,5.984168238893961,19,2011-05-04,2024-10-19,Failed,32153,Transfer,Quarterly,West,Unemployed,2,1
+A0182,Customer_182,25,Female,Single,Current,449377,5.480642485903154,19,2001-09-21,2028-09-23,Success,6154,Withdrawal,Monthly,South,Student,5,4
+A0183,Customer_183,36,Female,Divorced,Savings,92884,5.464680376071243,5,2019-02-05,2022-04-06,Failed,80844,Transfer,Quarterly,North,Retired,0,2
+A0184,Customer_184,45,Female,Married,Current,309857,2.2348994063766603,4,2017-07-30,2029-03-16,Failed,77081,Transfer,Quarterly,East,Self-Employed,5,2
+A0185,Customer_185,28,Female,Single,Fixed Deposit,864918,3.9079131404889615,2,2006-03-26,2026-05-16,Failed,24885,Transfer,Quarterly,East,Unemployed,5,4
+A0186,Customer_186,47,Female,Divorced,Current,695178,4.082831187423392,15,2005-08-26,2021-06-14,Success,70284,Withdrawal,Monthly,North,Self-Employed,5,2
+A0187,Customer_187,18,Female,Divorced,Fixed Deposit,656455,5.940557650321078,12,2002-12-21,2022-07-26,Success,38659,Deposit,Monthly,East,Unemployed,5,2
+A0188,Customer_188,64,Male,Divorced,Fixed Deposit,630371,5.425743815029188,5,2013-10-23,2028-08-09,Success,19572,Deposit,Monthly,South,Student,2,4
+A0189,Customer_189,64,Female,Divorced,Current,504660,6.82916606784331,5,2006-04-20,2027-03-07,Success,43049,Withdrawal,Yearly,South,Student,4,2
+A0190,Customer_190,34,Male,Married,Fixed Deposit,210374,2.269010961538748,9,2006-03-04,2022-04-24,Failed,32497,Deposit,Yearly,North,Student,4,4
+A0191,Customer_191,50,Female,Single,Current,102698,5.718349831228744,12,2019-03-29,2024-06-15,Success,7080,Withdrawal,Quarterly,North,Retired,4,4
+A0192,Customer_192,66,Male,Divorced,Fixed Deposit,27985,3.0154361136466896,19,2005-10-05,2021-04-12,Failed,82604,Deposit,Yearly,West,Unemployed,3,5
+A0193,Customer_193,29,Male,Single,Current,218005,6.34424980658758,8,2000-04-26,2025-07-04,Failed,36809,Deposit,Yearly,North,Retired,1,2
+A0194,Customer_194,50,Male,Single,Fixed Deposit,180130,6.302223692466248,8,2016-08-17,2027-12-05,Success,16675,Deposit,Monthly,South,Student,3,2
+A0195,Customer_195,24,Female,Divorced,Savings,670191,4.215319269522409,9,2002-07-02,2030-06-07,Success,66719,Withdrawal,Monthly,North,Unemployed,3,3
+A0196,Customer_196,58,Female,Divorced,Current,306986,3.127742488365113,10,2013-07-17,2023-06-22,Failed,76656,Transfer,Monthly,South,Employed,3,1
+A0197,Customer_197,37,Female,Single,Current,86916,5.168942470275948,3,2003-12-01,2026-01-01,Failed,64192,Transfer,Monthly,West,Self-Employed,2,2
+A0198,Customer_198,58,Female,Single,Current,497574,5.547727266238345,19,2020-05-30,2025-01-03,Failed,27525,Deposit,Yearly,West,Employed,3,3
+A0199,Customer_199,50,Male,Single,Fixed Deposit,885756,3.838705605086226,13,2013-04-09,2022-01-14,Failed,95428,Transfer,Quarterly,South,Unemployed,1,2
+A0200,Customer_200,56,Female,Married,Savings,122119,4.941926700868276,19,2016-07-28,2024-08-29,Failed,10770,Deposit,Monthly,West,Student,1,4
+A0201,Customer_201,30,Female,Married,Fixed Deposit,324331,5.692250162489227,7,2003-05-23,2021-08-14,Success,61791,Transfer,Yearly,North,Student,3,1
+A0202,Customer_202,27,Female,Married,Fixed Deposit,824002,2.982345408802731,3,2014-10-13,2027-10-27,Success,87066,Withdrawal,Quarterly,East,Unemployed,2,5
+A0203,Customer_203,41,Male,Single,Current,417774,5.62457260356433,11,2010-01-06,2028-03-11,Success,80694,Deposit,Monthly,South,Self-Employed,0,2
+A0204,Customer_204,66,Female,Married,Fixed Deposit,494821,2.967488560608689,16,2008-04-17,2023-03-11,Failed,8603,Withdrawal,Monthly,East,Student,4,2
+A0205,Customer_205,28,Female,Divorced,Fixed Deposit,513855,4.24407461201496,6,2018-02-12,2027-07-18,Success,22045,Withdrawal,Monthly,East,Employed,2,4
+A0206,Customer_206,52,Female,Single,Savings,939347,6.917266617814409,16,2003-12-07,2026-11-27,Failed,66765,Transfer,Monthly,West,Self-Employed,3,2
+A0207,Customer_207,67,Female,Married,Fixed Deposit,694150,2.372344970217964,19,2005-11-10,2023-06-29,Failed,50971,Transfer,Monthly,South,Student,5,3
+A0208,Customer_208,51,Female,Divorced,Savings,278877,6.8123762448800775,4,2017-07-20,2029-10-06,Failed,98575,Deposit,Quarterly,North,Unemployed,1,3
+A0209,Customer_209,18,Female,Divorced,Current,96563,5.6753974301310945,20,2015-09-19,2029-08-09,Success,84650,Withdrawal,Quarterly,South,Employed,5,1
+A0210,Customer_210,56,Female,Married,Savings,674045,2.5967690563648276,10,2005-04-18,2024-02-13,Success,98552,Deposit,Monthly,South,Unemployed,0,1
+A0211,Customer_211,38,Male,Divorced,Savings,571557,2.203171164859377,2,2010-11-16,2023-03-13,Failed,66836,Transfer,Quarterly,East,Student,3,5
+A0212,Customer_212,49,Male,Divorced,Current,407351,3.3955612315460524,19,2004-01-21,2021-04-03,Failed,49155,Transfer,Yearly,West,Self-Employed,4,3
+A0213,Customer_213,19,Female,Single,Savings,194862,3.3211979765469777,13,2017-12-05,2021-12-09,Success,65450,Deposit,Quarterly,West,Student,5,5
+A0214,Customer_214,25,Male,Divorced,Savings,390043,2.8046442487830685,3,2011-10-30,2027-01-15,Failed,68112,Withdrawal,Monthly,South,Student,3,1
+A0215,Customer_215,41,Female,Single,Current,929506,6.230070980452602,2,2019-05-02,2030-07-12,Success,60952,Withdrawal,Yearly,West,Retired,3,5
+A0216,Customer_216,69,Male,Divorced,Fixed Deposit,400974,2.0282256800891005,11,2000-09-28,2025-12-30,Failed,23561,Withdrawal,Quarterly,South,Student,3,4
+A0217,Customer_217,37,Female,Single,Savings,388345,4.331656691047895,12,2007-09-09,2028-08-05,Success,42282,Withdrawal,Yearly,North,Self-Employed,1,2
+A0218,Customer_218,33,Female,Divorced,Fixed Deposit,196646,6.687472252354238,14,2001-11-22,2028-07-13,Success,93487,Transfer,Yearly,East,Employed,5,4
+A0219,Customer_219,21,Female,Married,Current,468429,2.1997029466071494,14,2003-04-03,2021-12-24,Failed,49105,Deposit,Monthly,West,Unemployed,0,3
+A0220,Customer_220,33,Female,Divorced,Current,47784,6.643141192295776,4,2013-05-10,2026-09-28,Failed,68975,Transfer,Quarterly,South,Unemployed,4,1
+A0221,Customer_221,54,Male,Married,Fixed Deposit,277085,4.984401660071888,8,2020-12-11,2025-06-04,Failed,91130,Transfer,Monthly,East,Retired,1,5
+A0222,Customer_222,23,Female,Divorced,Savings,462101,5.86830474929444,20,2018-06-06,2023-03-08,Failed,63446,Transfer,Monthly,North,Self-Employed,1,5
+A0223,Customer_223,23,Male,Married,Fixed Deposit,488648,5.126833312794889,1,2003-06-16,2026-07-02,Failed,93901,Transfer,Monthly,South,Student,4,4
+A0224,Customer_224,64,Male,Married,Current,277195,6.2156999059725635,13,2018-10-14,2024-07-25,Failed,64953,Deposit,Monthly,West,Employed,4,2
+A0225,Customer_225,49,Female,Single,Current,238232,3.505774091577192,2,2011-02-14,2027-10-07,Failed,62196,Deposit,Quarterly,North,Retired,4,1
+A0226,Customer_226,70,Male,Married,Savings,878740,5.94954091208715,10,2016-11-18,2027-10-15,Failed,35271,Withdrawal,Quarterly,North,Unemployed,0,3
+A0227,Customer_227,22,Female,Divorced,Current,282607,4.750800898599833,17,2009-04-05,2026-09-27,Failed,76277,Deposit,Monthly,South,Unemployed,4,3
+A0228,Customer_228,66,Male,Married,Fixed Deposit,592655,2.364403977395275,2,2017-04-11,2021-08-18,Success,52652,Transfer,Yearly,North,Unemployed,4,1
+A0229,Customer_229,52,Female,Divorced,Fixed Deposit,65633,5.538407806972376,11,2008-08-04,2028-06-24,Failed,83737,Withdrawal,Quarterly,West,Student,5,4
+A0230,Customer_230,67,Male,Married,Fixed Deposit,159471,4.626975335924402,18,2005-05-03,2025-01-18,Failed,76643,Withdrawal,Monthly,South,Student,3,3
+A0231,Customer_231,26,Male,Divorced,Fixed Deposit,789775,6.784938588137519,19,2014-10-26,2025-06-17,Success,85262,Deposit,Quarterly,East,Student,0,1
+A0232,Customer_232,26,Female,Divorced,Savings,731302,4.603031436658519,5,2009-11-14,2022-08-29,Failed,4897,Withdrawal,Monthly,North,Student,2,4
+A0233,Customer_233,60,Male,Divorced,Fixed Deposit,700891,5.931291196686788,11,2016-04-13,2029-01-11,Success,27258,Deposit,Monthly,West,Student,4,4
+A0234,Customer_234,48,Male,Divorced,Savings,102400,2.796852462587179,17,2014-04-20,2030-07-30,Success,28873,Withdrawal,Yearly,West,Unemployed,1,5
+A0235,Customer_235,53,Female,Divorced,Current,90870,4.715400775411574,8,2003-10-02,2025-10-18,Success,26707,Transfer,Monthly,East,Employed,1,2
+A0236,Customer_236,28,Female,Married,Current,701596,4.017085332123397,5,2004-09-23,2025-02-23,Success,59355,Withdrawal,Monthly,East,Unemployed,4,4
+A0237,Customer_237,34,Female,Divorced,Savings,361491,3.7470147543101784,2,2012-12-15,2025-05-01,Success,30821,Deposit,Quarterly,North,Student,5,3
+A0238,Customer_238,51,Female,Married,Savings,848438,6.416983694335587,13,2016-06-20,2025-03-08,Success,51991,Transfer,Yearly,North,Self-Employed,3,2
+A0239,Customer_239,56,Male,Single,Current,568750,5.316672382201385,15,2018-11-18,2021-02-19,Success,28751,Withdrawal,Quarterly,East,Unemployed,5,5
+A0240,Customer_240,45,Female,Single,Current,435096,3.655332683056512,20,2007-09-27,2024-03-11,Failed,40207,Deposit,Yearly,West,Employed,0,1
+A0241,Customer_241,31,Female,Married,Fixed Deposit,794202,3.4678717858510195,19,2001-03-21,2024-11-13,Failed,55808,Transfer,Monthly,South,Unemployed,2,1
+A0242,Customer_242,52,Female,Divorced,Savings,619372,6.7515413818007595,17,2014-05-28,2024-12-10,Success,49525,Transfer,Yearly,South,Student,0,5
+A0243,Customer_243,66,Female,Married,Current,239564,5.091403004918206,3,2005-12-05,2024-06-15,Failed,74990,Transfer,Quarterly,West,Student,5,5
+A0244,Customer_244,64,Male,Single,Savings,581493,4.374285943680669,8,2016-12-10,2025-12-31,Failed,20705,Deposit,Monthly,West,Self-Employed,4,3
+A0245,Customer_245,62,Male,Married,Current,64946,4.806673415887668,14,2018-05-19,2030-10-22,Success,49134,Transfer,Yearly,East,Retired,5,2
+A0246,Customer_246,30,Male,Married,Savings,882639,5.760668783677116,10,2002-08-08,2027-04-17,Failed,33461,Withdrawal,Yearly,North,Self-Employed,3,4
+A0247,Customer_247,63,Female,Divorced,Savings,406910,5.246500566929717,13,2001-03-06,2021-12-25,Success,72261,Withdrawal,Quarterly,West,Retired,4,4
+A0248,Customer_248,37,Male,Single,Current,859160,2.5736097570113263,5,2003-10-04,2023-06-03,Failed,11209,Transfer,Yearly,East,Self-Employed,4,4
+A0249,Customer_249,43,Male,Divorced,Fixed Deposit,548967,3.7300364541138427,5,2010-05-29,2029-03-01,Failed,17706,Transfer,Quarterly,East,Employed,1,1
+A0250,Customer_250,60,Female,Divorced,Fixed Deposit,439967,3.201739382166283,11,2008-12-10,2030-12-16,Failed,98616,Deposit,Quarterly,North,Retired,1,1
+A0251,Customer_251,59,Male,Married,Fixed Deposit,562527,5.2113217791058535,3,2010-09-06,2025-12-25,Failed,11113,Withdrawal,Monthly,North,Retired,3,3
+A0252,Customer_252,41,Male,Married,Current,721442,6.593036495936352,16,2006-10-04,2029-04-26,Failed,38772,Transfer,Quarterly,West,Unemployed,2,3
+A0253,Customer_253,46,Female,Married,Current,910004,3.219135819334418,19,2010-09-06,2025-08-30,Success,58362,Transfer,Quarterly,West,Self-Employed,5,3
+A0254,Customer_254,51,Male,Married,Fixed Deposit,982846,2.1993862421270967,2,2016-09-25,2030-01-05,Success,68102,Withdrawal,Yearly,South,Retired,1,5
+A0255,Customer_255,46,Female,Divorced,Current,498889,6.428300794993975,18,2016-11-15,2025-12-18,Success,46181,Transfer,Quarterly,East,Retired,1,3
+A0256,Customer_256,25,Male,Divorced,Current,601534,3.906863038090334,13,2020-09-08,2024-03-28,Failed,30269,Deposit,Quarterly,South,Employed,3,4
+A0257,Customer_257,33,Male,Married,Fixed Deposit,925481,5.981032928265172,9,2011-12-11,2022-11-02,Success,76641,Withdrawal,Yearly,West,Employed,5,3
+A0258,Customer_258,32,Female,Married,Current,248088,2.566870137522963,3,2005-03-29,2030-01-14,Success,5492,Withdrawal,Monthly,South,Student,1,3
+A0259,Customer_259,22,Male,Single,Current,500397,3.2829527832656096,13,2008-07-08,2029-03-01,Failed,61081,Transfer,Monthly,East,Employed,2,1
+A0260,Customer_260,39,Female,Divorced,Savings,314369,5.619878041849621,17,2015-05-01,2025-10-03,Success,67243,Withdrawal,Monthly,West,Unemployed,1,1
+A0261,Customer_261,19,Female,Divorced,Savings,83790,2.1235286485901446,14,2015-10-29,2029-03-04,Success,81512,Deposit,Yearly,West,Unemployed,2,1
+A0262,Customer_262,55,Female,Divorced,Fixed Deposit,414982,4.584339112867007,5,2008-09-30,2025-08-24,Failed,44189,Withdrawal,Monthly,North,Retired,0,4
+A0263,Customer_263,53,Female,Married,Savings,947630,5.85247161146097,5,2010-08-23,2022-07-26,Success,55950,Deposit,Quarterly,North,Employed,0,2
+A0264,Customer_264,32,Male,Married,Savings,896420,4.571545310423401,16,2005-11-21,2030-05-16,Success,59233,Transfer,Monthly,South,Employed,1,5
+A0265,Customer_265,55,Male,Married,Current,750003,4.543677965013567,18,2003-04-04,2027-08-03,Success,61382,Deposit,Quarterly,North,Retired,4,4
+A0266,Customer_266,32,Female,Single,Savings,37415,4.434023545825916,7,2011-11-24,2027-09-16,Failed,56789,Transfer,Quarterly,South,Self-Employed,3,2
+A0267,Customer_267,18,Male,Married,Current,527491,3.4821698478714227,16,2019-07-09,2021-12-19,Success,53702,Deposit,Yearly,North,Unemployed,3,5
+A0268,Customer_268,22,Male,Single,Savings,599967,5.257640979905142,13,2009-10-01,2022-08-12,Success,48270,Transfer,Quarterly,North,Retired,1,4
+A0269,Customer_269,63,Male,Married,Fixed Deposit,945195,3.6015637857427705,19,2000-04-07,2023-05-02,Failed,65313,Transfer,Monthly,North,Self-Employed,5,3
+A0270,Customer_270,58,Male,Divorced,Current,542922,2.411727240242504,7,2006-06-23,2024-05-27,Success,41652,Deposit,Monthly,East,Self-Employed,4,1
+A0271,Customer_271,21,Female,Single,Savings,840333,2.4797821554316135,18,2020-10-17,2026-04-29,Failed,35885,Deposit,Yearly,South,Retired,3,4
+A0272,Customer_272,32,Male,Married,Current,600245,6.858143849532165,20,2017-11-18,2030-09-24,Success,50218,Withdrawal,Quarterly,North,Student,1,5
+A0273,Customer_273,22,Female,Married,Fixed Deposit,711446,5.86659259118046,17,2010-01-24,2026-11-22,Failed,3339,Transfer,Yearly,North,Self-Employed,1,5
+A0274,Customer_274,20,Male,Divorced,Fixed Deposit,651403,4.666029110823966,8,2008-07-26,2024-10-05,Success,23636,Withdrawal,Quarterly,East,Unemployed,3,5
+A0275,Customer_275,39,Male,Married,Current,155610,5.134665379877084,8,2015-03-21,2021-09-28,Failed,57992,Withdrawal,Monthly,South,Self-Employed,4,4
+A0276,Customer_276,22,Female,Divorced,Fixed Deposit,127124,3.053907374677625,3,2007-01-30,2027-08-17,Failed,30743,Transfer,Monthly,West,Unemployed,5,5
+A0277,Customer_277,50,Female,Married,Fixed Deposit,996365,5.1475724195533346,9,2011-11-22,2029-06-25,Success,34915,Deposit,Quarterly,West,Unemployed,0,5
+A0278,Customer_278,33,Female,Single,Savings,794969,3.0658756593223977,14,2015-04-26,2025-03-20,Failed,84687,Deposit,Monthly,West,Student,4,4
+A0279,Customer_279,35,Female,Single,Fixed Deposit,471852,5.427025915094072,11,2000-12-02,2021-12-29,Success,10046,Transfer,Monthly,North,Self-Employed,2,1
+A0280,Customer_280,60,Male,Divorced,Savings,182276,6.1783253887268454,19,2002-03-08,2021-01-28,Success,47167,Withdrawal,Quarterly,South,Retired,1,5
+A0281,Customer_281,49,Female,Married,Current,996163,3.027897839909576,3,2020-07-31,2025-08-05,Success,10902,Withdrawal,Quarterly,East,Self-Employed,1,1
+A0282,Customer_282,31,Female,Divorced,Fixed Deposit,176284,6.143743354929345,4,2011-12-01,2028-03-01,Failed,38703,Withdrawal,Quarterly,West,Employed,3,5
+A0283,Customer_283,52,Male,Divorced,Current,223182,6.393186158546206,14,2014-04-18,2024-01-25,Failed,65867,Transfer,Quarterly,South,Employed,5,1
+A0284,Customer_284,26,Male,Married,Fixed Deposit,848732,5.7068751743140345,14,2007-12-08,2025-08-25,Failed,67312,Withdrawal,Quarterly,South,Employed,0,5
+A0285,Customer_285,64,Female,Single,Savings,203087,4.176188813394351,12,2018-12-08,2022-12-18,Failed,71750,Withdrawal,Quarterly,South,Retired,0,1
+A0286,Customer_286,54,Female,Single,Fixed Deposit,133315,6.083771740635898,12,2009-09-07,2027-03-27,Success,84465,Withdrawal,Yearly,East,Employed,5,1
+A0287,Customer_287,54,Female,Divorced,Current,45748,2.3606024662737104,7,2013-09-10,2026-03-08,Failed,10344,Withdrawal,Quarterly,East,Retired,0,2
+A0288,Customer_288,48,Female,Divorced,Fixed Deposit,444940,5.430217696493662,11,2020-08-03,2028-12-19,Success,36331,Deposit,Yearly,East,Student,5,3
+A0289,Customer_289,33,Female,Divorced,Savings,83175,2.1187647305140356,12,2014-08-16,2027-05-16,Failed,29950,Transfer,Yearly,North,Student,5,5
+A0290,Customer_290,68,Female,Single,Current,717308,5.584341419179565,20,2019-04-02,2029-06-21,Failed,12998,Transfer,Quarterly,North,Employed,3,5
+A0291,Customer_291,48,Female,Single,Savings,457542,2.1894315737307406,1,2006-02-11,2022-07-15,Success,15643,Withdrawal,Monthly,South,Self-Employed,4,4
+A0292,Customer_292,69,Male,Single,Fixed Deposit,212727,2.366240145797583,10,2007-07-07,2023-03-28,Success,9451,Withdrawal,Yearly,West,Unemployed,3,4
+A0293,Customer_293,44,Female,Divorced,Fixed Deposit,863520,2.889960817777171,6,2006-01-23,2023-02-01,Success,47316,Transfer,Monthly,East,Unemployed,3,1
+A0294,Customer_294,30,Female,Divorced,Savings,658694,3.259540004956879,12,2005-12-27,2030-05-03,Failed,5117,Deposit,Quarterly,South,Employed,0,3
+A0295,Customer_295,24,Male,Single,Current,156061,2.3522104611606256,20,2017-12-29,2025-04-13,Failed,71668,Transfer,Quarterly,South,Self-Employed,3,4
+A0296,Customer_296,24,Male,Divorced,Savings,875625,6.108096593158156,15,2002-03-16,2024-03-31,Success,26354,Transfer,Yearly,East,Self-Employed,2,4
+A0297,Customer_297,60,Female,Single,Current,624952,6.554932872155605,20,2005-09-22,2027-03-19,Success,43846,Withdrawal,Quarterly,North,Employed,5,5
+A0298,Customer_298,45,Female,Single,Current,271413,4.038163892478965,5,2014-09-04,2026-07-03,Failed,25874,Deposit,Yearly,South,Unemployed,4,5
+A0299,Customer_299,40,Female,Single,Current,336281,4.255628318720209,15,2013-02-06,2021-06-22,Success,88587,Deposit,Yearly,South,Employed,0,1
+A0300,Customer_300,45,Female,Married,Savings,956047,4.022240103521385,2,2008-10-09,2030-03-25,Failed,43254,Withdrawal,Quarterly,East,Student,5,4
+A0301,Customer_301,44,Male,Married,Current,763422,3.5820212295983342,8,2010-05-05,2030-04-08,Failed,32871,Transfer,Yearly,West,Student,4,4
+A0302,Customer_302,47,Female,Divorced,Savings,959580,3.947509336221916,7,2017-05-04,2024-05-21,Success,39777,Deposit,Yearly,South,Self-Employed,5,1
+A0303,Customer_303,64,Female,Married,Savings,847561,2.5915288081330945,12,2015-02-22,2030-05-12,Success,97776,Transfer,Monthly,North,Unemployed,4,2
+A0304,Customer_304,21,Male,Single,Savings,71267,2.0294946373039013,5,2016-10-19,2027-07-26,Failed,89692,Withdrawal,Quarterly,West,Employed,5,5
+A0305,Customer_305,61,Male,Divorced,Fixed Deposit,92254,5.6014284051339835,3,2005-06-03,2024-05-29,Success,36074,Withdrawal,Monthly,West,Employed,0,2
+A0306,Customer_306,59,Female,Single,Fixed Deposit,407951,2.3161879537984946,4,2016-06-20,2026-07-17,Success,25087,Transfer,Yearly,East,Employed,3,1
+A0307,Customer_307,59,Female,Single,Fixed Deposit,584390,5.729755155206025,2,2015-01-26,2027-04-10,Success,92589,Deposit,Yearly,North,Retired,3,3
+A0308,Customer_308,24,Male,Divorced,Current,417656,2.2275842689306296,8,2013-03-15,2029-04-19,Success,79271,Transfer,Quarterly,South,Student,5,1
+A0309,Customer_309,21,Female,Single,Fixed Deposit,579870,6.241256195030713,20,2017-04-12,2026-03-14,Failed,18170,Deposit,Yearly,East,Employed,0,3
+A0310,Customer_310,43,Male,Married,Fixed Deposit,342968,3.7885006937402395,5,2004-05-15,2023-07-09,Failed,98716,Withdrawal,Yearly,North,Employed,2,4
+A0311,Customer_311,64,Male,Divorced,Fixed Deposit,899235,4.514184754570407,10,2011-08-30,2021-04-20,Failed,93971,Transfer,Yearly,South,Retired,3,1
+A0312,Customer_312,39,Female,Married,Current,290617,3.4491829941754,1,2007-07-27,2029-11-15,Success,97069,Withdrawal,Yearly,North,Retired,5,4
+A0313,Customer_313,69,Male,Married,Savings,545932,5.429393295248996,11,2015-03-14,2021-01-11,Success,71288,Withdrawal,Monthly,East,Self-Employed,0,3
+A0314,Customer_314,24,Male,Divorced,Fixed Deposit,481412,5.032829205934153,4,2015-06-25,2022-09-23,Failed,34327,Deposit,Yearly,West,Employed,2,3
+A0315,Customer_315,33,Male,Single,Savings,962713,3.4075872214613194,10,2004-01-13,2023-12-12,Failed,1218,Deposit,Monthly,North,Retired,3,3
+A0316,Customer_316,30,Female,Married,Savings,916895,6.633454398724293,15,2007-01-10,2024-05-14,Failed,39352,Deposit,Monthly,West,Student,5,3
+A0317,Customer_317,30,Female,Married,Savings,13964,3.90706787240182,16,2012-04-13,2028-03-08,Failed,37042,Transfer,Quarterly,South,Self-Employed,4,2
+A0318,Customer_318,52,Male,Married,Savings,825758,6.110611850795268,1,2000-03-27,2030-05-11,Success,45533,Deposit,Monthly,West,Retired,5,3
+A0319,Customer_319,46,Female,Divorced,Fixed Deposit,735435,2.1540957567836223,11,2015-02-02,2028-02-21,Failed,53028,Transfer,Monthly,North,Unemployed,5,4
+A0320,Customer_320,26,Male,Single,Current,654323,2.781617370749554,7,2000-03-10,2026-04-20,Success,53283,Transfer,Monthly,North,Unemployed,3,1
+A0321,Customer_321,45,Male,Single,Fixed Deposit,617118,3.0993286273025515,18,2018-08-27,2022-05-24,Failed,76115,Deposit,Quarterly,North,Student,3,3
+A0322,Customer_322,29,Female,Divorced,Current,548945,5.73376955803456,7,2001-07-10,2028-05-02,Success,99427,Withdrawal,Yearly,East,Retired,0,4
+A0323,Customer_323,35,Female,Divorced,Fixed Deposit,820656,5.983852185215228,7,2000-04-07,2028-06-20,Failed,85992,Transfer,Quarterly,South,Employed,0,3
+A0324,Customer_324,47,Female,Single,Fixed Deposit,440976,6.2473371902750605,18,2009-03-22,2024-03-24,Failed,1658,Transfer,Monthly,South,Unemployed,1,2
+A0325,Customer_325,33,Male,Divorced,Savings,118984,3.4748923465659565,17,2002-03-11,2025-09-05,Failed,61966,Deposit,Monthly,South,Unemployed,2,2
+A0326,Customer_326,22,Male,Divorced,Current,435574,5.170228345098925,9,2011-10-12,2023-01-05,Failed,85833,Transfer,Monthly,North,Student,4,5
+A0327,Customer_327,46,Male,Divorced,Fixed Deposit,157911,3.4902825160804776,18,2002-05-01,2026-07-08,Failed,67293,Deposit,Quarterly,North,Self-Employed,0,5
+A0328,Customer_328,69,Female,Single,Current,156398,6.434890594861243,16,2015-05-17,2028-09-18,Failed,99866,Withdrawal,Quarterly,East,Employed,5,3
+A0329,Customer_329,53,Female,Single,Current,595116,6.826826967113357,20,2010-01-01,2028-03-26,Success,19666,Withdrawal,Monthly,East,Unemployed,1,4
+A0330,Customer_330,24,Male,Married,Fixed Deposit,617493,6.335694861759415,5,2007-11-19,2023-09-30,Failed,52201,Transfer,Quarterly,West,Retired,2,3
+A0331,Customer_331,21,Female,Single,Current,611981,5.2397030432943446,1,2004-12-02,2021-04-27,Failed,29929,Deposit,Quarterly,West,Student,3,2
+A0332,Customer_332,59,Female,Single,Fixed Deposit,796216,6.7869582455406,13,2016-04-07,2022-05-04,Success,29843,Deposit,Monthly,East,Student,5,4
+A0333,Customer_333,52,Female,Married,Fixed Deposit,986294,2.0557510388465294,19,2006-05-09,2029-07-30,Failed,94909,Deposit,Yearly,East,Unemployed,2,1
+A0334,Customer_334,18,Female,Married,Savings,106071,6.373834638113891,17,2005-08-25,2024-02-10,Failed,98290,Withdrawal,Quarterly,West,Student,1,3
+A0335,Customer_335,23,Male,Single,Savings,970857,2.7068693311227543,2,2004-04-30,2026-07-13,Success,27608,Withdrawal,Monthly,East,Employed,1,3
+A0336,Customer_336,66,Female,Divorced,Current,111766,2.2088657023396276,9,2000-10-05,2021-10-01,Success,62285,Deposit,Monthly,East,Self-Employed,3,5
+A0337,Customer_337,33,Male,Married,Savings,591016,4.86359297471698,6,2000-07-13,2027-09-20,Failed,30734,Deposit,Monthly,West,Student,1,5
+A0338,Customer_338,28,Male,Single,Current,818411,3.970408504350187,2,2013-11-22,2029-05-12,Failed,67710,Deposit,Monthly,North,Retired,2,2
+A0339,Customer_339,44,Male,Single,Fixed Deposit,106896,4.737627250961191,10,2002-01-23,2025-01-21,Success,77039,Transfer,Yearly,East,Unemployed,0,3
+A0340,Customer_340,49,Female,Married,Savings,824914,2.4256342837471943,7,2001-04-10,2027-07-09,Success,72532,Transfer,Monthly,East,Student,2,3
+A0341,Customer_341,48,Female,Divorced,Fixed Deposit,300990,3.0502644534519527,20,2013-04-29,2026-05-23,Failed,99402,Withdrawal,Monthly,East,Unemployed,5,1
+A0342,Customer_342,31,Male,Divorced,Savings,910613,5.70715241519907,9,2014-09-22,2027-05-06,Success,61538,Transfer,Yearly,West,Retired,5,1
+A0343,Customer_343,43,Female,Single,Savings,562652,5.629686733478741,2,2020-01-19,2025-11-22,Failed,94800,Withdrawal,Yearly,North,Retired,0,4
+A0344,Customer_344,21,Male,Married,Savings,923889,3.0586847146099245,15,2018-09-27,2030-09-27,Failed,60576,Deposit,Monthly,East,Self-Employed,3,3
+A0345,Customer_345,28,Female,Married,Fixed Deposit,361572,6.528140151721668,1,2004-11-11,2023-11-23,Failed,44750,Transfer,Quarterly,North,Student,5,5
+A0346,Customer_346,42,Male,Married,Current,921538,6.257294256707754,3,2013-06-11,2028-01-17,Success,11355,Transfer,Yearly,South,Employed,3,4
+A0347,Customer_347,18,Female,Divorced,Savings,431849,2.712275585567741,13,2014-04-24,2028-09-10,Failed,41135,Withdrawal,Monthly,West,Student,1,2
+A0348,Customer_348,42,Female,Divorced,Fixed Deposit,277967,2.9199636139269156,9,2002-09-24,2026-05-04,Failed,24721,Deposit,Yearly,South,Student,2,4
+A0349,Customer_349,34,Female,Divorced,Current,402650,5.0844246162007884,12,2015-11-18,2028-10-14,Success,56302,Deposit,Quarterly,South,Unemployed,2,2
+A0350,Customer_350,68,Female,Married,Current,687594,3.2637088892730404,4,2002-09-09,2030-03-06,Success,91580,Deposit,Quarterly,East,Retired,2,3
+A0351,Customer_351,68,Female,Single,Savings,510172,2.5731127106159173,1,2001-12-08,2022-05-05,Failed,54847,Deposit,Monthly,West,Employed,5,4
+A0352,Customer_352,47,Male,Divorced,Fixed Deposit,600809,5.354889556752892,10,2019-03-17,2025-03-09,Success,27570,Withdrawal,Yearly,North,Student,3,3
+A0353,Customer_353,36,Male,Married,Fixed Deposit,639543,4.836463222364006,13,2013-07-24,2026-10-01,Failed,57598,Withdrawal,Monthly,South,Self-Employed,2,3
+A0354,Customer_354,45,Female,Married,Current,497025,2.2719415296386076,8,2002-11-30,2029-03-22,Failed,59078,Withdrawal,Yearly,West,Retired,3,4
+A0355,Customer_355,62,Male,Single,Fixed Deposit,40285,5.75520907090492,13,2008-06-06,2027-06-15,Success,73296,Transfer,Yearly,East,Employed,5,3
+A0356,Customer_356,64,Female,Single,Current,181564,6.950382113244871,17,2014-09-21,2021-03-13,Success,4045,Transfer,Monthly,South,Student,2,2
+A0357,Customer_357,68,Male,Married,Current,289792,4.744255567389175,4,2017-02-17,2030-06-25,Success,49212,Deposit,Quarterly,North,Self-Employed,4,2
+A0358,Customer_358,53,Male,Single,Current,423548,5.22337256929519,11,2020-03-07,2023-11-30,Success,18312,Transfer,Yearly,South,Student,2,3
+A0359,Customer_359,60,Female,Divorced,Savings,151840,2.3657228607927507,16,2014-07-13,2022-10-30,Failed,75795,Transfer,Monthly,West,Unemployed,4,1
+A0360,Customer_360,63,Female,Married,Fixed Deposit,649276,5.358426245576246,20,2012-09-11,2027-07-11,Failed,16922,Withdrawal,Monthly,North,Student,0,1
+A0361,Customer_361,49,Female,Divorced,Savings,639221,3.253438074074775,18,2018-01-05,2021-08-28,Success,40151,Transfer,Monthly,East,Retired,1,2
+A0362,Customer_362,27,Male,Married,Current,714884,2.9870879622395803,3,2004-02-22,2022-08-22,Failed,96805,Transfer,Quarterly,West,Employed,1,5
+A0363,Customer_363,30,Male,Divorced,Fixed Deposit,728356,4.902978267043471,6,2020-02-05,2024-08-02,Failed,1368,Transfer,Monthly,South,Unemployed,4,3
+A0364,Customer_364,36,Male,Single,Fixed Deposit,422233,6.757699531720986,7,2002-06-27,2026-03-04,Failed,65609,Deposit,Monthly,East,Unemployed,2,5
+A0365,Customer_365,31,Male,Single,Current,41666,3.7856917950591122,17,2015-08-08,2030-11-07,Failed,86456,Withdrawal,Monthly,East,Self-Employed,0,5
+A0366,Customer_366,21,Female,Divorced,Fixed Deposit,416018,5.356477828900255,15,2004-02-18,2028-10-10,Success,46586,Transfer,Monthly,East,Employed,1,3
+A0367,Customer_367,55,Female,Married,Current,933786,3.172664243729601,18,2005-09-06,2022-07-09,Success,44641,Withdrawal,Monthly,West,Employed,2,5
+A0368,Customer_368,65,Male,Married,Current,922653,3.4256857193826056,1,2006-08-10,2025-01-03,Success,29655,Withdrawal,Yearly,West,Retired,4,5
+A0369,Customer_369,52,Male,Divorced,Current,348596,2.349044423554785,2,2010-06-22,2022-10-31,Failed,55038,Transfer,Quarterly,East,Self-Employed,2,2
+A0370,Customer_370,21,Male,Divorced,Current,725056,2.967492845572007,8,2014-10-24,2021-08-05,Success,55899,Transfer,Monthly,East,Self-Employed,5,4
+A0371,Customer_371,65,Male,Single,Fixed Deposit,250119,4.4293061513694365,17,2020-12-30,2024-01-22,Success,89984,Withdrawal,Monthly,South,Student,2,5
+A0372,Customer_372,38,Female,Single,Savings,52685,3.641730391097904,10,2001-09-12,2025-01-19,Failed,98748,Withdrawal,Quarterly,North,Retired,2,1
+A0373,Customer_373,21,Female,Divorced,Fixed Deposit,782975,5.297111254396866,11,2014-04-29,2025-09-15,Success,52970,Deposit,Yearly,East,Self-Employed,5,2
+A0374,Customer_374,21,Female,Divorced,Savings,499302,5.467290646738183,16,2010-03-03,2028-02-20,Success,90607,Deposit,Monthly,North,Employed,1,1
+A0375,Customer_375,55,Female,Married,Fixed Deposit,966565,2.761974810270667,13,2020-09-10,2024-12-29,Failed,70564,Deposit,Yearly,West,Self-Employed,4,1
+A0376,Customer_376,48,Male,Married,Current,282631,4.834309464860462,6,2006-03-14,2021-07-19,Failed,39374,Deposit,Yearly,West,Student,5,5
+A0377,Customer_377,50,Female,Divorced,Fixed Deposit,941605,6.038498823208107,1,2017-04-03,2024-04-02,Failed,42839,Deposit,Yearly,East,Retired,2,4
+A0378,Customer_378,51,Male,Married,Fixed Deposit,391532,6.7932946096475195,12,2009-07-29,2024-04-09,Failed,77033,Withdrawal,Quarterly,East,Student,3,3
+A0379,Customer_379,28,Female,Single,Fixed Deposit,22215,2.843197554529901,12,2015-07-11,2026-12-10,Failed,3146,Transfer,Quarterly,North,Retired,5,2
+A0380,Customer_380,21,Female,Married,Current,355278,3.5660739036714704,12,2020-04-05,2028-03-02,Failed,74493,Transfer,Quarterly,North,Retired,3,3
+A0381,Customer_381,50,Female,Divorced,Savings,858091,5.928300560322616,10,2014-12-21,2021-11-11,Failed,4321,Transfer,Yearly,West,Self-Employed,5,5
+A0382,Customer_382,23,Male,Single,Fixed Deposit,833204,5.560995636128492,8,2017-04-07,2026-10-06,Success,18336,Deposit,Quarterly,South,Employed,2,3
+A0383,Customer_383,29,Female,Single,Current,318776,5.20419272169933,17,2017-04-09,2023-03-05,Success,20244,Deposit,Quarterly,West,Student,1,4
+A0384,Customer_384,22,Male,Single,Savings,327053,3.383399175111579,9,2007-04-03,2029-08-06,Success,43386,Transfer,Yearly,South,Unemployed,5,2
+A0385,Customer_385,56,Female,Married,Current,294964,3.7974299987519466,2,2005-10-09,2028-01-17,Success,74573,Transfer,Yearly,East,Student,5,4
+A0386,Customer_386,22,Female,Married,Savings,884788,5.397900899237871,9,2003-08-19,2023-01-21,Failed,82654,Transfer,Monthly,South,Unemployed,1,1
+A0387,Customer_387,61,Male,Single,Current,516500,3.657814751486697,13,2017-07-05,2029-07-30,Success,79136,Withdrawal,Quarterly,East,Unemployed,1,3
+A0388,Customer_388,33,Female,Single,Current,900924,4.399769852416529,1,2001-08-29,2022-01-23,Failed,79770,Withdrawal,Monthly,West,Self-Employed,4,5
+A0389,Customer_389,43,Male,Married,Current,731000,4.226789867831081,18,2006-03-21,2027-09-19,Success,75319,Transfer,Monthly,East,Employed,2,5
+A0390,Customer_390,25,Female,Married,Current,719119,5.873834807629578,9,2017-06-06,2029-06-10,Success,51334,Transfer,Monthly,North,Unemployed,3,1
+A0391,Customer_391,54,Female,Single,Current,103988,4.434856912183457,8,2001-05-26,2022-11-16,Failed,50080,Deposit,Yearly,East,Retired,2,3
+A0392,Customer_392,33,Male,Married,Fixed Deposit,912107,2.544163181475183,5,2008-08-01,2027-02-06,Success,26865,Transfer,Monthly,North,Retired,5,2
+A0393,Customer_393,55,Female,Married,Fixed Deposit,240030,5.227758020409482,11,2008-09-18,2024-08-14,Success,51301,Deposit,Yearly,West,Student,1,4
+A0394,Customer_394,56,Female,Married,Savings,141913,2.4098684654307734,13,2007-06-18,2030-10-14,Success,8450,Withdrawal,Monthly,North,Employed,0,1
+A0395,Customer_395,20,Male,Married,Fixed Deposit,316076,3.403079698186876,5,2001-05-07,2024-07-19,Failed,70156,Withdrawal,Yearly,South,Unemployed,1,2
+A0396,Customer_396,57,Male,Divorced,Current,780850,6.132218366116347,3,2005-10-16,2030-04-10,Failed,50750,Transfer,Monthly,East,Self-Employed,4,5
+A0397,Customer_397,23,Female,Divorced,Current,465635,6.456485194661395,13,2018-03-25,2030-06-24,Failed,24785,Transfer,Monthly,North,Retired,2,2
+A0398,Customer_398,44,Male,Divorced,Fixed Deposit,812630,2.9821596467209845,17,2005-12-08,2028-09-06,Failed,62330,Withdrawal,Quarterly,North,Student,1,3
+A0399,Customer_399,60,Male,Single,Savings,866938,5.667723085222238,20,2003-12-28,2029-12-21,Failed,14339,Withdrawal,Quarterly,West,Retired,4,1
+A0400,Customer_400,55,Male,Married,Savings,337454,5.133094425367652,8,2009-11-18,2024-05-18,Failed,43201,Transfer,Yearly,East,Student,0,4
+A0401,Customer_401,54,Male,Divorced,Savings,283507,5.637126836009322,14,2001-07-22,2024-01-17,Failed,74747,Deposit,Quarterly,North,Unemployed,2,2
+A0402,Customer_402,51,Female,Married,Fixed Deposit,765201,6.460525923171278,8,2011-01-11,2028-09-08,Failed,59283,Deposit,Yearly,West,Self-Employed,2,2
+A0403,Customer_403,38,Male,Divorced,Current,438017,6.247936364530709,19,2020-10-28,2028-10-29,Success,83855,Withdrawal,Yearly,East,Unemployed,5,2
+A0404,Customer_404,34,Male,Single,Savings,635366,5.158132472306274,5,2004-07-01,2028-09-20,Success,40030,Deposit,Quarterly,North,Student,4,2
+A0405,Customer_405,31,Male,Single,Savings,677913,6.063211999158952,14,2013-09-08,2025-01-24,Success,12321,Transfer,Yearly,North,Student,5,4
+A0406,Customer_406,60,Male,Divorced,Savings,94624,4.8945039363628045,10,2008-10-21,2022-01-28,Success,22568,Transfer,Yearly,East,Retired,4,2
+A0407,Customer_407,63,Male,Single,Current,198064,5.84600127451257,20,2004-01-01,2026-12-29,Success,13772,Deposit,Quarterly,South,Retired,3,2
+A0408,Customer_408,38,Male,Married,Current,464173,3.0638034308814843,11,2014-06-23,2027-07-04,Success,88558,Withdrawal,Yearly,East,Employed,3,1
+A0409,Customer_409,33,Male,Married,Savings,222659,2.183281546517983,15,2011-01-13,2024-12-11,Success,72570,Transfer,Monthly,East,Employed,4,3
+A0410,Customer_410,34,Female,Single,Current,958803,3.3030816072027873,18,2002-06-07,2030-03-27,Success,23383,Deposit,Quarterly,South,Student,1,2
+A0411,Customer_411,43,Male,Married,Savings,864994,6.469929672730274,5,2003-03-24,2022-08-12,Success,4302,Withdrawal,Monthly,North,Employed,2,1
+A0412,Customer_412,26,Male,Divorced,Fixed Deposit,427949,4.698385584060249,7,2012-02-15,2021-02-22,Success,90411,Transfer,Quarterly,East,Student,5,5
+A0413,Customer_413,60,Female,Divorced,Savings,777936,5.269540696412222,5,2017-03-29,2022-07-15,Failed,79184,Transfer,Monthly,South,Self-Employed,1,4
+A0414,Customer_414,59,Male,Divorced,Fixed Deposit,508993,2.743164918043413,19,2009-09-02,2026-10-24,Success,64143,Transfer,Yearly,South,Employed,4,4
+A0415,Customer_415,37,Male,Married,Current,797386,3.9624917292336614,18,2004-11-24,2024-02-27,Success,3617,Withdrawal,Quarterly,West,Self-Employed,4,4
+A0416,Customer_416,47,Female,Divorced,Savings,542590,6.4571877186054305,7,2013-10-08,2025-03-08,Failed,24570,Deposit,Monthly,North,Retired,2,5
+A0417,Customer_417,38,Male,Single,Current,910313,4.948003773883984,5,2014-06-06,2029-09-25,Success,26183,Transfer,Yearly,East,Employed,4,5
+A0418,Customer_418,66,Male,Divorced,Savings,393073,6.285820770673422,10,2002-05-20,2026-06-10,Success,9208,Transfer,Monthly,South,Self-Employed,2,5
+A0419,Customer_419,22,Male,Married,Fixed Deposit,861899,2.6694062972329977,17,2020-06-20,2025-08-15,Failed,50679,Transfer,Quarterly,North,Self-Employed,3,2
+A0420,Customer_420,18,Male,Married,Current,59936,4.505615856886356,5,2009-11-26,2024-10-25,Failed,37300,Transfer,Yearly,West,Student,3,4
+A0421,Customer_421,47,Male,Divorced,Current,541299,2.4527701212758255,14,2016-01-17,2022-10-30,Success,27086,Transfer,Monthly,East,Employed,5,2
+A0422,Customer_422,57,Female,Single,Savings,830937,3.8193277903708545,5,2005-10-22,2022-02-24,Failed,30644,Deposit,Monthly,South,Employed,1,5
+A0423,Customer_423,54,Male,Single,Current,167694,2.052958416293505,19,2002-04-26,2023-06-12,Failed,38255,Deposit,Quarterly,West,Student,4,5
+A0424,Customer_424,24,Female,Single,Fixed Deposit,69804,3.194404022692957,6,2000-10-12,2022-09-26,Success,86551,Transfer,Monthly,West,Student,3,4
+A0425,Customer_425,22,Male,Married,Fixed Deposit,327236,6.820001341646166,11,2001-08-20,2026-08-24,Success,68833,Deposit,Yearly,West,Self-Employed,1,5
+A0426,Customer_426,52,Male,Single,Savings,745037,6.909265995548515,3,2001-07-30,2023-06-25,Success,9272,Deposit,Yearly,North,Retired,3,4
+A0427,Customer_427,31,Female,Married,Savings,532413,5.42080828420235,18,2012-10-24,2030-04-30,Success,59693,Transfer,Yearly,East,Student,3,3
+A0428,Customer_428,50,Male,Divorced,Current,423979,5.7860303563675535,18,2016-04-26,2023-02-11,Failed,7630,Transfer,Monthly,East,Self-Employed,0,3
+A0429,Customer_429,34,Male,Divorced,Fixed Deposit,143239,2.701853463285433,4,2005-08-14,2029-12-01,Failed,48419,Deposit,Yearly,East,Retired,5,3
+A0430,Customer_430,26,Female,Married,Current,819430,2.7961120895722944,6,2017-06-07,2027-04-08,Failed,68064,Deposit,Quarterly,South,Student,0,4
+A0431,Customer_431,40,Male,Married,Fixed Deposit,893647,4.83178627299934,11,2009-12-31,2027-11-18,Success,1547,Transfer,Quarterly,West,Student,2,3
+A0432,Customer_432,22,Male,Divorced,Fixed Deposit,550753,4.829062665232021,5,2000-06-02,2028-09-25,Failed,22621,Withdrawal,Quarterly,East,Employed,1,3
+A0433,Customer_433,33,Female,Divorced,Savings,923047,6.360975770940466,1,2020-02-09,2030-04-29,Success,42930,Withdrawal,Yearly,South,Unemployed,2,2
+A0434,Customer_434,41,Female,Married,Current,597296,2.7309952652424503,11,2011-03-01,2026-11-24,Success,53952,Deposit,Yearly,South,Employed,1,3
+A0435,Customer_435,36,Female,Divorced,Fixed Deposit,31354,5.6600223736279975,14,2003-05-04,2030-06-28,Failed,51362,Deposit,Quarterly,East,Student,1,5
+A0436,Customer_436,28,Male,Divorced,Savings,183176,6.695876291349364,14,2014-08-23,2026-12-20,Failed,20682,Deposit,Quarterly,South,Unemployed,1,3
+A0437,Customer_437,46,Female,Single,Fixed Deposit,203127,2.2020991302586763,10,2014-05-12,2028-12-28,Success,14615,Transfer,Monthly,West,Unemployed,2,1
+A0438,Customer_438,52,Male,Single,Savings,918693,5.80736188917019,15,2000-01-08,2027-03-08,Failed,17026,Deposit,Monthly,South,Retired,4,2
+A0439,Customer_439,63,Male,Divorced,Savings,874390,3.1587495380215778,9,2020-12-03,2028-11-16,Success,70413,Transfer,Quarterly,East,Unemployed,5,3
+A0440,Customer_440,37,Female,Divorced,Savings,211477,3.3217855755029313,5,2000-11-05,2029-06-25,Success,54942,Deposit,Yearly,East,Retired,0,2
+A0441,Customer_441,57,Female,Single,Current,878633,3.1700933442565957,7,2014-11-27,2030-01-01,Failed,62785,Deposit,Quarterly,North,Unemployed,5,5
+A0442,Customer_442,69,Male,Divorced,Savings,61426,5.342928000046837,4,2008-10-03,2022-04-12,Failed,97505,Transfer,Monthly,East,Retired,1,5
+A0443,Customer_443,59,Male,Married,Savings,262609,4.589426148970651,5,2005-12-22,2025-09-06,Failed,9112,Withdrawal,Quarterly,West,Self-Employed,2,2
+A0444,Customer_444,51,Female,Divorced,Fixed Deposit,35677,5.957302285777455,6,2003-05-26,2026-03-02,Failed,51086,Deposit,Monthly,South,Self-Employed,3,1
+A0445,Customer_445,18,Female,Divorced,Savings,479621,3.94046554973998,1,2015-09-13,2021-11-09,Success,27163,Deposit,Monthly,West,Unemployed,3,5
+A0446,Customer_446,60,Female,Married,Fixed Deposit,54015,6.589509720155725,20,2007-05-25,2022-04-23,Failed,17130,Deposit,Monthly,West,Retired,4,4
+A0447,Customer_447,70,Male,Single,Fixed Deposit,963625,6.40775990659138,20,2020-04-15,2030-03-08,Failed,27058,Transfer,Quarterly,North,Self-Employed,5,5
+A0448,Customer_448,53,Female,Divorced,Current,378880,2.199523492924488,9,2008-10-10,2022-06-22,Failed,40700,Withdrawal,Yearly,South,Retired,0,3
+A0449,Customer_449,37,Female,Single,Savings,739862,5.24262374356654,20,2012-11-20,2021-03-13,Failed,56749,Withdrawal,Quarterly,West,Unemployed,5,1
+A0450,Customer_450,60,Male,Single,Savings,209781,2.5161250644824,19,2000-01-31,2026-05-19,Success,93118,Transfer,Monthly,East,Retired,4,5
+A0451,Customer_451,24,Male,Divorced,Fixed Deposit,288286,6.842207004181031,20,2011-07-24,2024-11-27,Success,87235,Deposit,Monthly,East,Retired,1,2
+A0452,Customer_452,26,Female,Divorced,Current,387244,5.1678349088746,8,2015-11-14,2024-06-30,Success,62330,Withdrawal,Quarterly,West,Unemployed,5,3
+A0453,Customer_453,34,Male,Single,Savings,864508,3.367476576375673,20,2017-04-16,2028-10-01,Failed,20911,Transfer,Monthly,East,Student,1,5
+A0454,Customer_454,25,Male,Divorced,Current,487768,5.709548535321506,8,2011-01-02,2025-01-25,Failed,79229,Deposit,Yearly,West,Student,2,2
+A0455,Customer_455,24,Male,Divorced,Fixed Deposit,530663,4.89315717460029,8,2010-09-21,2022-07-24,Success,75478,Deposit,Monthly,West,Self-Employed,5,4
+A0456,Customer_456,65,Female,Single,Savings,417224,4.850800759116181,1,2009-10-12,2030-03-01,Failed,40773,Withdrawal,Monthly,West,Unemployed,0,3
+A0457,Customer_457,53,Female,Single,Current,667275,3.8832978477208058,12,2009-01-21,2025-12-16,Failed,77103,Deposit,Monthly,West,Self-Employed,3,5
+A0458,Customer_458,27,Female,Married,Savings,968912,3.8925925852841425,3,2018-12-06,2030-12-24,Failed,26704,Transfer,Yearly,West,Self-Employed,5,1
+A0459,Customer_459,35,Female,Divorced,Savings,130890,4.938394123812635,16,2016-04-27,2027-09-14,Success,65960,Withdrawal,Monthly,North,Retired,0,4
+A0460,Customer_460,36,Female,Married,Current,715263,6.491133087704668,5,2017-07-07,2026-11-13,Failed,94048,Transfer,Quarterly,North,Student,2,5
+A0461,Customer_461,56,Female,Single,Savings,33047,2.3891873552152103,17,2018-03-21,2029-07-25,Failed,89862,Transfer,Monthly,West,Employed,4,4
+A0462,Customer_462,31,Male,Divorced,Fixed Deposit,254690,3.257932051134436,20,2017-08-12,2024-11-02,Failed,60256,Withdrawal,Yearly,North,Unemployed,0,4
+A0463,Customer_463,63,Male,Single,Savings,391559,6.863370541752965,16,2001-07-28,2022-12-07,Failed,36202,Deposit,Monthly,South,Student,2,5
+A0464,Customer_464,39,Male,Divorced,Savings,513530,3.114496272667191,12,2012-02-11,2028-12-17,Success,26537,Transfer,Yearly,East,Self-Employed,4,4
+A0465,Customer_465,31,Female,Divorced,Current,623899,4.029211012754515,6,2005-01-24,2024-06-01,Success,1075,Withdrawal,Monthly,South,Self-Employed,4,1
+A0466,Customer_466,61,Female,Married,Current,468773,6.08618382616786,13,2000-01-28,2021-04-28,Failed,18802,Transfer,Monthly,East,Student,5,2
+A0467,Customer_467,58,Male,Single,Current,187209,3.7251616152696894,16,2008-08-15,2029-05-08,Success,58522,Withdrawal,Quarterly,South,Employed,4,1
+A0468,Customer_468,34,Female,Divorced,Savings,913765,5.963287267167496,16,2015-06-17,2030-02-19,Failed,8484,Transfer,Monthly,East,Employed,0,5
+A0469,Customer_469,50,Female,Married,Current,498635,6.435859717585555,5,2018-05-06,2022-05-01,Failed,52428,Withdrawal,Yearly,North,Unemployed,0,4
+A0470,Customer_470,49,Female,Single,Savings,616388,2.0329884328632417,6,2017-06-28,2023-06-30,Failed,79378,Transfer,Yearly,West,Self-Employed,3,5
+A0471,Customer_471,34,Female,Married,Fixed Deposit,579115,6.410171215942811,7,2010-10-24,2022-06-12,Success,32453,Transfer,Monthly,South,Self-Employed,4,1
+A0472,Customer_472,21,Female,Single,Fixed Deposit,367749,4.199493503779389,8,2002-09-19,2030-08-11,Success,69025,Transfer,Yearly,West,Employed,4,3
+A0473,Customer_473,23,Male,Divorced,Savings,361971,3.149953830133685,2,2012-09-20,2028-10-14,Failed,43208,Deposit,Quarterly,North,Retired,1,4
+A0474,Customer_474,58,Female,Married,Savings,172456,4.572706365714855,14,2012-01-03,2022-08-07,Failed,74709,Transfer,Monthly,West,Student,1,2
+A0475,Customer_475,45,Female,Married,Fixed Deposit,879343,3.404047541749369,1,2020-12-20,2028-09-19,Success,64450,Deposit,Monthly,West,Unemployed,2,1
+A0476,Customer_476,35,Female,Divorced,Fixed Deposit,938942,2.751202038932803,9,2008-01-19,2023-07-18,Failed,60419,Transfer,Quarterly,North,Employed,5,3
+A0477,Customer_477,20,Female,Single,Savings,272224,2.786786763452848,14,2007-06-24,2024-06-13,Failed,60746,Deposit,Monthly,North,Employed,1,1
+A0478,Customer_478,18,Female,Divorced,Fixed Deposit,786342,5.010101382333886,8,2015-04-17,2022-05-29,Failed,75614,Deposit,Quarterly,North,Retired,5,3
+A0479,Customer_479,39,Male,Married,Fixed Deposit,872230,6.084775377747797,7,2006-10-16,2023-05-10,Failed,5222,Deposit,Monthly,East,Student,5,5
+A0480,Customer_480,67,Female,Divorced,Savings,723312,5.305548214552787,7,2008-12-25,2022-06-18,Failed,96738,Deposit,Quarterly,North,Retired,1,3
+A0481,Customer_481,26,Male,Married,Current,95782,4.073068425475531,3,2001-03-28,2021-11-18,Success,12041,Deposit,Quarterly,East,Self-Employed,1,1
+A0482,Customer_482,58,Male,Divorced,Current,299916,3.6511238262152546,6,2014-03-07,2025-10-07,Success,37837,Withdrawal,Quarterly,North,Employed,5,5
+A0483,Customer_483,34,Male,Single,Fixed Deposit,29783,2.5666934878199044,15,2014-07-06,2028-09-30,Failed,84811,Deposit,Yearly,East,Unemployed,5,4
+A0484,Customer_484,28,Male,Married,Savings,406343,5.376147131577679,20,2002-01-12,2029-07-23,Success,59909,Deposit,Monthly,West,Retired,3,4
+A0485,Customer_485,65,Female,Married,Fixed Deposit,53062,4.395105816822646,16,2008-03-11,2029-10-17,Failed,45553,Transfer,Quarterly,East,Self-Employed,1,2
+A0486,Customer_486,46,Male,Single,Fixed Deposit,171820,4.953954494045908,11,2011-12-28,2022-04-03,Success,91891,Transfer,Quarterly,North,Unemployed,0,4
+A0487,Customer_487,53,Female,Divorced,Savings,896296,5.236296170702762,15,2019-02-20,2021-11-15,Success,93377,Deposit,Yearly,North,Employed,4,2
+A0488,Customer_488,63,Male,Single,Current,601056,4.054496035816,8,2007-08-17,2021-03-19,Success,39087,Transfer,Quarterly,North,Self-Employed,2,4
+A0489,Customer_489,45,Male,Divorced,Fixed Deposit,818711,3.2183515371063476,14,2001-10-21,2029-09-09,Success,51360,Withdrawal,Monthly,South,Unemployed,4,3
+A0490,Customer_490,53,Female,Single,Fixed Deposit,225729,2.6394255747454802,13,2018-11-12,2026-06-07,Failed,80450,Withdrawal,Yearly,South,Unemployed,2,5
+A0491,Customer_491,18,Male,Single,Current,899746,4.961738301855666,2,2010-04-23,2029-06-30,Success,23054,Deposit,Yearly,West,Student,0,3
+A0492,Customer_492,25,Female,Married,Savings,233103,2.673620240000651,20,2017-01-20,2025-11-02,Failed,54501,Transfer,Monthly,South,Retired,5,3
+A0493,Customer_493,22,Female,Married,Savings,679827,4.563214080005544,13,2017-03-11,2021-06-24,Failed,32754,Transfer,Quarterly,South,Unemployed,1,2
+A0494,Customer_494,62,Female,Divorced,Savings,237047,6.453988357345361,11,2006-07-03,2023-03-16,Failed,23637,Withdrawal,Quarterly,South,Unemployed,5,5
+A0495,Customer_495,27,Male,Single,Savings,711614,2.7343255004253986,13,2014-07-12,2022-03-18,Success,81067,Deposit,Yearly,East,Retired,0,5
+A0496,Customer_496,52,Female,Divorced,Savings,217773,2.831706831539409,20,2004-07-21,2021-05-15,Success,96207,Transfer,Yearly,East,Student,1,4
+A0497,Customer_497,20,Female,Single,Fixed Deposit,283154,6.612234353275505,19,2003-12-17,2029-11-23,Success,56733,Withdrawal,Monthly,North,Unemployed,4,2
+A0498,Customer_498,41,Female,Single,Fixed Deposit,684238,4.583203463190732,20,2012-06-08,2028-05-26,Success,60108,Withdrawal,Yearly,West,Retired,2,5
+A0499,Customer_499,55,Male,Married,Current,430399,4.027281582331565,18,2000-11-18,2026-10-05,Failed,50518,Withdrawal,Monthly,South,Retired,0,5
+A0500,Customer_500,53,Male,Single,Current,539214,6.846218435600575,17,2008-08-13,2027-08-27,Failed,86486,Transfer,Monthly,North,Self-Employed,1,3
+A0501,Customer_501,27,Male,Married,Current,22026,5.1881135336540645,2,2014-10-26,2021-08-31,Failed,24144,Deposit,Yearly,North,Employed,1,1
+A0502,Customer_502,45,Female,Married,Current,907630,6.392544914765183,17,2004-04-13,2026-04-06,Success,91656,Withdrawal,Quarterly,North,Retired,1,5
+A0503,Customer_503,26,Male,Single,Savings,819207,5.63987157723848,4,2006-09-14,2022-05-03,Success,74629,Withdrawal,Quarterly,South,Self-Employed,4,1
+A0504,Customer_504,20,Male,Single,Savings,805858,6.106516550610014,15,2015-08-10,2023-11-03,Success,12621,Deposit,Yearly,North,Employed,4,3
+A0505,Customer_505,37,Female,Divorced,Current,716338,6.73626934311347,15,2008-09-30,2021-06-27,Success,51683,Withdrawal,Monthly,North,Self-Employed,3,5
+A0506,Customer_506,41,Female,Divorced,Fixed Deposit,10330,3.082967089459425,2,2020-02-08,2021-09-29,Failed,91672,Transfer,Quarterly,South,Unemployed,3,1
+A0507,Customer_507,68,Male,Divorced,Savings,498126,5.03262948962956,8,2002-05-24,2024-05-20,Failed,5823,Withdrawal,Monthly,South,Self-Employed,0,1
+A0508,Customer_508,20,Female,Married,Savings,956793,4.35706727457428,17,2014-02-22,2028-06-27,Success,31517,Transfer,Monthly,North,Unemployed,4,5
+A0509,Customer_509,40,Male,Married,Fixed Deposit,139741,4.408341995275274,18,2015-06-13,2021-02-12,Success,20800,Deposit,Yearly,West,Retired,0,1
+A0510,Customer_510,31,Female,Married,Fixed Deposit,679818,3.0968190740929384,13,2008-01-22,2029-06-18,Success,35984,Transfer,Quarterly,North,Employed,2,5
+A0511,Customer_511,61,Male,Married,Fixed Deposit,182614,4.053834259541285,2,2010-11-29,2022-01-31,Success,82424,Deposit,Monthly,West,Self-Employed,5,4
+A0512,Customer_512,33,Female,Married,Fixed Deposit,631343,2.713560685314836,18,2001-11-26,2029-10-10,Failed,70582,Deposit,Yearly,West,Retired,0,2
+A0513,Customer_513,60,Male,Married,Fixed Deposit,840767,4.913230688141777,13,2019-11-08,2022-05-23,Failed,38358,Transfer,Monthly,North,Retired,1,2
+A0514,Customer_514,24,Male,Single,Current,9874,5.837450563232755,17,2014-03-11,2027-10-01,Failed,87480,Transfer,Yearly,North,Student,3,2
+A0515,Customer_515,40,Female,Divorced,Fixed Deposit,235639,5.116058694558172,2,2009-10-27,2023-04-22,Failed,8848,Withdrawal,Monthly,East,Unemployed,0,5
+A0516,Customer_516,67,Female,Divorced,Savings,265650,4.554024542291488,7,2016-06-28,2027-08-04,Success,91594,Transfer,Monthly,West,Retired,3,2
+A0517,Customer_517,53,Female,Divorced,Fixed Deposit,638894,2.8386085079679932,10,2004-04-01,2023-03-31,Failed,95328,Transfer,Yearly,West,Retired,0,2
+A0518,Customer_518,44,Female,Single,Current,845193,5.4279558190208395,15,2003-02-20,2023-01-27,Success,94787,Transfer,Yearly,South,Retired,3,1
+A0519,Customer_519,57,Male,Divorced,Savings,989812,6.611759724224736,13,2000-10-19,2028-07-09,Success,28576,Deposit,Monthly,South,Unemployed,1,4
+A0520,Customer_520,65,Male,Married,Fixed Deposit,321297,4.982666812486797,10,2004-04-30,2024-12-10,Success,64782,Transfer,Yearly,East,Retired,0,1
+A0521,Customer_521,27,Male,Single,Fixed Deposit,748362,2.3442144852062237,10,2000-07-26,2021-04-30,Failed,54007,Withdrawal,Monthly,West,Student,4,3
+A0522,Customer_522,33,Female,Single,Fixed Deposit,744826,3.8910567606040045,15,2016-02-22,2022-01-07,Failed,99958,Transfer,Yearly,North,Self-Employed,4,1
+A0523,Customer_523,28,Male,Divorced,Savings,674962,2.661065992287178,6,2013-04-19,2022-08-20,Success,72559,Transfer,Yearly,West,Self-Employed,1,1
+A0524,Customer_524,69,Male,Married,Fixed Deposit,289755,2.082813136367073,14,2005-05-07,2030-06-27,Success,15989,Transfer,Yearly,South,Employed,4,4
+A0525,Customer_525,69,Male,Divorced,Current,445393,4.613556715085792,10,2010-12-21,2029-05-15,Success,48430,Transfer,Yearly,North,Self-Employed,3,5
+A0526,Customer_526,29,Male,Single,Current,939981,6.5466961154475625,20,2008-09-19,2024-02-11,Success,10131,Transfer,Yearly,South,Self-Employed,2,4
+A0527,Customer_527,44,Male,Divorced,Fixed Deposit,395763,5.42183915599417,2,2001-05-31,2027-07-03,Success,99111,Deposit,Yearly,South,Employed,4,4
+A0528,Customer_528,19,Female,Single,Savings,893952,6.132570927946314,17,2017-10-12,2024-11-25,Success,13891,Withdrawal,Quarterly,South,Retired,0,4
+A0529,Customer_529,29,Female,Single,Savings,366648,5.027555089306033,5,2012-02-15,2024-12-13,Success,66212,Deposit,Quarterly,South,Self-Employed,4,4
+A0530,Customer_530,65,Female,Single,Current,482294,2.887110921586647,15,2014-06-06,2022-10-20,Success,42831,Withdrawal,Monthly,South,Self-Employed,3,2
+A0531,Customer_531,39,Female,Married,Current,265239,6.508041091812706,15,2006-11-25,2030-08-04,Failed,53852,Withdrawal,Quarterly,West,Self-Employed,0,3
+A0532,Customer_532,68,Male,Married,Savings,229808,4.999068984353414,3,2011-03-17,2026-08-13,Success,59205,Withdrawal,Quarterly,West,Student,5,2
+A0533,Customer_533,44,Female,Divorced,Savings,490368,6.38876318871484,17,2011-12-23,2029-10-04,Failed,21705,Deposit,Quarterly,East,Employed,3,1
+A0534,Customer_534,69,Female,Divorced,Current,317822,4.657149750863359,4,2018-09-17,2029-03-04,Failed,33230,Transfer,Yearly,East,Unemployed,5,3
+A0535,Customer_535,60,Female,Divorced,Fixed Deposit,711091,5.76191575517939,6,2018-03-17,2027-11-16,Failed,27280,Deposit,Quarterly,North,Employed,1,3
+A0536,Customer_536,65,Male,Married,Fixed Deposit,546928,2.4659498290062296,19,2010-01-28,2023-09-18,Success,66430,Deposit,Monthly,West,Employed,4,2
+A0537,Customer_537,69,Male,Divorced,Savings,865352,5.296963055816622,18,2000-05-14,2026-08-31,Success,5950,Withdrawal,Yearly,East,Self-Employed,5,4
+A0538,Customer_538,33,Male,Married,Fixed Deposit,654898,6.509923778603771,5,2000-10-30,2027-05-25,Failed,60677,Deposit,Yearly,East,Retired,4,3
+A0539,Customer_539,35,Male,Single,Savings,417444,4.696429931652612,13,2007-08-11,2021-10-07,Failed,3601,Transfer,Quarterly,West,Student,3,4
+A0540,Customer_540,28,Male,Single,Current,613879,2.0060010290506836,14,2001-04-04,2022-02-10,Success,9693,Deposit,Monthly,West,Student,0,1
+A0541,Customer_541,68,Male,Married,Current,108282,6.688674203115345,11,2007-07-29,2030-03-12,Success,83837,Transfer,Monthly,North,Student,2,2
+A0542,Customer_542,62,Female,Married,Savings,8704,5.392796801374544,15,2017-09-01,2027-06-27,Success,91127,Transfer,Yearly,West,Unemployed,3,3
+A0543,Customer_543,24,Female,Single,Current,537361,4.157484126167157,1,2016-03-03,2029-07-24,Failed,88655,Withdrawal,Yearly,West,Unemployed,4,4
+A0544,Customer_544,42,Female,Married,Fixed Deposit,695530,4.103420100002641,6,2000-12-16,2021-02-27,Failed,98369,Deposit,Monthly,West,Retired,2,2
+A0545,Customer_545,20,Female,Single,Current,885247,6.374121503660018,15,2009-02-03,2026-12-07,Success,60642,Withdrawal,Monthly,South,Employed,3,2
+A0546,Customer_546,48,Female,Divorced,Current,881152,5.488214035697896,19,2002-08-26,2023-06-08,Success,50058,Transfer,Yearly,North,Self-Employed,5,3
+A0547,Customer_547,32,Female,Single,Fixed Deposit,393408,4.144781322385603,7,2004-09-30,2029-01-10,Failed,45143,Deposit,Yearly,East,Retired,1,1
+A0548,Customer_548,30,Female,Single,Fixed Deposit,589730,6.692108139481403,15,2018-02-06,2023-02-24,Failed,97874,Withdrawal,Quarterly,West,Student,2,3
+A0549,Customer_549,70,Male,Divorced,Savings,679787,4.410617239384188,3,2014-08-31,2024-02-29,Failed,52442,Withdrawal,Monthly,North,Student,4,4
+A0550,Customer_550,47,Male,Married,Current,623615,5.843358359531928,9,2014-12-19,2022-12-05,Success,25580,Withdrawal,Monthly,West,Student,3,1
+A0551,Customer_551,40,Female,Divorced,Savings,639635,3.7525890688988595,11,2011-09-25,2029-06-16,Success,52092,Deposit,Monthly,North,Student,4,5
+A0552,Customer_552,37,Female,Single,Savings,297408,6.023105194471554,6,2010-04-12,2027-01-10,Failed,5051,Deposit,Quarterly,East,Unemployed,2,3
+A0553,Customer_553,70,Male,Single,Fixed Deposit,313974,6.539294382987142,4,2015-03-17,2021-01-18,Failed,1507,Withdrawal,Yearly,North,Unemployed,5,1
+A0554,Customer_554,68,Female,Single,Savings,718659,6.185952570166721,3,2019-07-08,2029-02-19,Failed,32947,Deposit,Monthly,West,Retired,2,5
+A0555,Customer_555,32,Female,Single,Savings,114355,4.880604084496085,4,2019-08-10,2022-02-09,Failed,15131,Deposit,Quarterly,North,Unemployed,2,1
+A0556,Customer_556,32,Female,Single,Current,506139,4.12744698427182,15,2012-01-13,2023-05-27,Success,93043,Withdrawal,Monthly,East,Retired,4,5
+A0557,Customer_557,19,Male,Divorced,Savings,67938,3.2725901408918663,12,2003-05-05,2026-08-28,Success,17988,Deposit,Quarterly,South,Employed,1,1
+A0558,Customer_558,60,Male,Single,Savings,353618,5.829294451792273,3,2016-08-14,2030-07-19,Failed,42975,Withdrawal,Quarterly,West,Retired,2,3
+A0559,Customer_559,30,Female,Married,Savings,290913,6.550426783377425,17,2012-12-29,2028-12-08,Success,87956,Deposit,Monthly,West,Self-Employed,2,1
+A0560,Customer_560,43,Male,Divorced,Current,672712,2.419087904813389,13,2005-03-23,2026-04-29,Success,98230,Deposit,Quarterly,East,Self-Employed,5,2
+A0561,Customer_561,39,Male,Divorced,Fixed Deposit,341930,4.991461749254402,17,2020-09-28,2025-02-10,Failed,60949,Deposit,Monthly,North,Unemployed,4,1
+A0562,Customer_562,35,Male,Divorced,Current,904339,4.718655109727632,20,2001-08-13,2028-10-30,Failed,63638,Transfer,Monthly,South,Self-Employed,4,5
+A0563,Customer_563,22,Female,Single,Fixed Deposit,291334,3.2890248816095666,6,2000-10-29,2027-08-12,Failed,60570,Transfer,Quarterly,East,Student,2,1
+A0564,Customer_564,67,Male,Single,Fixed Deposit,274832,2.0273472707401523,13,2016-06-29,2023-01-29,Failed,9043,Withdrawal,Yearly,South,Retired,5,1
+A0565,Customer_565,35,Male,Divorced,Fixed Deposit,688991,5.718228406810108,18,2003-03-05,2025-12-06,Failed,10919,Transfer,Quarterly,East,Student,3,3
+A0566,Customer_566,40,Female,Single,Current,746635,2.0355703971530175,13,2010-12-19,2028-07-21,Success,71983,Withdrawal,Quarterly,West,Student,0,4
+A0567,Customer_567,59,Female,Married,Current,999441,4.612703148939781,2,2014-08-31,2022-03-16,Failed,86217,Deposit,Monthly,North,Unemployed,1,3
+A0568,Customer_568,50,Female,Married,Fixed Deposit,936721,4.598809227615373,6,2000-06-05,2023-01-11,Success,31857,Transfer,Monthly,South,Employed,3,1
+A0569,Customer_569,43,Male,Single,Current,684112,3.8751494085247113,11,2010-07-27,2030-05-13,Success,93630,Withdrawal,Monthly,South,Retired,0,5
+A0570,Customer_570,61,Male,Divorced,Savings,314305,3.0270934808167342,19,2020-05-06,2024-12-24,Success,57473,Transfer,Yearly,East,Student,2,5
+A0571,Customer_571,52,Female,Single,Fixed Deposit,198509,6.02143576427928,5,2020-08-03,2025-04-04,Success,18483,Transfer,Quarterly,East,Unemployed,4,3
+A0572,Customer_572,39,Female,Single,Fixed Deposit,158212,4.044225385869659,6,2013-11-13,2025-10-04,Failed,61807,Withdrawal,Quarterly,West,Self-Employed,3,1
+A0573,Customer_573,19,Male,Single,Fixed Deposit,543421,2.5329160822472936,5,2001-01-10,2023-05-28,Failed,36687,Transfer,Quarterly,South,Employed,3,2
+A0574,Customer_574,25,Male,Divorced,Fixed Deposit,803658,4.130357945396599,6,2005-06-11,2026-10-08,Failed,21250,Withdrawal,Quarterly,East,Unemployed,1,2
+A0575,Customer_575,34,Female,Married,Savings,252974,4.926850924403695,2,2015-09-24,2023-07-22,Success,22459,Transfer,Quarterly,East,Student,1,5
+A0576,Customer_576,29,Male,Single,Current,944390,3.3065144738173826,14,2014-07-20,2025-07-28,Failed,2467,Deposit,Yearly,West,Unemployed,0,4
+A0577,Customer_577,55,Female,Divorced,Savings,60532,4.680524454398511,10,2002-12-05,2022-04-08,Success,79659,Deposit,Monthly,North,Student,3,2
+A0578,Customer_578,34,Male,Divorced,Current,845554,4.823351188214275,10,2000-04-27,2029-07-16,Failed,13274,Deposit,Monthly,West,Self-Employed,5,5
+A0579,Customer_579,20,Female,Married,Savings,899960,5.059403385056575,15,2003-11-12,2024-07-11,Success,23330,Withdrawal,Yearly,West,Retired,2,2
+A0580,Customer_580,24,Male,Divorced,Fixed Deposit,842339,6.958993370853577,10,2014-03-10,2022-05-22,Success,38654,Withdrawal,Quarterly,West,Retired,0,3
+A0581,Customer_581,56,Female,Divorced,Savings,850376,3.9872707409773724,6,2001-02-13,2026-03-24,Success,16372,Deposit,Monthly,South,Self-Employed,3,1
+A0582,Customer_582,45,Male,Divorced,Savings,630180,3.0184683059613464,4,2020-04-15,2022-03-28,Failed,70178,Withdrawal,Quarterly,East,Student,2,2
+A0583,Customer_583,40,Female,Married,Fixed Deposit,424727,4.76052474170135,5,2006-11-22,2026-10-30,Failed,97282,Transfer,Quarterly,South,Unemployed,5,5
+A0584,Customer_584,64,Male,Single,Current,693616,4.787813375982186,7,2018-05-29,2022-07-11,Failed,51329,Transfer,Quarterly,East,Self-Employed,5,3
+A0585,Customer_585,68,Female,Married,Current,336109,2.8935979891647756,1,2017-10-19,2026-07-24,Failed,22179,Transfer,Quarterly,East,Employed,4,5
+A0586,Customer_586,38,Female,Single,Fixed Deposit,714824,4.795469148267483,20,2002-03-08,2029-07-20,Failed,10269,Transfer,Yearly,West,Self-Employed,1,2
+A0587,Customer_587,45,Female,Divorced,Fixed Deposit,147726,4.418800788140954,9,2010-03-26,2025-01-19,Failed,88100,Transfer,Yearly,North,Student,1,4
+A0588,Customer_588,56,Female,Divorced,Fixed Deposit,757320,6.942541320124755,1,2013-09-16,2028-11-26,Success,1569,Withdrawal,Monthly,North,Unemployed,0,2
+A0589,Customer_589,50,Female,Single,Fixed Deposit,27691,4.888255765451353,15,2003-10-30,2024-03-26,Failed,88885,Withdrawal,Quarterly,North,Retired,1,5
+A0590,Customer_590,25,Male,Married,Fixed Deposit,688237,5.870972421224959,16,2018-09-26,2027-04-02,Success,35915,Transfer,Quarterly,South,Self-Employed,1,2
+A0591,Customer_591,42,Female,Married,Savings,522533,3.990648758999349,16,2013-04-03,2029-02-05,Failed,20219,Deposit,Yearly,South,Employed,2,4
+A0592,Customer_592,54,Male,Married,Current,310963,2.6903425922616915,18,2001-06-07,2021-06-16,Failed,57857,Withdrawal,Yearly,North,Retired,4,1
+A0593,Customer_593,30,Female,Single,Fixed Deposit,273028,6.319152633074032,1,2018-05-05,2021-12-03,Success,47035,Deposit,Quarterly,North,Unemployed,2,5
+A0594,Customer_594,34,Male,Divorced,Current,951965,2.5954288224806707,20,2018-05-02,2024-09-05,Failed,23422,Transfer,Quarterly,West,Unemployed,2,1
+A0595,Customer_595,20,Female,Divorced,Fixed Deposit,439897,3.1488565223885647,16,2002-05-21,2026-07-16,Failed,28499,Transfer,Monthly,West,Employed,4,5
+A0596,Customer_596,63,Female,Divorced,Savings,425252,5.915546301726678,8,2002-07-24,2022-04-19,Failed,93739,Transfer,Yearly,East,Unemployed,3,1
+A0597,Customer_597,45,Male,Single,Savings,408135,6.746225892074224,7,2011-02-24,2025-04-26,Success,4614,Deposit,Quarterly,South,Unemployed,0,3
+A0598,Customer_598,18,Female,Divorced,Savings,773519,2.5013930877468784,19,2013-05-06,2024-03-07,Failed,88579,Transfer,Yearly,South,Retired,5,3
+A0599,Customer_599,51,Male,Divorced,Savings,38034,4.541717715582285,16,2017-12-03,2026-02-15,Success,69869,Deposit,Quarterly,North,Employed,2,1
+A0600,Customer_600,69,Male,Married,Current,612344,5.930405614466885,15,2013-10-22,2027-09-26,Success,28433,Deposit,Quarterly,South,Retired,4,3
+A0601,Customer_601,52,Female,Divorced,Savings,743464,6.0042686667507965,14,2004-12-11,2029-04-04,Failed,58041,Withdrawal,Yearly,West,Unemployed,1,2
+A0602,Customer_602,61,Female,Married,Current,600829,5.070126835147194,15,2001-05-31,2024-07-01,Failed,91423,Transfer,Monthly,West,Employed,4,5
+A0603,Customer_603,64,Male,Single,Fixed Deposit,856653,5.4228222335424245,3,2018-01-16,2028-09-15,Success,6359,Transfer,Yearly,North,Unemployed,5,5
+A0604,Customer_604,65,Female,Married,Fixed Deposit,200140,2.2602639854229243,20,2004-07-18,2030-06-08,Failed,83303,Withdrawal,Yearly,North,Student,1,2
+A0605,Customer_605,65,Female,Divorced,Savings,360836,3.945518402925515,20,2009-07-23,2025-12-24,Success,68634,Deposit,Monthly,East,Student,2,1
+A0606,Customer_606,60,Female,Divorced,Current,762842,5.179383091825643,1,2007-07-26,2023-07-15,Success,84118,Transfer,Yearly,North,Employed,1,4
+A0607,Customer_607,30,Male,Married,Fixed Deposit,749021,6.021846804435871,8,2018-03-14,2027-03-19,Failed,86940,Transfer,Monthly,North,Unemployed,1,2
+A0608,Customer_608,41,Female,Divorced,Fixed Deposit,234164,6.116277327587024,18,2018-09-30,2025-07-27,Failed,94001,Withdrawal,Yearly,North,Unemployed,3,5
+A0609,Customer_609,45,Male,Married,Fixed Deposit,720656,4.358343300441719,9,2016-07-20,2024-04-05,Success,86612,Transfer,Yearly,West,Employed,1,2
+A0610,Customer_610,22,Male,Divorced,Fixed Deposit,561605,5.001227208799773,20,2015-03-20,2030-08-05,Success,13573,Deposit,Monthly,East,Retired,1,5
+A0611,Customer_611,60,Male,Married,Savings,670320,2.4407034465700557,18,2009-01-06,2025-10-19,Success,51299,Transfer,Monthly,North,Employed,4,3
+A0612,Customer_612,39,Male,Married,Savings,824024,3.3154599898222923,7,2007-04-10,2023-02-13,Failed,90585,Transfer,Monthly,South,Student,5,4
+A0613,Customer_613,57,Female,Single,Savings,499844,3.85417563021331,2,2002-09-16,2030-08-11,Success,40512,Withdrawal,Quarterly,East,Retired,1,5
+A0614,Customer_614,38,Female,Married,Fixed Deposit,951561,5.045144306039636,6,2015-05-06,2021-10-13,Failed,58294,Transfer,Quarterly,North,Student,2,4
+A0615,Customer_615,60,Male,Married,Savings,987361,5.622473567140325,5,2012-12-01,2030-06-07,Failed,6970,Withdrawal,Monthly,West,Student,4,4
+A0616,Customer_616,25,Male,Single,Fixed Deposit,705505,6.65342495532513,2,2012-03-29,2029-12-31,Success,78507,Deposit,Yearly,West,Self-Employed,3,1
+A0617,Customer_617,64,Male,Divorced,Savings,376911,4.0032242914276415,12,2003-01-30,2026-05-03,Success,711,Withdrawal,Quarterly,South,Student,5,5
+A0618,Customer_618,37,Male,Married,Savings,532958,5.280876149274615,2,2007-03-19,2028-08-13,Failed,6478,Withdrawal,Monthly,South,Retired,4,1
+A0619,Customer_619,50,Female,Single,Current,315777,3.4323461693378468,5,2018-10-05,2025-02-14,Failed,49565,Withdrawal,Monthly,South,Employed,3,3
+A0620,Customer_620,37,Male,Single,Current,887486,6.817649111057541,2,2017-10-15,2023-01-05,Failed,26542,Transfer,Quarterly,East,Employed,5,2
+A0621,Customer_621,60,Male,Married,Fixed Deposit,179243,2.287315172915006,19,2004-10-12,2021-02-22,Success,32828,Withdrawal,Quarterly,West,Unemployed,2,3
+A0622,Customer_622,44,Male,Divorced,Fixed Deposit,882473,5.86804226116198,20,2017-02-20,2028-07-24,Success,49205,Withdrawal,Yearly,West,Employed,1,2
+A0623,Customer_623,38,Male,Single,Fixed Deposit,690558,2.876355642091159,10,2001-01-08,2026-07-07,Success,31365,Withdrawal,Monthly,East,Retired,2,2
+A0624,Customer_624,43,Male,Married,Current,920071,4.471841888091417,11,2013-04-20,2028-07-15,Failed,26312,Transfer,Quarterly,South,Self-Employed,3,4
+A0625,Customer_625,62,Female,Single,Savings,586365,2.0535519868771446,3,2003-11-21,2022-03-07,Failed,12078,Transfer,Quarterly,South,Self-Employed,2,2
+A0626,Customer_626,36,Female,Divorced,Current,190934,6.252838181588211,2,2007-07-11,2025-06-12,Success,2202,Deposit,Quarterly,South,Self-Employed,2,4
+A0627,Customer_627,53,Female,Married,Savings,309054,6.6537923367287926,4,2001-06-01,2025-11-30,Failed,55370,Withdrawal,Yearly,West,Employed,1,1
+A0628,Customer_628,26,Female,Married,Fixed Deposit,103344,4.590766410753373,14,2002-09-16,2026-11-11,Failed,3762,Transfer,Yearly,South,Student,2,3
+A0629,Customer_629,30,Female,Divorced,Current,494649,2.97373247271811,6,2006-02-21,2028-05-21,Success,2008,Deposit,Quarterly,North,Employed,2,1
+A0630,Customer_630,44,Male,Divorced,Fixed Deposit,135159,5.919797226768543,6,2003-03-03,2028-08-03,Success,44286,Withdrawal,Monthly,North,Employed,5,4
+A0631,Customer_631,60,Female,Single,Savings,777909,4.552739251994104,10,2016-12-27,2021-12-15,Failed,25285,Withdrawal,Monthly,North,Student,2,5
+A0632,Customer_632,42,Male,Married,Savings,272216,5.492248662995955,20,2009-04-23,2022-05-04,Failed,89223,Withdrawal,Monthly,South,Employed,5,1
+A0633,Customer_633,61,Female,Single,Current,761413,5.075949928517748,20,2003-10-08,2022-08-11,Failed,87780,Deposit,Yearly,North,Unemployed,2,5
+A0634,Customer_634,65,Female,Married,Current,848609,5.370121905060899,19,2015-08-14,2025-06-06,Success,8380,Transfer,Monthly,South,Employed,3,1
+A0635,Customer_635,29,Female,Single,Current,587187,3.798699991377317,18,2008-04-18,2025-06-29,Failed,29010,Deposit,Quarterly,North,Retired,2,3
+A0636,Customer_636,57,Female,Married,Fixed Deposit,800977,5.275095596920225,6,2012-05-30,2028-10-17,Success,12761,Deposit,Quarterly,East,Unemployed,3,5
+A0637,Customer_637,54,Male,Divorced,Savings,957956,6.878229504728495,15,2003-09-13,2027-08-16,Success,87146,Transfer,Monthly,West,Self-Employed,4,5
+A0638,Customer_638,37,Female,Single,Current,192961,2.434214062870187,19,2009-11-02,2022-02-21,Failed,22104,Deposit,Quarterly,North,Retired,3,5
+A0639,Customer_639,43,Male,Married,Fixed Deposit,993921,3.3796843506273953,12,2005-06-18,2029-04-25,Success,94997,Deposit,Quarterly,East,Employed,3,5
+A0640,Customer_640,53,Female,Married,Fixed Deposit,713730,3.997168449801492,2,2020-10-05,2022-11-23,Failed,21995,Deposit,Monthly,South,Unemployed,0,5
+A0641,Customer_641,18,Female,Single,Fixed Deposit,944289,5.348310231981542,3,2013-01-19,2021-09-23,Failed,5868,Transfer,Quarterly,West,Unemployed,3,4
+A0642,Customer_642,37,Female,Divorced,Savings,352936,4.027254834252602,10,2000-11-29,2025-01-29,Success,54584,Deposit,Quarterly,South,Self-Employed,0,5
+A0643,Customer_643,36,Male,Divorced,Current,687224,3.001551915621113,11,2002-12-28,2023-03-27,Success,67274,Deposit,Yearly,South,Retired,3,2
+A0644,Customer_644,31,Male,Single,Current,94637,2.07683261248937,12,2002-03-29,2024-10-19,Failed,14214,Transfer,Quarterly,West,Unemployed,2,3
+A0645,Customer_645,45,Female,Single,Fixed Deposit,234049,5.51810962217365,13,2017-09-28,2023-04-01,Failed,42979,Withdrawal,Monthly,East,Retired,5,3
+A0646,Customer_646,68,Female,Married,Current,373541,6.59588710554562,3,2019-01-02,2027-09-03,Success,42394,Transfer,Yearly,East,Employed,1,2
+A0647,Customer_647,55,Male,Married,Savings,235176,4.74796326773218,14,2014-03-06,2030-06-20,Success,73769,Withdrawal,Yearly,South,Student,3,4
+A0648,Customer_648,56,Male,Divorced,Current,781360,5.630693548536479,18,2013-09-26,2025-07-14,Success,82254,Deposit,Quarterly,North,Student,2,2
+A0649,Customer_649,59,Female,Divorced,Fixed Deposit,914762,4.795569334738291,3,2008-06-08,2022-05-18,Failed,24944,Withdrawal,Monthly,West,Employed,0,3
+A0650,Customer_650,38,Female,Divorced,Savings,323002,4.914662076089353,10,2017-06-10,2023-08-12,Success,81977,Transfer,Quarterly,West,Employed,5,4
+A0651,Customer_651,47,Male,Single,Current,441897,3.7373754442962874,16,2003-07-16,2030-05-26,Failed,27247,Transfer,Quarterly,West,Self-Employed,1,4
+A0652,Customer_652,46,Female,Single,Savings,827372,6.0775743974934455,5,2000-05-08,2025-10-06,Success,71102,Transfer,Monthly,North,Retired,1,4
+A0653,Customer_653,46,Male,Single,Current,930922,3.1314775648103432,4,2019-09-23,2029-02-18,Failed,51881,Deposit,Yearly,North,Self-Employed,5,4
+A0654,Customer_654,61,Female,Divorced,Savings,348411,6.815285697375431,9,2010-12-03,2026-08-07,Success,56183,Withdrawal,Monthly,South,Unemployed,5,1
+A0655,Customer_655,31,Female,Divorced,Fixed Deposit,390737,4.273795043293902,11,2001-10-23,2024-02-15,Failed,15934,Withdrawal,Quarterly,East,Employed,2,4
+A0656,Customer_656,50,Male,Divorced,Fixed Deposit,274216,4.01978234853248,17,2000-02-22,2029-07-30,Failed,30562,Transfer,Monthly,North,Self-Employed,2,1
+A0657,Customer_657,48,Male,Divorced,Fixed Deposit,615015,2.023257257830631,14,2000-02-29,2029-01-01,Failed,28120,Transfer,Yearly,North,Student,2,4
+A0658,Customer_658,68,Female,Single,Savings,309334,2.875173934069821,17,2004-01-09,2029-08-04,Failed,13978,Transfer,Monthly,West,Employed,0,1
+A0659,Customer_659,68,Male,Married,Savings,487288,4.53119048127774,7,2020-10-08,2027-07-12,Failed,46837,Transfer,Quarterly,South,Unemployed,2,3
+A0660,Customer_660,65,Female,Single,Fixed Deposit,893562,4.7931535643482945,7,2001-12-31,2027-08-29,Failed,42484,Transfer,Yearly,North,Retired,3,5
+A0661,Customer_661,28,Male,Married,Fixed Deposit,124502,4.515845831269466,20,2015-11-07,2024-01-24,Failed,22856,Deposit,Monthly,East,Self-Employed,3,4
+A0662,Customer_662,60,Male,Married,Savings,494393,3.699829472117702,2,2014-08-14,2029-06-25,Failed,2065,Withdrawal,Yearly,North,Retired,2,5
+A0663,Customer_663,23,Male,Single,Savings,57284,2.5850449876093204,4,2013-04-25,2029-11-08,Failed,52809,Deposit,Quarterly,South,Student,4,4
+A0664,Customer_664,36,Male,Single,Savings,909479,4.566433435555895,19,2019-11-22,2029-12-25,Success,85820,Transfer,Monthly,East,Self-Employed,4,3
+A0665,Customer_665,50,Female,Single,Savings,666213,3.288466933224836,17,2006-05-13,2028-03-22,Success,41550,Deposit,Quarterly,East,Employed,5,4
+A0666,Customer_666,60,Female,Divorced,Savings,612922,4.6895169471631695,3,2009-05-02,2025-06-28,Success,1670,Transfer,Quarterly,West,Unemployed,1,3
+A0667,Customer_667,58,Male,Single,Current,609502,5.966946288008015,16,2015-07-22,2024-12-29,Failed,51111,Deposit,Quarterly,East,Unemployed,1,1
+A0668,Customer_668,57,Female,Divorced,Current,991171,3.25070745848834,20,2018-02-09,2026-05-03,Failed,27987,Transfer,Monthly,North,Retired,4,5
+A0669,Customer_669,39,Female,Married,Current,651803,4.213843202816525,10,2017-10-08,2028-06-23,Success,60232,Withdrawal,Monthly,South,Unemployed,4,1
+A0670,Customer_670,23,Female,Single,Savings,75675,3.8854014040220006,14,2017-04-29,2027-10-07,Success,28948,Transfer,Monthly,East,Employed,3,2
+A0671,Customer_671,70,Female,Divorced,Savings,496158,4.41814947761473,20,2010-09-04,2025-07-15,Success,8752,Transfer,Monthly,North,Unemployed,2,1
+A0672,Customer_672,66,Female,Divorced,Savings,933630,3.216366282011318,11,2015-07-12,2026-06-08,Failed,86340,Transfer,Yearly,South,Student,0,3
+A0673,Customer_673,33,Female,Divorced,Fixed Deposit,204993,3.6983038172587275,9,2002-11-05,2026-09-26,Failed,36597,Withdrawal,Quarterly,East,Retired,0,5
+A0674,Customer_674,61,Male,Single,Fixed Deposit,525788,5.877994025455729,17,2004-08-15,2024-02-17,Success,85289,Deposit,Quarterly,West,Employed,1,5
+A0675,Customer_675,37,Female,Married,Fixed Deposit,126636,5.407973366257565,19,2003-03-18,2022-08-27,Success,81877,Transfer,Quarterly,North,Retired,1,5
+A0676,Customer_676,32,Male,Single,Fixed Deposit,910637,6.482619113729392,20,2014-05-08,2029-08-12,Failed,48462,Transfer,Yearly,North,Student,2,2
+A0677,Customer_677,69,Female,Divorced,Current,714763,6.3101163963731635,12,2006-01-28,2026-02-06,Success,5859,Transfer,Monthly,West,Employed,5,3
+A0678,Customer_678,30,Male,Married,Savings,401209,4.40985081032918,5,2011-09-25,2022-03-19,Failed,8925,Transfer,Monthly,East,Employed,3,1
+A0679,Customer_679,27,Female,Married,Current,556575,3.289098824097002,20,2010-02-06,2022-05-16,Success,28747,Transfer,Monthly,North,Employed,5,5
+A0680,Customer_680,19,Female,Married,Savings,313848,3.913366229596056,19,2009-03-29,2023-10-24,Success,53983,Deposit,Monthly,North,Self-Employed,4,1
+A0681,Customer_681,20,Female,Married,Current,434174,5.943280093155728,16,2005-05-13,2026-06-28,Failed,39622,Transfer,Quarterly,East,Employed,3,1
+A0682,Customer_682,33,Male,Divorced,Fixed Deposit,57688,3.1019116147202612,17,2003-11-30,2026-07-30,Failed,78594,Withdrawal,Quarterly,West,Self-Employed,0,3
+A0683,Customer_683,48,Female,Divorced,Current,914151,5.505880505961557,16,2013-09-10,2023-08-04,Success,65580,Deposit,Monthly,East,Unemployed,5,4
+A0684,Customer_684,57,Male,Married,Current,896735,6.000806969245176,16,2015-07-07,2028-01-18,Success,13444,Transfer,Quarterly,South,Retired,3,2
+A0685,Customer_685,67,Male,Married,Savings,159102,4.062129860946747,6,2000-11-04,2022-07-06,Success,93492,Transfer,Yearly,East,Employed,5,3
+A0686,Customer_686,22,Female,Married,Fixed Deposit,145037,3.765481327343889,20,2013-05-16,2021-05-02,Failed,70378,Deposit,Quarterly,North,Self-Employed,5,5
+A0687,Customer_687,47,Female,Married,Current,211026,4.678259536986172,8,2004-01-14,2022-02-12,Failed,74706,Deposit,Quarterly,South,Employed,3,1
+A0688,Customer_688,44,Female,Divorced,Savings,360315,5.504092761582771,10,2016-02-01,2029-04-11,Failed,22573,Deposit,Yearly,South,Self-Employed,1,4
+A0689,Customer_689,58,Male,Married,Fixed Deposit,430068,3.316748456964553,7,2011-03-19,2021-08-05,Failed,33122,Withdrawal,Monthly,East,Unemployed,2,5
+A0690,Customer_690,54,Male,Married,Fixed Deposit,598062,3.43644791442936,1,2013-09-22,2030-04-24,Failed,12518,Deposit,Yearly,North,Student,4,5
+A0691,Customer_691,30,Female,Single,Savings,937215,3.9946531829870455,4,2001-12-22,2021-10-07,Failed,78725,Transfer,Quarterly,South,Employed,4,2
+A0692,Customer_692,63,Female,Divorced,Savings,951660,5.743940659652452,1,2014-01-24,2026-08-03,Success,42613,Withdrawal,Monthly,West,Self-Employed,3,5
+A0693,Customer_693,62,Female,Married,Savings,480798,3.7099643899511103,15,2018-07-15,2028-08-09,Success,82789,Deposit,Monthly,North,Unemployed,0,3
+A0694,Customer_694,42,Male,Married,Fixed Deposit,151181,4.772757520206133,4,2017-07-20,2021-04-20,Success,91367,Withdrawal,Monthly,North,Self-Employed,0,1
+A0695,Customer_695,49,Male,Single,Savings,332752,2.892428736260364,7,2006-10-03,2023-01-04,Failed,51030,Withdrawal,Quarterly,East,Self-Employed,0,2
+A0696,Customer_696,43,Female,Married,Current,905285,3.569363897798133,20,2007-10-20,2025-04-17,Success,88953,Withdrawal,Quarterly,North,Unemployed,5,1
+A0697,Customer_697,33,Female,Married,Savings,751432,3.092830668923119,14,2009-05-23,2027-10-13,Failed,91027,Deposit,Quarterly,West,Employed,2,4
+A0698,Customer_698,27,Male,Married,Current,190117,4.868563095818303,14,2000-02-07,2028-08-14,Failed,17523,Withdrawal,Monthly,North,Student,2,2
+A0699,Customer_699,59,Female,Single,Current,817779,2.9139222632020005,2,2012-07-04,2024-09-01,Success,43622,Deposit,Monthly,West,Unemployed,4,2
+A0700,Customer_700,62,Female,Divorced,Current,85736,5.730781290050868,11,2005-04-14,2022-09-18,Success,23080,Withdrawal,Quarterly,South,Self-Employed,2,3
+A0701,Customer_701,18,Male,Single,Current,512265,6.6512763168635765,12,2004-04-21,2024-05-25,Failed,83377,Transfer,Quarterly,East,Unemployed,3,1
+A0702,Customer_702,66,Male,Divorced,Savings,349787,2.950837489180242,18,2002-08-20,2027-12-23,Success,99939,Deposit,Quarterly,North,Self-Employed,2,2
+A0703,Customer_703,67,Female,Single,Fixed Deposit,662685,5.685561239706968,7,2011-11-22,2027-12-28,Success,90228,Transfer,Quarterly,North,Retired,0,4
+A0704,Customer_704,24,Female,Single,Current,186413,3.1743068596508004,1,2002-02-22,2022-01-30,Failed,41776,Deposit,Yearly,North,Unemployed,3,2
+A0705,Customer_705,67,Male,Married,Savings,329638,3.2102825892248186,7,2013-11-18,2029-07-11,Success,87442,Withdrawal,Yearly,West,Student,1,5
+A0706,Customer_706,45,Male,Divorced,Current,666320,3.3270268666289238,10,2008-02-12,2021-11-10,Success,63293,Withdrawal,Monthly,South,Self-Employed,5,5
+A0707,Customer_707,32,Male,Divorced,Savings,61831,3.1460376606422122,9,2019-05-08,2028-05-31,Failed,8949,Withdrawal,Yearly,East,Self-Employed,0,1
+A0708,Customer_708,29,Male,Divorced,Current,5942,6.1747024003302835,3,2017-01-26,2029-06-06,Failed,44022,Withdrawal,Quarterly,West,Unemployed,2,1
+A0709,Customer_709,69,Male,Divorced,Fixed Deposit,475012,6.181673549808446,10,2012-02-08,2026-10-31,Failed,2413,Withdrawal,Quarterly,West,Self-Employed,5,4
+A0710,Customer_710,62,Female,Married,Current,287814,3.7801368667183652,10,2011-05-20,2029-08-10,Failed,79861,Deposit,Yearly,East,Self-Employed,3,2
+A0711,Customer_711,51,Male,Married,Fixed Deposit,220553,5.8946924025822165,17,2004-12-01,2026-07-10,Failed,76781,Deposit,Yearly,South,Unemployed,1,1
+A0712,Customer_712,47,Male,Single,Fixed Deposit,799169,2.599392463273858,18,2010-05-30,2029-11-22,Failed,58939,Transfer,Quarterly,North,Unemployed,1,3
+A0713,Customer_713,21,Female,Single,Savings,812117,2.3924378631939036,11,2017-04-11,2026-03-24,Failed,50218,Transfer,Monthly,North,Student,4,1
+A0714,Customer_714,53,Male,Married,Current,177795,6.778898420312407,1,2014-01-18,2023-04-08,Success,67081,Transfer,Yearly,North,Unemployed,2,2
+A0715,Customer_715,33,Female,Single,Current,605272,4.463324316361062,4,2014-10-15,2024-04-17,Success,84063,Withdrawal,Yearly,South,Employed,4,3
+A0716,Customer_716,25,Male,Married,Fixed Deposit,802619,2.033118380764283,11,2004-08-31,2028-06-04,Failed,97331,Deposit,Monthly,West,Student,1,2
+A0717,Customer_717,47,Male,Divorced,Current,167131,6.2854466863525635,11,2006-03-14,2026-08-02,Failed,30564,Withdrawal,Monthly,North,Unemployed,4,4
+A0718,Customer_718,26,Male,Single,Savings,514358,6.7899654523381265,13,2001-03-10,2026-07-02,Failed,66084,Transfer,Yearly,West,Retired,0,2
+A0719,Customer_719,69,Male,Married,Fixed Deposit,824353,6.240052978779826,19,2004-05-05,2026-08-30,Success,77100,Transfer,Yearly,North,Unemployed,3,3
+A0720,Customer_720,47,Female,Divorced,Fixed Deposit,801660,3.855982676918338,20,2002-07-12,2023-12-08,Failed,92457,Deposit,Yearly,West,Unemployed,1,4
+A0721,Customer_721,60,Male,Divorced,Savings,818629,3.5770845298595866,1,2017-11-12,2027-01-31,Success,1842,Withdrawal,Yearly,West,Retired,2,1
+A0722,Customer_722,51,Female,Divorced,Savings,93318,6.49060600196426,6,2003-05-07,2024-11-08,Failed,30588,Transfer,Monthly,South,Student,4,2
+A0723,Customer_723,53,Female,Married,Savings,136691,6.404936242736867,7,2015-05-15,2030-01-29,Failed,2880,Withdrawal,Quarterly,West,Self-Employed,4,2
+A0724,Customer_724,56,Male,Married,Current,645328,4.8725968997466875,11,2018-12-04,2030-08-23,Success,80886,Deposit,Yearly,West,Employed,5,5
+A0725,Customer_725,38,Female,Married,Savings,455779,3.3736651648135982,11,2020-06-10,2027-01-24,Failed,99575,Withdrawal,Yearly,South,Retired,2,2
+A0726,Customer_726,66,Female,Divorced,Savings,665259,2.9143593156484764,16,2010-08-22,2027-02-17,Failed,16360,Deposit,Yearly,North,Student,4,5
+A0727,Customer_727,46,Female,Divorced,Fixed Deposit,451268,5.821311627179638,16,2011-02-27,2021-03-14,Success,40581,Transfer,Yearly,West,Self-Employed,4,3
+A0728,Customer_728,57,Male,Divorced,Current,423988,4.555668178210654,2,2003-12-15,2029-07-27,Failed,31084,Withdrawal,Yearly,North,Retired,2,4
+A0729,Customer_729,70,Male,Married,Fixed Deposit,450865,3.9893974893574704,5,2003-08-01,2021-05-10,Failed,96819,Withdrawal,Quarterly,East,Retired,5,5
+A0730,Customer_730,64,Female,Married,Fixed Deposit,501590,5.750846928978904,16,2015-01-11,2025-10-29,Success,56264,Withdrawal,Monthly,East,Self-Employed,0,3
+A0731,Customer_731,50,Female,Single,Savings,402936,2.6412297507430678,5,2020-09-10,2030-11-14,Success,99353,Withdrawal,Monthly,South,Student,1,2
+A0732,Customer_732,45,Male,Divorced,Current,5895,4.628677219125253,15,2000-12-19,2022-05-03,Success,32022,Deposit,Quarterly,East,Unemployed,0,3
+A0733,Customer_733,53,Female,Married,Savings,40557,4.115879337427023,18,2001-03-18,2025-04-21,Failed,81333,Deposit,Monthly,West,Unemployed,5,4
+A0734,Customer_734,46,Female,Single,Fixed Deposit,560711,6.698272106825111,11,2014-06-18,2026-01-18,Success,10505,Withdrawal,Quarterly,North,Self-Employed,5,1
+A0735,Customer_735,28,Female,Single,Current,210100,2.16281323516649,15,2008-03-02,2024-07-12,Success,7954,Transfer,Quarterly,South,Unemployed,5,4
+A0736,Customer_736,65,Female,Divorced,Fixed Deposit,767151,3.7364448083086654,14,2006-05-24,2030-07-26,Success,18129,Deposit,Monthly,South,Retired,2,4
+A0737,Customer_737,48,Female,Divorced,Fixed Deposit,392225,6.3020006524897605,2,2004-09-12,2025-03-22,Success,49189,Withdrawal,Yearly,North,Retired,2,4
+A0738,Customer_738,46,Female,Married,Current,997219,5.879519819274558,17,2009-09-30,2025-12-18,Success,65469,Withdrawal,Quarterly,North,Unemployed,3,3
+A0739,Customer_739,34,Male,Single,Savings,15760,4.285980171580135,10,2005-08-21,2026-02-26,Failed,38977,Deposit,Quarterly,South,Employed,5,2
+A0740,Customer_740,66,Male,Divorced,Savings,936336,2.6018409020544797,19,2007-07-01,2021-05-28,Success,26578,Deposit,Yearly,West,Retired,1,4
+A0741,Customer_741,33,Male,Divorced,Fixed Deposit,338864,4.5910256974425385,11,2013-10-31,2021-05-15,Success,19979,Withdrawal,Yearly,North,Self-Employed,1,3
+A0742,Customer_742,58,Female,Single,Savings,794612,3.578256327256953,18,2018-01-21,2022-12-26,Success,49350,Withdrawal,Monthly,North,Unemployed,2,5
+A0743,Customer_743,35,Male,Divorced,Current,874703,2.042093024098127,18,2019-12-18,2027-03-31,Success,26889,Deposit,Quarterly,South,Self-Employed,3,1
+A0744,Customer_744,67,Female,Single,Current,557829,5.370515302224174,1,2017-01-03,2028-05-24,Failed,84253,Deposit,Monthly,North,Student,1,4
+A0745,Customer_745,67,Female,Single,Savings,200834,3.8971400179344493,7,2010-03-01,2030-08-26,Success,5068,Transfer,Yearly,North,Unemployed,3,1
+A0746,Customer_746,51,Male,Divorced,Savings,19786,2.5037391306994925,19,2000-12-20,2029-09-28,Success,31303,Transfer,Quarterly,North,Employed,2,4
+A0747,Customer_747,49,Male,Single,Fixed Deposit,710621,3.8080116291634023,11,2002-05-05,2024-05-26,Failed,95167,Deposit,Yearly,South,Employed,2,2
+A0748,Customer_748,58,Female,Single,Current,5324,6.309210116405068,12,2016-08-09,2030-12-03,Success,78490,Withdrawal,Yearly,West,Retired,1,2
+A0749,Customer_749,33,Male,Married,Savings,658128,2.935762209764249,3,2001-03-05,2028-12-02,Failed,58260,Deposit,Monthly,South,Self-Employed,5,1
+A0750,Customer_750,35,Male,Single,Savings,770238,3.3142451732285005,5,2020-09-28,2022-11-04,Failed,96995,Withdrawal,Monthly,East,Student,5,1
+A0751,Customer_751,46,Female,Divorced,Savings,261909,3.3470411476249007,9,2012-01-20,2026-07-07,Success,43182,Deposit,Monthly,North,Self-Employed,2,1
+A0752,Customer_752,22,Female,Single,Fixed Deposit,238256,6.7926340853081655,1,2003-12-11,2025-10-31,Failed,17698,Deposit,Yearly,East,Student,2,2
+A0753,Customer_753,63,Male,Single,Current,728213,3.715482300740635,11,2003-07-18,2022-07-05,Success,36554,Transfer,Monthly,East,Retired,4,4
+A0754,Customer_754,36,Female,Divorced,Fixed Deposit,920585,2.9195683709818874,13,2017-08-13,2024-07-03,Failed,41720,Withdrawal,Quarterly,South,Unemployed,5,1
+A0755,Customer_755,33,Male,Single,Current,362076,4.119714402054715,18,2000-08-26,2029-01-10,Failed,84458,Deposit,Yearly,East,Unemployed,0,2
+A0756,Customer_756,35,Male,Single,Current,328252,4.095464717623317,6,2010-11-17,2025-05-13,Success,99779,Withdrawal,Yearly,South,Retired,1,5
+A0757,Customer_757,39,Female,Single,Fixed Deposit,136193,5.760978816908212,19,2011-07-20,2026-06-20,Failed,5291,Withdrawal,Monthly,West,Student,0,3
+A0758,Customer_758,38,Female,Divorced,Savings,108697,3.8253899311395765,20,2002-08-08,2029-07-27,Success,68371,Withdrawal,Yearly,West,Retired,5,2
+A0759,Customer_759,52,Male,Married,Fixed Deposit,403181,4.002962987111118,13,2001-08-03,2022-03-25,Failed,54480,Withdrawal,Quarterly,North,Employed,3,3
+A0760,Customer_760,23,Female,Married,Savings,528786,4.25364495738928,6,2020-01-28,2027-05-20,Failed,85040,Withdrawal,Monthly,North,Unemployed,3,4
+A0761,Customer_761,26,Male,Single,Fixed Deposit,618265,4.857048590896247,20,2005-04-11,2028-07-27,Failed,37908,Withdrawal,Quarterly,North,Employed,3,3
+A0762,Customer_762,27,Female,Divorced,Savings,321984,6.89636225908595,4,2016-03-06,2026-07-03,Success,98476,Deposit,Monthly,East,Unemployed,3,5
+A0763,Customer_763,32,Female,Divorced,Fixed Deposit,176133,5.430059560707463,10,2009-12-22,2028-05-27,Success,3205,Transfer,Monthly,South,Employed,0,3
+A0764,Customer_764,42,Male,Divorced,Current,69458,6.070953320706998,11,2013-04-17,2027-03-19,Success,30116,Withdrawal,Yearly,West,Self-Employed,4,3
+A0765,Customer_765,62,Female,Divorced,Savings,864862,5.604077297074687,2,2013-01-01,2028-09-08,Success,96159,Deposit,Yearly,East,Student,0,5
+A0766,Customer_766,27,Male,Married,Fixed Deposit,48939,6.020437905036106,9,2007-04-24,2027-01-19,Failed,43520,Withdrawal,Monthly,South,Student,4,3
+A0767,Customer_767,63,Female,Divorced,Fixed Deposit,313687,4.776700237103505,14,2009-05-25,2027-06-02,Success,45022,Transfer,Quarterly,West,Unemployed,2,1
+A0768,Customer_768,31,Male,Married,Savings,995535,6.281543693724401,3,2004-06-16,2026-04-09,Success,31852,Withdrawal,Quarterly,East,Unemployed,0,1
+A0769,Customer_769,22,Male,Single,Current,305955,2.9803160706849297,16,2016-10-03,2026-05-04,Failed,27076,Deposit,Monthly,East,Employed,4,4
+A0770,Customer_770,44,Female,Single,Fixed Deposit,479073,6.000187291173186,8,2015-03-07,2027-04-22,Success,70788,Deposit,Quarterly,East,Self-Employed,3,2
+A0771,Customer_771,44,Male,Divorced,Savings,764187,5.692710069922658,12,2020-02-24,2030-08-01,Success,7187,Withdrawal,Quarterly,South,Unemployed,0,1
+A0772,Customer_772,39,Female,Divorced,Savings,546561,4.364935122641487,15,2007-04-22,2022-10-03,Failed,87263,Transfer,Yearly,East,Unemployed,4,5
+A0773,Customer_773,52,Male,Married,Current,626339,2.0487114554869854,10,2005-02-27,2026-09-07,Failed,32650,Withdrawal,Monthly,East,Self-Employed,2,4
+A0774,Customer_774,47,Male,Single,Current,550577,4.107603345051326,7,2017-06-21,2021-08-17,Success,90192,Deposit,Yearly,North,Student,4,2
+A0775,Customer_775,44,Male,Single,Current,355245,2.6723584233061137,17,2002-06-21,2025-05-23,Success,91362,Withdrawal,Quarterly,North,Retired,3,2
+A0776,Customer_776,21,Female,Divorced,Current,455730,6.466352047375959,10,2007-04-25,2023-12-15,Failed,94406,Transfer,Yearly,East,Self-Employed,2,5
+A0777,Customer_777,31,Female,Divorced,Fixed Deposit,932108,5.153259922452531,6,2005-02-08,2026-07-20,Success,29256,Deposit,Quarterly,West,Employed,4,1
+A0778,Customer_778,44,Male,Married,Fixed Deposit,721141,4.669912938794505,4,2002-03-14,2027-08-18,Success,79800,Deposit,Quarterly,West,Student,2,4
+A0779,Customer_779,42,Female,Divorced,Current,141288,3.578636235942428,12,2005-04-26,2025-03-28,Success,50102,Deposit,Quarterly,East,Retired,5,4
+A0780,Customer_780,67,Female,Married,Current,360381,4.433100987227045,2,2016-07-18,2027-12-02,Failed,68450,Withdrawal,Quarterly,North,Student,0,1
+A0781,Customer_781,55,Male,Single,Current,946169,3.254870167454274,7,2009-04-02,2028-08-02,Failed,42257,Deposit,Quarterly,South,Retired,5,1
+A0782,Customer_782,62,Male,Divorced,Current,514989,6.2925099122462615,3,2019-07-06,2024-12-15,Success,24157,Deposit,Yearly,South,Retired,0,2
+A0783,Customer_783,19,Male,Divorced,Savings,377701,2.238546520412039,15,2004-06-26,2029-08-06,Failed,58081,Withdrawal,Quarterly,South,Student,4,1
+A0784,Customer_784,66,Female,Divorced,Savings,787553,2.494873996471732,17,2008-06-03,2024-03-11,Success,82646,Withdrawal,Yearly,East,Student,0,4
+A0785,Customer_785,54,Male,Married,Savings,198579,2.816709401459857,1,2019-12-29,2024-08-05,Failed,892,Transfer,Quarterly,South,Student,4,2
+A0786,Customer_786,42,Male,Single,Savings,173892,3.0773366247794804,16,2004-12-12,2021-09-09,Failed,8569,Withdrawal,Monthly,North,Self-Employed,0,1
+A0787,Customer_787,48,Female,Single,Fixed Deposit,995138,3.2714484138987743,17,2001-08-25,2021-04-26,Failed,64540,Deposit,Monthly,East,Unemployed,4,1
+A0788,Customer_788,18,Male,Single,Savings,951947,6.194858544687264,5,2010-07-25,2027-08-16,Failed,9273,Deposit,Quarterly,South,Unemployed,1,2
+A0789,Customer_789,40,Female,Divorced,Savings,963808,2.4815094340538533,7,2013-02-14,2021-07-04,Success,25326,Transfer,Quarterly,North,Retired,4,4
+A0790,Customer_790,37,Male,Single,Savings,852452,5.722966102311631,11,2010-11-12,2022-06-10,Success,6929,Deposit,Quarterly,South,Unemployed,0,5
+A0791,Customer_791,66,Female,Single,Savings,423986,3.298845610058383,16,2001-03-21,2030-05-22,Success,83247,Withdrawal,Monthly,West,Student,4,3
+A0792,Customer_792,42,Male,Single,Current,21053,3.8015329003464444,17,2019-12-21,2025-02-09,Success,18650,Transfer,Yearly,West,Student,3,4
+A0793,Customer_793,44,Male,Divorced,Current,240513,4.787457441234759,10,2009-10-10,2024-11-29,Success,26867,Withdrawal,Yearly,North,Unemployed,4,2
+A0794,Customer_794,52,Male,Divorced,Current,236217,6.050079407457814,11,2003-04-02,2030-01-29,Failed,16557,Deposit,Monthly,North,Employed,5,4
+A0795,Customer_795,65,Female,Married,Current,763491,3.720701382303064,5,2004-11-05,2029-04-28,Failed,12127,Withdrawal,Yearly,West,Self-Employed,1,5
+A0796,Customer_796,65,Female,Married,Savings,138579,4.058804523990955,4,2020-10-23,2027-07-20,Success,22864,Withdrawal,Quarterly,North,Retired,0,1
+A0797,Customer_797,52,Male,Married,Fixed Deposit,222449,3.755452449149213,17,2013-09-01,2021-04-21,Failed,77777,Transfer,Quarterly,East,Employed,5,5
+A0798,Customer_798,69,Male,Married,Current,770735,5.397929257270565,5,2010-03-16,2029-08-01,Success,72038,Withdrawal,Quarterly,East,Student,3,2
+A0799,Customer_799,56,Female,Single,Savings,23977,5.027880161961843,7,2003-12-29,2030-12-30,Failed,26887,Transfer,Yearly,West,Student,2,2
+A0800,Customer_800,32,Male,Married,Current,619337,4.8842687821348925,2,2008-09-08,2028-01-05,Failed,31073,Transfer,Yearly,East,Unemployed,3,3
+A0801,Customer_801,49,Male,Married,Current,530146,5.249327415568044,15,2008-05-17,2024-10-29,Failed,66609,Deposit,Yearly,North,Retired,3,1
+A0802,Customer_802,32,Male,Married,Current,178193,4.692191272025512,13,2003-01-22,2025-04-08,Success,10345,Withdrawal,Quarterly,North,Student,5,5
+A0803,Customer_803,35,Female,Divorced,Current,130144,6.896865665179085,17,2010-04-07,2022-02-03,Failed,55968,Withdrawal,Yearly,East,Retired,1,1
+A0804,Customer_804,45,Female,Single,Savings,385398,3.4230436591472118,4,2016-02-22,2025-10-20,Success,95125,Transfer,Quarterly,West,Employed,5,2
+A0805,Customer_805,49,Male,Divorced,Savings,746652,3.625451433405013,1,2004-05-09,2024-11-14,Failed,61320,Transfer,Yearly,West,Self-Employed,2,3
+A0806,Customer_806,19,Female,Single,Savings,683141,4.552222627680516,10,2014-03-05,2025-01-03,Success,40924,Transfer,Yearly,North,Retired,0,3
+A0807,Customer_807,42,Male,Married,Fixed Deposit,831605,5.8737218356328516,2,2008-01-16,2025-08-15,Success,21616,Withdrawal,Monthly,West,Self-Employed,1,2
+A0808,Customer_808,39,Female,Divorced,Current,40178,4.2346505854141885,20,2006-01-18,2024-12-09,Failed,94691,Deposit,Monthly,West,Unemployed,5,3
+A0809,Customer_809,60,Male,Single,Fixed Deposit,394417,2.392037607024274,3,2004-07-14,2021-08-20,Success,25991,Deposit,Monthly,West,Retired,4,4
+A0810,Customer_810,61,Male,Divorced,Fixed Deposit,920123,5.0683188619659685,11,2007-07-14,2028-06-01,Success,32202,Deposit,Monthly,North,Retired,2,2
+A0811,Customer_811,69,Female,Divorced,Fixed Deposit,672425,4.318760403682001,15,2002-11-08,2023-09-28,Success,55676,Deposit,Yearly,South,Self-Employed,3,1
+A0812,Customer_812,43,Male,Single,Savings,269214,6.782972154946935,2,2000-09-19,2023-10-12,Failed,23225,Deposit,Monthly,South,Retired,4,4
+A0813,Customer_813,64,Male,Single,Savings,809713,6.341288252457065,4,2015-07-11,2023-08-20,Failed,79510,Deposit,Yearly,West,Self-Employed,5,4
+A0814,Customer_814,28,Female,Married,Current,561708,5.2029032635583405,17,2012-10-02,2028-04-08,Failed,32732,Withdrawal,Quarterly,South,Self-Employed,5,2
+A0815,Customer_815,47,Female,Married,Savings,654404,6.6428333348552995,10,2001-05-03,2024-07-02,Success,39828,Transfer,Monthly,West,Unemployed,3,3
+A0816,Customer_816,26,Male,Married,Savings,51947,4.109082439216726,1,2006-04-17,2027-08-25,Success,37501,Deposit,Quarterly,North,Employed,0,5
+A0817,Customer_817,57,Female,Divorced,Fixed Deposit,623774,5.061550690667241,19,2003-01-23,2021-12-14,Success,75652,Transfer,Yearly,East,Employed,3,1
+A0818,Customer_818,52,Female,Married,Savings,51290,4.023863600526034,10,2002-06-29,2028-09-19,Failed,58855,Deposit,Yearly,North,Unemployed,4,2
+A0819,Customer_819,19,Female,Single,Current,695125,6.535365256344679,7,2019-02-06,2021-09-26,Success,83409,Deposit,Yearly,East,Self-Employed,2,2
+A0820,Customer_820,43,Male,Divorced,Current,114365,2.3955596373230024,11,2010-06-10,2030-09-30,Success,26498,Transfer,Monthly,North,Unemployed,0,2
+A0821,Customer_821,55,Female,Single,Fixed Deposit,686315,3.7181274379871017,7,2010-04-14,2024-06-02,Failed,35733,Withdrawal,Yearly,East,Student,4,3
+A0822,Customer_822,54,Male,Divorced,Savings,877735,3.5674103169470364,7,2009-05-19,2022-04-14,Failed,63168,Withdrawal,Quarterly,East,Student,3,4
+A0823,Customer_823,60,Female,Single,Fixed Deposit,21700,5.265065487152201,10,2003-11-03,2024-10-14,Success,10587,Transfer,Yearly,South,Self-Employed,0,1
+A0824,Customer_824,19,Male,Single,Current,51578,5.552167425583019,9,2017-01-19,2022-11-27,Success,47231,Transfer,Yearly,North,Student,0,4
+A0825,Customer_825,23,Male,Married,Current,724255,5.026924865120809,18,2007-09-15,2021-03-22,Failed,52298,Deposit,Monthly,East,Employed,1,1
+A0826,Customer_826,59,Female,Married,Savings,122414,3.977276625903252,11,2004-12-06,2027-01-15,Failed,49608,Withdrawal,Yearly,West,Self-Employed,2,2
+A0827,Customer_827,45,Male,Divorced,Savings,438020,6.438459032956451,15,2019-11-18,2024-08-28,Success,22089,Withdrawal,Quarterly,West,Self-Employed,3,5
+A0828,Customer_828,26,Male,Married,Current,466897,5.904870184615495,4,2006-08-14,2021-06-03,Success,61797,Withdrawal,Quarterly,North,Self-Employed,1,5
+A0829,Customer_829,47,Female,Divorced,Current,399724,6.693849174796225,9,2013-07-15,2026-03-03,Success,57952,Withdrawal,Monthly,North,Unemployed,2,3
+A0830,Customer_830,29,Female,Single,Fixed Deposit,130598,5.739477492381624,5,2003-07-08,2028-05-18,Failed,55503,Withdrawal,Monthly,West,Unemployed,1,5
+A0831,Customer_831,21,Male,Divorced,Fixed Deposit,574867,4.604678458181248,6,2017-09-15,2030-09-07,Failed,66329,Deposit,Quarterly,East,Employed,4,2
+A0832,Customer_832,34,Female,Single,Fixed Deposit,266015,4.251443282290886,9,2017-10-27,2025-09-27,Failed,79974,Withdrawal,Yearly,West,Self-Employed,5,2
+A0833,Customer_833,42,Female,Single,Savings,498440,2.8365905353384533,4,2014-04-23,2027-05-16,Failed,96428,Deposit,Quarterly,West,Self-Employed,2,5
+A0834,Customer_834,38,Male,Single,Savings,736962,6.2710592233799805,1,2013-09-18,2026-10-10,Failed,56910,Transfer,Monthly,East,Self-Employed,4,3
+A0835,Customer_835,31,Male,Divorced,Current,161565,2.625199553660021,20,2020-04-23,2025-09-22,Success,99757,Deposit,Monthly,South,Student,3,1
+A0836,Customer_836,47,Male,Divorced,Savings,216477,3.173135960922485,18,2003-10-24,2023-12-29,Failed,20531,Transfer,Quarterly,West,Employed,5,1
+A0837,Customer_837,38,Female,Married,Savings,729961,3.2582350500090915,17,2012-12-18,2021-03-25,Success,63276,Transfer,Monthly,West,Self-Employed,5,1
+A0838,Customer_838,39,Male,Married,Savings,720050,5.719376724239324,4,2012-05-25,2028-10-21,Success,2696,Deposit,Quarterly,South,Self-Employed,1,4
+A0839,Customer_839,66,Female,Single,Savings,661929,5.748698684575585,7,2019-03-06,2026-04-08,Success,99967,Deposit,Quarterly,South,Retired,4,5
+A0840,Customer_840,42,Male,Single,Savings,10756,3.0528574573587797,18,2005-02-24,2027-08-06,Failed,50093,Withdrawal,Quarterly,North,Unemployed,2,5
+A0841,Customer_841,35,Male,Divorced,Savings,316743,3.9852279165018096,12,2001-12-09,2021-04-02,Success,56119,Deposit,Yearly,East,Employed,5,1
+A0842,Customer_842,66,Male,Married,Savings,442315,2.4777685949129014,18,2009-03-26,2024-07-20,Failed,11009,Withdrawal,Yearly,East,Student,4,5
+A0843,Customer_843,44,Male,Divorced,Savings,694805,6.683968308519236,11,2019-03-22,2025-03-28,Success,99565,Transfer,Yearly,North,Self-Employed,1,2
+A0844,Customer_844,34,Female,Divorced,Current,106885,4.3659289832574775,9,2011-09-14,2027-05-26,Success,39451,Deposit,Quarterly,South,Unemployed,1,3
+A0845,Customer_845,23,Female,Divorced,Current,695663,2.269127191095237,5,2010-12-21,2025-05-18,Failed,78111,Transfer,Monthly,East,Employed,1,3
+A0846,Customer_846,48,Female,Single,Fixed Deposit,546583,5.854668527730276,10,2019-05-04,2024-08-13,Failed,70511,Withdrawal,Quarterly,East,Student,1,1
+A0847,Customer_847,19,Female,Single,Fixed Deposit,284091,4.619913956709071,19,2004-11-08,2027-06-04,Success,20127,Deposit,Monthly,West,Retired,2,2
+A0848,Customer_848,65,Female,Married,Fixed Deposit,654050,6.980068656923294,8,2013-04-08,2022-02-05,Failed,72563,Withdrawal,Yearly,North,Student,1,1
+A0849,Customer_849,52,Male,Single,Savings,636053,2.5196420201082623,6,2010-08-14,2030-01-24,Failed,95343,Transfer,Quarterly,East,Self-Employed,0,2
+A0850,Customer_850,21,Male,Single,Fixed Deposit,735764,5.090510858419328,3,2018-10-09,2026-06-24,Failed,23129,Deposit,Quarterly,East,Student,0,1
+A0851,Customer_851,40,Female,Divorced,Fixed Deposit,144826,2.4215563332599648,10,2010-05-18,2022-02-14,Failed,33823,Transfer,Yearly,East,Student,4,4
+A0852,Customer_852,32,Female,Single,Current,440170,6.657947901095127,20,2006-04-05,2028-09-30,Failed,49966,Transfer,Quarterly,East,Student,4,1
+A0853,Customer_853,59,Male,Divorced,Savings,872002,3.9492310400817785,11,2000-04-28,2028-07-28,Success,60871,Transfer,Quarterly,North,Self-Employed,0,5
+A0854,Customer_854,22,Female,Married,Savings,943273,3.1467797773851647,18,2016-05-16,2023-04-24,Failed,40188,Transfer,Quarterly,North,Employed,1,1
+A0855,Customer_855,67,Female,Single,Savings,111010,5.687966141260239,15,2009-08-08,2024-10-08,Failed,59554,Deposit,Yearly,East,Student,4,4
+A0856,Customer_856,59,Male,Married,Savings,537435,4.2158021340698255,2,2016-07-05,2026-07-28,Success,37222,Deposit,Monthly,East,Self-Employed,2,5
+A0857,Customer_857,20,Female,Single,Fixed Deposit,754681,2.6320585359363666,5,2019-07-28,2026-08-22,Failed,49271,Transfer,Monthly,East,Unemployed,0,1
+A0858,Customer_858,66,Female,Divorced,Current,648703,4.633711689655399,1,2005-07-13,2030-02-06,Failed,73781,Transfer,Quarterly,South,Self-Employed,2,2
+A0859,Customer_859,19,Female,Single,Savings,124453,2.8530399213944113,16,2005-07-23,2029-07-31,Success,79532,Transfer,Monthly,West,Student,2,1
+A0860,Customer_860,33,Female,Divorced,Savings,297439,2.175774904472721,2,2007-05-05,2028-06-26,Success,63125,Deposit,Monthly,West,Unemployed,1,5
+A0861,Customer_861,30,Female,Married,Current,120550,3.784206213815838,4,2009-09-27,2024-10-22,Success,9529,Deposit,Monthly,North,Unemployed,5,5
+A0862,Customer_862,19,Female,Divorced,Savings,823880,6.576361936524559,13,2012-12-29,2022-11-14,Failed,43777,Deposit,Monthly,West,Student,1,1
+A0863,Customer_863,57,Male,Divorced,Savings,112425,6.3212057082412665,2,2004-12-26,2027-11-24,Success,18011,Deposit,Quarterly,North,Retired,1,1
+A0864,Customer_864,27,Female,Married,Current,522917,4.335967383346764,3,2020-01-01,2024-05-11,Success,93798,Withdrawal,Yearly,West,Student,2,4
+A0865,Customer_865,33,Female,Married,Savings,209296,6.354491365722721,14,2020-10-19,2025-01-28,Success,61606,Deposit,Yearly,North,Retired,1,5
+A0866,Customer_866,26,Female,Divorced,Savings,639584,6.6742878583228,13,2013-04-09,2025-11-21,Failed,25752,Withdrawal,Yearly,East,Employed,3,4
+A0867,Customer_867,48,Female,Single,Fixed Deposit,210452,4.742726372362857,6,2003-05-05,2023-04-07,Failed,20380,Deposit,Quarterly,West,Unemployed,2,3
+A0868,Customer_868,60,Male,Divorced,Current,816749,2.6755745399572795,20,2020-06-29,2026-07-29,Failed,24954,Deposit,Quarterly,South,Student,1,5
+A0869,Customer_869,25,Female,Divorced,Fixed Deposit,276769,6.742430660785097,19,2012-11-12,2028-02-16,Success,647,Withdrawal,Monthly,West,Retired,1,4
+A0870,Customer_870,54,Male,Single,Current,872889,4.696437842288487,15,2020-02-23,2030-07-03,Success,1782,Deposit,Yearly,North,Employed,2,4
+A0871,Customer_871,31,Female,Divorced,Current,549558,4.954154632895596,20,2000-02-11,2029-10-30,Success,65727,Transfer,Quarterly,North,Self-Employed,0,2
+A0872,Customer_872,47,Male,Divorced,Savings,212469,4.282717102432531,12,2009-05-15,2021-11-05,Failed,95830,Deposit,Monthly,East,Retired,1,4
+A0873,Customer_873,62,Female,Married,Current,376308,5.744558007860599,10,2000-12-28,2030-06-05,Success,95172,Deposit,Yearly,East,Self-Employed,3,5
+A0874,Customer_874,34,Female,Single,Fixed Deposit,738606,6.386468550711292,11,2000-11-24,2030-07-15,Failed,49154,Deposit,Quarterly,North,Self-Employed,0,3
+A0875,Customer_875,67,Male,Single,Current,430660,4.1748868571020585,7,2010-07-22,2027-01-04,Failed,64515,Withdrawal,Monthly,West,Unemployed,3,3
+A0876,Customer_876,41,Male,Married,Savings,310698,5.198932544869492,18,2016-06-13,2023-05-27,Failed,53125,Withdrawal,Yearly,South,Unemployed,0,4
+A0877,Customer_877,28,Female,Single,Current,169163,4.668920655163427,3,2017-03-28,2024-03-23,Failed,54602,Transfer,Yearly,East,Unemployed,3,4
+A0878,Customer_878,56,Female,Single,Savings,42319,6.544615758477461,15,2011-04-23,2023-12-23,Success,51827,Withdrawal,Quarterly,East,Retired,5,2
+A0879,Customer_879,56,Female,Married,Savings,575765,4.408258413511072,19,2000-10-02,2021-07-14,Success,97380,Transfer,Monthly,East,Employed,5,4
+A0880,Customer_880,65,Female,Divorced,Current,521465,3.135642223235509,5,2009-07-19,2024-05-02,Success,49008,Transfer,Yearly,West,Retired,1,5
+A0881,Customer_881,63,Female,Divorced,Current,955578,2.4477701128222162,3,2011-11-29,2027-06-08,Failed,50436,Deposit,Quarterly,South,Retired,3,3
+A0882,Customer_882,25,Male,Divorced,Current,218782,3.5393409269222365,15,2008-11-04,2025-07-05,Failed,64266,Deposit,Monthly,South,Student,0,2
+A0883,Customer_883,67,Female,Married,Savings,722634,4.0610190279709935,4,2010-10-01,2030-01-09,Success,40445,Withdrawal,Yearly,South,Employed,3,2
+A0884,Customer_884,70,Female,Married,Savings,979451,2.778587695344273,15,2018-02-28,2023-07-15,Failed,84123,Withdrawal,Quarterly,South,Self-Employed,3,3
+A0885,Customer_885,28,Female,Single,Fixed Deposit,505012,2.0527790933881827,10,2017-11-24,2028-01-03,Success,77210,Withdrawal,Yearly,North,Self-Employed,3,2
+A0886,Customer_886,37,Male,Divorced,Fixed Deposit,347663,4.616581202126286,15,2015-08-16,2029-05-01,Success,9436,Deposit,Monthly,South,Student,1,4
+A0887,Customer_887,24,Female,Married,Fixed Deposit,246896,5.791467243729028,16,2018-06-03,2022-01-12,Success,53680,Transfer,Quarterly,North,Self-Employed,1,3
+A0888,Customer_888,55,Female,Married,Savings,3871,2.681502273078446,8,2002-03-13,2029-01-18,Failed,5189,Withdrawal,Quarterly,North,Employed,3,2
+A0889,Customer_889,19,Female,Married,Fixed Deposit,14368,3.433811242476029,8,2010-02-23,2030-06-20,Failed,16415,Transfer,Yearly,South,Self-Employed,4,3
+A0890,Customer_890,37,Male,Single,Current,705258,4.675494440209757,5,2011-02-09,2027-06-27,Success,50539,Deposit,Monthly,West,Unemployed,0,1
+A0891,Customer_891,54,Male,Married,Current,94326,5.438849818784311,20,2005-05-24,2022-01-24,Success,74235,Withdrawal,Quarterly,East,Student,0,4
+A0892,Customer_892,61,Female,Divorced,Current,951932,4.459658270588424,9,2001-11-11,2027-08-22,Failed,21381,Deposit,Monthly,North,Employed,1,3
+A0893,Customer_893,42,Female,Married,Fixed Deposit,116795,5.777363504360134,12,2012-07-11,2024-10-11,Success,25557,Withdrawal,Monthly,South,Unemployed,4,2
+A0894,Customer_894,43,Male,Married,Current,876804,3.4980525899355337,13,2016-11-21,2024-01-25,Success,57286,Withdrawal,Yearly,North,Student,4,1
+A0895,Customer_895,63,Male,Single,Savings,603042,5.829346017183188,6,2000-04-11,2021-10-03,Failed,33557,Withdrawal,Monthly,East,Self-Employed,5,4
+A0896,Customer_896,30,Male,Divorced,Savings,702520,5.989823881273068,11,2015-07-19,2027-05-10,Failed,98610,Withdrawal,Yearly,East,Student,4,4
+A0897,Customer_897,22,Female,Divorced,Current,519105,4.98501876112876,11,2016-05-30,2029-12-26,Success,94766,Transfer,Monthly,North,Self-Employed,0,5
+A0898,Customer_898,55,Male,Divorced,Current,157389,5.983836919338181,15,2009-02-13,2026-12-16,Failed,45788,Withdrawal,Yearly,East,Unemployed,1,2
+A0899,Customer_899,62,Male,Married,Savings,996566,4.7410609786824836,16,2004-11-20,2026-05-01,Failed,66895,Deposit,Yearly,North,Unemployed,1,4
+A0900,Customer_900,58,Male,Single,Current,95458,2.9428548966249775,1,2002-12-23,2025-10-16,Success,93046,Withdrawal,Quarterly,South,Student,0,2
+A0901,Customer_901,33,Male,Divorced,Savings,818392,6.41081034245172,3,2008-01-15,2023-05-10,Success,64144,Deposit,Yearly,East,Student,3,3
+A0902,Customer_902,24,Female,Married,Fixed Deposit,537561,4.185531832082274,16,2006-08-20,2024-11-23,Success,83328,Deposit,Quarterly,North,Employed,5,2
+A0903,Customer_903,62,Female,Single,Fixed Deposit,79693,3.249480588855948,4,2005-05-12,2029-12-03,Failed,90341,Deposit,Yearly,North,Unemployed,4,4
+A0904,Customer_904,67,Female,Divorced,Savings,759711,5.574689914923826,12,2014-07-11,2021-11-11,Success,48358,Deposit,Monthly,West,Student,2,4
+A0905,Customer_905,37,Male,Single,Fixed Deposit,759724,5.2299539964543005,16,2002-01-13,2028-04-22,Failed,91385,Deposit,Quarterly,North,Self-Employed,5,4
+A0906,Customer_906,61,Male,Single,Fixed Deposit,107210,6.142134278206455,15,2000-05-10,2030-03-29,Failed,7663,Transfer,Monthly,North,Self-Employed,2,4
+A0907,Customer_907,56,Female,Married,Savings,949729,3.102962131164233,6,2010-10-05,2024-05-21,Success,85415,Transfer,Monthly,South,Student,3,4
+A0908,Customer_908,69,Female,Single,Current,269322,2.396048665875173,10,2015-01-02,2026-08-30,Success,50606,Withdrawal,Monthly,South,Retired,1,4
+A0909,Customer_909,25,Female,Married,Fixed Deposit,676636,5.1266150712803675,12,2006-11-02,2030-01-07,Success,55679,Deposit,Monthly,East,Employed,1,4
+A0910,Customer_910,68,Female,Divorced,Current,243389,4.583050309290673,20,2003-08-18,2024-05-13,Success,96524,Withdrawal,Quarterly,East,Student,0,4
+A0911,Customer_911,54,Male,Divorced,Current,479938,5.9997953515482845,19,2015-10-10,2025-11-09,Success,32447,Withdrawal,Monthly,West,Employed,4,3
+A0912,Customer_912,68,Male,Single,Fixed Deposit,311401,5.066081099494358,5,2010-04-20,2028-06-10,Success,31865,Withdrawal,Yearly,North,Unemployed,2,3
+A0913,Customer_913,20,Female,Divorced,Current,277955,5.4696227939665425,17,2019-03-30,2027-01-21,Success,62716,Transfer,Yearly,West,Employed,3,3
+A0914,Customer_914,40,Female,Married,Current,487830,3.359325583453359,4,2012-10-16,2024-07-07,Failed,4622,Deposit,Monthly,East,Student,2,4
+A0915,Customer_915,52,Female,Married,Fixed Deposit,53512,5.242285204787809,13,2016-10-04,2023-03-31,Success,47471,Withdrawal,Monthly,South,Employed,4,2
+A0916,Customer_916,45,Female,Married,Fixed Deposit,105657,4.6597213301363825,4,2013-02-02,2025-08-25,Failed,82800,Deposit,Yearly,North,Self-Employed,0,5
+A0917,Customer_917,60,Male,Single,Current,853679,3.3441101242938593,11,2000-07-18,2025-07-06,Success,92710,Withdrawal,Yearly,East,Unemployed,3,2
+A0918,Customer_918,41,Male,Single,Current,184188,2.9400031288520254,18,2010-03-15,2023-10-27,Success,88760,Withdrawal,Yearly,East,Self-Employed,0,2
+A0919,Customer_919,22,Male,Single,Current,917602,2.3423197635414885,3,2010-05-27,2028-01-04,Failed,3803,Withdrawal,Monthly,East,Retired,0,2
+A0920,Customer_920,50,Male,Married,Savings,42360,2.683120164632622,10,2017-04-23,2026-10-12,Failed,91518,Withdrawal,Yearly,West,Retired,3,2
+A0921,Customer_921,59,Female,Married,Savings,894647,2.551781752589818,18,2003-02-09,2026-01-31,Success,87351,Withdrawal,Quarterly,East,Student,3,5
+A0922,Customer_922,39,Female,Married,Current,305681,4.2767150632191235,15,2019-08-10,2028-07-13,Failed,84685,Deposit,Monthly,West,Student,3,2
+A0923,Customer_923,18,Male,Married,Fixed Deposit,378712,4.263836162989367,13,2015-10-09,2029-07-25,Success,19483,Deposit,Yearly,East,Employed,0,5
+A0924,Customer_924,44,Female,Single,Savings,841534,5.502362989736861,19,2009-02-02,2027-02-21,Failed,34353,Transfer,Yearly,North,Student,2,3
+A0925,Customer_925,70,Female,Single,Savings,710641,4.459980070136094,14,2004-02-24,2023-01-10,Failed,79455,Deposit,Monthly,South,Student,2,4
+A0926,Customer_926,49,Female,Single,Current,328897,3.603218615777619,8,2017-09-18,2030-11-18,Failed,59799,Transfer,Quarterly,East,Student,2,5
+A0927,Customer_927,24,Male,Single,Savings,447688,2.7607465255868457,20,2019-07-19,2021-03-18,Failed,89368,Transfer,Yearly,North,Employed,0,4
+A0928,Customer_928,45,Female,Married,Current,775415,6.848581088146967,8,2008-04-22,2028-01-16,Success,19415,Deposit,Yearly,East,Unemployed,3,3
+A0929,Customer_929,41,Female,Married,Fixed Deposit,122531,2.110654428077399,18,2014-01-21,2028-11-20,Failed,33430,Withdrawal,Quarterly,South,Student,5,3
+A0930,Customer_930,58,Male,Divorced,Current,100613,6.8616630249572355,6,2010-05-31,2026-10-16,Failed,32529,Withdrawal,Monthly,North,Unemployed,2,2
+A0931,Customer_931,47,Male,Divorced,Fixed Deposit,893596,3.4105726878790232,16,2015-10-15,2030-09-04,Failed,79024,Transfer,Monthly,North,Employed,1,4
+A0932,Customer_932,63,Male,Divorced,Savings,796034,2.625196014165727,13,2014-03-16,2023-02-04,Success,75904,Withdrawal,Yearly,South,Retired,5,2
+A0933,Customer_933,27,Male,Married,Savings,934538,4.19208317723524,3,2000-01-12,2027-06-21,Success,86948,Transfer,Monthly,East,Student,0,4
+A0934,Customer_934,45,Female,Single,Savings,49118,2.0410204467479325,11,2019-04-19,2026-08-07,Success,21258,Transfer,Quarterly,East,Retired,5,1
+A0935,Customer_935,29,Male,Single,Savings,11142,2.4509849157439056,7,2014-01-25,2023-05-23,Failed,1717,Transfer,Monthly,South,Unemployed,5,5
+A0936,Customer_936,64,Female,Single,Fixed Deposit,894385,2.0736242344073785,19,2001-08-02,2028-05-30,Failed,15400,Transfer,Yearly,West,Student,3,4
+A0937,Customer_937,51,Male,Married,Savings,146117,3.0859404259142598,14,2008-08-18,2030-03-29,Failed,12198,Withdrawal,Monthly,North,Unemployed,3,3
+A0938,Customer_938,59,Female,Divorced,Current,696578,4.101215135737385,14,2020-01-15,2029-04-29,Failed,84562,Deposit,Yearly,South,Retired,0,5
+A0939,Customer_939,35,Female,Single,Fixed Deposit,679636,5.928626693765161,19,2015-06-29,2026-03-30,Success,93372,Transfer,Quarterly,West,Unemployed,2,4
+A0940,Customer_940,57,Male,Divorced,Fixed Deposit,179795,4.49197877935929,11,2007-06-20,2024-01-03,Failed,50477,Withdrawal,Quarterly,North,Employed,5,1
+A0941,Customer_941,69,Female,Divorced,Savings,345625,3.8569854074599017,18,2011-11-28,2028-02-26,Success,52222,Deposit,Yearly,North,Self-Employed,5,2
+A0942,Customer_942,52,Female,Married,Savings,375894,5.484674013831642,8,2000-09-24,2026-12-23,Failed,92645,Transfer,Monthly,South,Student,2,2
+A0943,Customer_943,67,Male,Married,Fixed Deposit,938980,2.158685607099855,6,2006-08-26,2030-01-27,Success,76929,Withdrawal,Quarterly,West,Retired,0,3
+A0944,Customer_944,48,Male,Single,Current,459976,2.4011154861579196,3,2009-07-20,2027-11-22,Success,10631,Deposit,Monthly,North,Student,1,5
+A0945,Customer_945,47,Female,Married,Current,653011,5.752847908125968,19,2016-11-19,2030-07-25,Success,68065,Deposit,Monthly,North,Employed,1,2
+A0946,Customer_946,45,Male,Married,Savings,282342,2.730439128579137,16,2006-01-19,2029-08-17,Failed,24849,Deposit,Yearly,West,Self-Employed,1,4
+A0947,Customer_947,70,Male,Married,Savings,922148,3.3325178912152684,4,2015-08-28,2025-11-12,Success,55536,Transfer,Monthly,West,Employed,4,5
+A0948,Customer_948,64,Male,Single,Savings,769677,3.9621088754901543,19,2013-09-26,2027-05-08,Success,21834,Transfer,Yearly,East,Unemployed,0,4
+A0949,Customer_949,55,Male,Divorced,Fixed Deposit,98466,4.715959752729042,20,2012-03-01,2029-02-24,Success,56050,Transfer,Yearly,East,Retired,1,2
+A0950,Customer_950,35,Male,Divorced,Current,391722,2.908018693037044,15,2012-11-25,2028-01-12,Success,33244,Deposit,Monthly,South,Unemployed,4,4
+A0951,Customer_951,38,Female,Single,Fixed Deposit,855551,6.478494891581658,11,2017-10-26,2021-09-03,Failed,90780,Deposit,Monthly,East,Self-Employed,1,1
+A0952,Customer_952,33,Male,Divorced,Fixed Deposit,360370,3.2503973326552926,18,2004-08-23,2026-11-10,Failed,39712,Transfer,Quarterly,South,Retired,1,2
+A0953,Customer_953,23,Female,Divorced,Current,192752,3.907887042621227,4,2017-08-31,2023-04-02,Success,65720,Transfer,Yearly,East,Retired,5,4
+A0954,Customer_954,35,Female,Single,Fixed Deposit,120361,2.0630774394408444,15,2015-05-10,2025-02-01,Success,69987,Deposit,Monthly,South,Student,3,5
+A0955,Customer_955,46,Female,Divorced,Savings,421245,6.872992514377298,6,2001-10-25,2026-03-10,Success,86409,Deposit,Monthly,East,Student,0,2
+A0956,Customer_956,33,Male,Married,Fixed Deposit,420692,5.573412606453983,10,2013-11-30,2022-08-29,Failed,50272,Transfer,Monthly,South,Employed,0,3
+A0957,Customer_957,66,Male,Single,Fixed Deposit,479715,3.9239894960532085,13,2019-10-03,2023-09-12,Failed,76918,Withdrawal,Quarterly,West,Student,4,5
+A0958,Customer_958,47,Male,Single,Current,286037,6.8748610706240285,3,2007-07-13,2022-09-09,Success,40467,Deposit,Quarterly,East,Unemployed,1,2
+A0959,Customer_959,54,Female,Married,Fixed Deposit,877303,3.235810955525152,20,2016-07-02,2029-05-16,Failed,96298,Deposit,Monthly,North,Employed,5,4
+A0960,Customer_960,57,Female,Married,Fixed Deposit,405452,6.972677045818801,4,2020-11-27,2028-09-08,Failed,54050,Transfer,Monthly,South,Employed,5,5
+A0961,Customer_961,60,Female,Married,Savings,724415,2.9958993815196537,20,2001-03-25,2029-08-02,Success,98726,Transfer,Monthly,West,Student,2,2
+A0962,Customer_962,42,Female,Married,Fixed Deposit,892993,5.676613896004705,13,2011-07-18,2024-05-14,Success,95474,Withdrawal,Quarterly,West,Student,2,2
+A0963,Customer_963,39,Female,Single,Savings,502476,2.469801519853589,11,2020-05-29,2030-06-20,Failed,11748,Withdrawal,Quarterly,East,Unemployed,4,4
+A0964,Customer_964,19,Male,Single,Current,839754,5.330039418567562,16,2015-02-17,2025-11-19,Success,14422,Transfer,Monthly,North,Employed,3,3
+A0965,Customer_965,49,Male,Single,Fixed Deposit,443226,3.042235660285709,2,2008-02-29,2025-08-08,Failed,83485,Withdrawal,Quarterly,East,Retired,1,4
+A0966,Customer_966,38,Female,Married,Current,681364,3.945614802891102,3,2019-12-01,2024-07-29,Success,75153,Deposit,Monthly,North,Unemployed,3,2
+A0967,Customer_967,29,Male,Married,Savings,930168,6.806069482569,7,2001-02-26,2030-08-25,Failed,45240,Transfer,Quarterly,East,Unemployed,1,2
+A0968,Customer_968,49,Female,Married,Current,836620,6.681076233203083,5,2002-06-28,2030-04-24,Success,18805,Transfer,Monthly,West,Student,1,4
+A0969,Customer_969,31,Female,Married,Savings,175880,2.7930571820275576,19,2008-08-03,2021-09-21,Success,35361,Deposit,Quarterly,South,Unemployed,4,3
+A0970,Customer_970,40,Female,Married,Savings,119548,5.641185389540564,1,2008-03-13,2028-02-10,Failed,98237,Deposit,Monthly,West,Unemployed,1,5
+A0971,Customer_971,69,Male,Single,Savings,139948,5.723622893445973,5,2010-06-09,2023-04-14,Success,27562,Deposit,Quarterly,West,Employed,5,5
+A0972,Customer_972,34,Male,Married,Savings,730987,4.7478997230874835,5,2013-11-19,2030-06-28,Failed,98179,Deposit,Yearly,South,Retired,5,5
+A0973,Customer_973,39,Male,Married,Fixed Deposit,762697,2.6107075606775556,15,2000-11-30,2025-08-17,Success,52262,Withdrawal,Monthly,South,Unemployed,1,1
+A0974,Customer_974,35,Female,Single,Savings,62495,4.406147965733707,18,2008-03-13,2023-12-30,Success,91720,Transfer,Monthly,South,Self-Employed,2,1
+A0975,Customer_975,56,Male,Divorced,Savings,989248,3.494065418791906,10,2008-03-20,2030-03-28,Success,40483,Transfer,Yearly,West,Unemployed,0,1
+A0976,Customer_976,62,Male,Divorced,Fixed Deposit,886364,3.8021332803189596,13,2003-12-06,2024-03-21,Success,941,Withdrawal,Quarterly,South,Unemployed,1,1
+A0977,Customer_977,35,Male,Married,Current,168138,2.260437572883727,20,2014-07-15,2028-03-31,Failed,22172,Transfer,Quarterly,East,Student,0,1
+A0978,Customer_978,53,Female,Divorced,Savings,109751,5.333473921484806,19,2012-07-13,2022-10-20,Failed,64551,Withdrawal,Quarterly,East,Employed,3,1
+A0979,Customer_979,18,Male,Divorced,Current,437236,6.8663703021753,15,2015-10-23,2023-11-17,Success,306,Withdrawal,Yearly,East,Student,1,1
+A0980,Customer_980,51,Male,Single,Fixed Deposit,956490,3.1798291889171657,7,2001-07-02,2028-09-14,Success,12797,Withdrawal,Quarterly,East,Unemployed,2,3
+A0981,Customer_981,30,Female,Married,Savings,620446,4.170808252860363,7,2012-07-29,2027-09-29,Success,9254,Transfer,Monthly,North,Unemployed,3,1
+A0982,Customer_982,23,Male,Single,Savings,507121,2.0753385263443125,11,2015-11-28,2023-08-26,Failed,91367,Transfer,Monthly,North,Employed,5,3
+A0983,Customer_983,33,Female,Single,Current,842235,5.971951986704023,10,2017-05-08,2025-07-21,Success,54867,Deposit,Quarterly,West,Retired,2,3
+A0984,Customer_984,64,Female,Married,Fixed Deposit,597580,4.923484300063908,19,2004-08-04,2023-09-04,Failed,68907,Withdrawal,Monthly,West,Employed,2,2
+A0985,Customer_985,44,Male,Single,Savings,712346,3.9790415014752663,10,2003-02-07,2022-04-11,Failed,54736,Deposit,Monthly,South,Unemployed,4,2
+A0986,Customer_986,49,Female,Married,Current,460447,3.215446666215727,14,2007-07-06,2022-09-07,Success,85889,Withdrawal,Yearly,West,Employed,2,2
+A0987,Customer_987,53,Male,Married,Savings,191065,6.844174647405496,12,2005-05-08,2023-02-26,Success,37893,Withdrawal,Yearly,South,Retired,0,3
+A0988,Customer_988,66,Female,Divorced,Savings,642018,4.905385113636972,3,2012-02-07,2021-04-24,Success,96181,Transfer,Yearly,South,Student,0,1
+A0989,Customer_989,33,Male,Married,Savings,399197,5.453757072808991,19,2002-07-19,2023-10-03,Success,56585,Transfer,Yearly,West,Self-Employed,2,3
+A0990,Customer_990,62,Female,Married,Fixed Deposit,818012,5.442032694675486,1,2014-07-22,2029-12-09,Failed,22465,Deposit,Monthly,North,Self-Employed,0,5
+A0991,Customer_991,48,Male,Married,Fixed Deposit,377018,2.7749597121551135,20,2010-09-24,2030-04-12,Failed,23221,Deposit,Monthly,South,Employed,3,3
+A0992,Customer_992,59,Male,Married,Savings,642055,5.853985000009831,17,2016-07-15,2024-06-25,Failed,49206,Transfer,Quarterly,North,Retired,0,5
+A0993,Customer_993,63,Male,Married,Savings,31216,3.243611282024475,13,2016-11-14,2026-03-17,Success,24531,Withdrawal,Quarterly,West,Employed,5,4
+A0994,Customer_994,49,Male,Divorced,Fixed Deposit,905476,4.499596032925008,5,2013-01-04,2026-06-12,Failed,92380,Transfer,Quarterly,East,Self-Employed,1,4
+A0995,Customer_995,46,Female,Divorced,Current,718712,5.429723218777957,10,2019-07-16,2027-04-13,Success,17707,Deposit,Yearly,West,Self-Employed,3,3
+A0996,Customer_996,68,Male,Single,Savings,923694,3.692110483752518,2,2015-10-06,2025-11-22,Success,26054,Withdrawal,Yearly,North,Student,0,2
+A0997,Customer_997,19,Male,Married,Current,880269,6.848258532470952,12,2004-09-14,2025-09-25,Failed,63862,Deposit,Yearly,South,Student,4,3
+A0998,Customer_998,23,Male,Married,Fixed Deposit,763606,5.797800824982387,18,2016-11-21,2028-04-03,Failed,23953,Transfer,Monthly,North,Unemployed,3,3
+A0999,Customer_999,36,Male,Divorced,Fixed Deposit,936081,2.30026167853829,2,2016-09-16,2021-06-01,Failed,65978,Deposit,Monthly,West,Unemployed,4,1
+A1000,Customer_1000,32,Female,Divorced,Current,138002,3.777588376573283,1,2017-01-24,2023-04-08,Failed,14549,Transfer,Yearly,North,Student,5,5
